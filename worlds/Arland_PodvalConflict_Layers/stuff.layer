@@ -1,0 +1,6 @@
+SCR_ChimeraCharacter : "{56F82C85435CE0A3}Prefabs/Characters/Campaign/RHS/Campaign_US_USMC_Player_Podval.et" {
+ coords 1413.273 11 1875.696
+}
+SCR_ChimeraCharacter : "{E52AB0578F037F7D}Prefabs/Characters/Campaign/RHS/Campaign_RF_MSV_Player_Podval.et" {
+ coords 1414.092 11 1871.681
+}

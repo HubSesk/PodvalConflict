@@ -1,0 +1,146 @@
+Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RHS_GroupMaterialController "{5E66CB9FDE9DAD78}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{5E66CB99517A334D}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{5E66CB995055ECF4}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{5E66CB995F8395F2}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCC9085FC38}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_BTR70_Name"
+    Icon "{95F49CBE9FF7A0CB}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Apc.edds"
+    IconSetName ""
+    m_Image "{01290933E5CEDEF9}UI/Textures/EditorPreviews/Vehicles/Wheeled/BTR70/BTR70.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels + {
+     20 21 26 36
+    }
+    m_aAutoLabels {
+     10 122 54
+    }
+    m_bEditorPlaceAsOneGroup 0
+    m_aOccupantFillCompartmentTypes {
+     2 0 1
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5E66CB9C63B1234A}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5E66CB9C63B1234C}" {
+      m_BudgetType AI
+      m_Value 6
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E66CB9C63B12375}" {
+     SlotTemplate InventoryStorageSlot Backpack {
+      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{5E66CB9C63B12379}" {
+     SlotTemplate InventoryStorageSlot ATMine {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{5E66CB9C63B12378}" {
+     SlotTemplate InventoryStorageSlot MineFlag {
+      Prefab "{AC67BAB9763A3977}Prefabs/Items/Demining/MineFlags/MineFlag_USSR.et"
+     }
+     NumSlots 12
+    }
+    MultiSlotConfiguration "{5E66CB9C63B1237F}" {
+     SlotTemplate InventoryStorageSlot KPVTAmmo {
+      Prefab "{8257B5AFDE7AE5CB}Prefabs/Weapons/Magazines/Box_145x114_KPVT_50rnd_4API_1APIT.et"
+     }
+     NumSlots 9
+    }
+    MultiSlotConfiguration "{5E66CB9C63B1237D}" {
+     SlotTemplate InventoryStorageSlot PKMTAmmo {
+      Prefab "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 7
+    }
+   }
+   m_fMaxWeight 350
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Lable_L {
+     Offset -1.1239 1.5315 1.2502
+     Angles 0 0 36.7
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+    EntitySlotInfo Lable_R {
+     Offset 1.1239 1.5315 1.2502
+     Angles 0 180 36.7
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+    EntitySlotInfo Number1_L {
+     Offset -1.1239 1.5315 0.577
+     Angles 0 0 36.7
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_L {
+     Offset -1.1239 1.5315 0.427
+     Angles 0 0 36.7
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_L {
+     Offset -1.1239 1.5315 0.277
+     Angles 0 0 36.7
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number1_R {
+     Offset 1.1239 1.5315 0.577
+     Angles 0 180 36.7
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number2_R {
+     Offset 1.1239 1.5315 0.427
+     Angles 0 180 36.7
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_R {
+     Offset 1.1239 1.5315 0.277
+     Angles 0 180 36.7
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   StartNode "VehicleMasterControl"
+  }
+ }
+}

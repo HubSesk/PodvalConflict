@@ -1,0 +1,33 @@
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 0 0 0
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+}
+SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}Prefabs/MP/Campaign/CampaignFactionManager_Podval.et" {
+ Factions {
+  SCR_CampaignFaction "{5E5681CFC44402D2}" {
+   m_FactionFlagMaterial "{0AE24235BFC457CA}Assets/Props/Fabric/Flags/Data/Flag_1_2_RussianFederation.emat"
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+  }
+ }
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 0 0 0
+}
+SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
+ components {
+  SCR_ReconnectComponent "{5A02809D5E8ABE42}" {
+   m_bEnableReconnect 1
+  }
+ }
+ coords 0 0 0
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+}
+SCR_CampaignGarbageManager : "{38018ED573ED2316}Prefabs/MP/Campaign/CampaignGarbageManager.et" {
+}
+SCR_LoadoutManager : "{61704A1383B93AE4}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval.et" {
+}

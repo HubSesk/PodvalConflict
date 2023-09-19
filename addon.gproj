@@ -1,0 +1,20 @@
+GameProject {
+ ID "PodvalConflict"
+ GUID "5E50B80178E78305"
+ TITLE "PodvalConflict"
+ Dependencies {
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "5D550926D43F1409" "5AF6E0F075D79473" "5E6564DB8B3D125F" "5B02128D896F7DE8" "5C721177A220B42F"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

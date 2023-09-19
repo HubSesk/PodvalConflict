@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{61704A1383B93AE4}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

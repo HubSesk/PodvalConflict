@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{56F82C85435CE0A3}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Campaign_US_USMC_Player.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

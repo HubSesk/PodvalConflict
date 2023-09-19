@@ -1,0 +1,12 @@
+RadioBroadcastManager {
+ ID "563C75F0BE9266AB"
+ coords 1482.109 10.149 1952.638
+ BroadcastAcp "{0373401D5C6607B1}Sounds/RadioBroadcast/RadioBroadcast.acp"
+ RegenerateTimes 0
+ MusicTimes {
+  686242 334694 69616 140906 157530
+ }
+ DjTimes {
+  117 191
+ }
+}

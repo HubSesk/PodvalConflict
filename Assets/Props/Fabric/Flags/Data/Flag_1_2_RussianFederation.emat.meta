@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0AE24235BFC457CA}Assets/Props/Fabric/Flags/Data/Flag_1_2_RussianFederation.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

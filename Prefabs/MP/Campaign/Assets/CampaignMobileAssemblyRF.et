@@ -1,0 +1,41 @@
+Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  BaseRadioComponent "{51EAE036CCD0A08E}" {
+   "Turned on" 0
+   Transceivers {
+    RelayTransceiver "{5E668109FE0126A1}" {
+     "Transmitting Range" 2000
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E668109A72EA9F3}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{D34F8F957C2FEA2E}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_camo1.emat"
+    }
+    MaterialAssignClass "{5E668109A72EA9E6}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{1AD5A5307222E6D2}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_camo1.emat"
+    }
+   }
+  }
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   Enabled 0
+  }
+  SCR_CampaignMHQLockComponent "{5E668109FE0126AC}" {
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{89F6A91D1DF5FFD6}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyCargoRF.et"
+    }
+   }
+  }
+  RplComponent "{517AACDFA78F5EE7}" {
+   Streamable Disabled
+  }
+ }
+ coords 0 0 0
+}

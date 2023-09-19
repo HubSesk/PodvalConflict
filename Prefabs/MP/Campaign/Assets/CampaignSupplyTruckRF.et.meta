@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8BC77B0309AE7C87}Prefabs/MP/Campaign/Assets/CampaignSupplyTruckRF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

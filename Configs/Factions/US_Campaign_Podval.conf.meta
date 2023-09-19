@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{29C93FCB1BB57635}Configs/Factions/US_Campaign_Podval.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,81 @@
+GenericEntity : "{D9C7B82F567BA500}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_combox.et" {
+ ID "5206D4E7CE97EC05"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E66810A6181A21B}" {
+     SourceMaterial "Ural_4320_Com_Exterior"
+     AssignedMaterial "{4600EE1F0B190F9D}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Com_camo1.emat"
+    }
+   }
+  }
+  SCR_CampaignMobileAssemblyComponent "{5E6681098BDE5437}" {
+  }
+  SCR_MapDescriptorComponent "{5E6681098BDE543D}" {
+   VisibleOnMap 0
+   MainType Spawnpoint
+  }
+  ActionsManagerComponent "{5E6681098BDE5423}" {
+   ActionContexts {
+    UserActionContext "{5E6681098BDE5420}" {
+     ContextName "door_rear"
+     Position PointInfo "{5E6681098BDE5426}" {
+      Offset 0.3458 1.7 -3.7766
+     }
+    }
+   }
+   additionalActions {
+    SCR_CampaignDeployMobileAssemblyUserAction "{5E6681098BDE5424}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E6681098BDE5429}" {
+      Name "#AR-Campaign_Action_Deploy-UC"
+     }
+     VisibilityRange 3
+     Duration 10
+    }
+    SCR_CampaignPackMobileAssemblyUserAction "{5E6681098BDE5428}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E6681098BDE542F}" {
+      Name "#AR-Campaign_Action_Dismantle-UC"
+     }
+     VisibilityRange 3
+     Duration 5
+    }
+    SCR_CampaignGrabRadioUserAction "{5E6681098BDE542E}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E6681098BDE542D}" {
+      Description "GRAB RADIO"
+     }
+     VisibilityRange 3
+     Duration 1
+    }
+   }
+  }
+  RplComponent "{63136787FD0BCE14}" {
+   Streamable Disabled
+  }
+ }
+ {
+  SCR_SpawnPoint {
+   ID "5E6681098BDE540F"
+   components {
+    Hierarchy "{5E6681098BDE5451}" {
+    }
+    RplComponent "{5E6681098BDE5450}" {
+    }
+   }
+   coords 0 0 0
+   m_fSpawnRadius 4
+   m_sFaction ""
+   m_Info SCR_UIInfo "{5E6681098BDE5454}" {
+    Name "#AR-Vehicle_MobileAssembly_Name"
+   }
+  }
+ }
+}
