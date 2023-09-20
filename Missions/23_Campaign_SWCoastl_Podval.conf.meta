@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{95F0E0968B9928E2}Missions/23_Campaign_SWCoastl_Podval.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
