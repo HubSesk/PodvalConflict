@@ -2,10 +2,10 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  ID "5690D9DBA5D97663"
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
-   m_sLoadoutResource "{56F82C85435CE0A3}Prefabs/Characters/Campaign/RHS/Campaign_US_USMC_Player_Podval.et"
+   m_sLoadoutResource "{3FD36B0C7DE73336}Prefabs/Characters/Campaign/Final/Campaign_USMC_Player_Ses.et"
   }
   SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
-   m_sLoadoutResource "{E52AB0578F037F7D}Prefabs/Characters/Campaign/RHS/Campaign_RF_MSV_Player_Podval.et"
+   m_sLoadoutResource "{3F74F0EE60712D62}Prefabs/Characters/Campaign/Final/Campaign_RF_Player_Ses.et"
   }
  }
 }

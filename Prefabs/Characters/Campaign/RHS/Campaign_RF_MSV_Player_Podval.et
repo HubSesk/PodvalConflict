@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{1E8265C4FCFC787B}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Armored_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{597D24F8904246A3}" {
+   "faction affiliation" "USSR"
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Rifleman"
@@ -89,6 +92,8 @@ SCR_ChimeraCharacter : "{1E8265C4FCFC787B}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  SCR_CampaignBuildingComponent "{5E6D4B7F4BA97942}" {
+  }
  }
- coords 0 0 0
+ coords 2714.035 77.51 1642.321
 }

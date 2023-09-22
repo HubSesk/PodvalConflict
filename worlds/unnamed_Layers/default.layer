@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{56F82C85435CE0A3}Prefabs/Characters/Campaign/RHS/Campaign_US_USMC_Player_Podval.et" {
+ coords 2715.418 77.51 1642.377
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 2715.91 77.51 1640.874
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+   m_sLoadoutResource "{56F82C85435CE0A3}Prefabs/Characters/Campaign/RHS/Campaign_US_USMC_Player_Podval.et"
+  }
+  SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
+   m_sLoadoutResource "{E52AB0578F037F7D}Prefabs/Characters/Campaign/RHS/Campaign_RF_MSV_Player_Podval.et"
+  }
+ }
+}
+SCR_ChimeraCharacter : "{E52AB0578F037F7D}Prefabs/Characters/Campaign/RHS/Campaign_RF_MSV_Player_Podval.et" {
+ coords 2714.035 77.51 1642.321
+}

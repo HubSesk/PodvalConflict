@@ -1,6 +1,13 @@
 SCR_ChimeraCharacter : "{F39178D190269C70}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Armored_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{5CC8B5EF85FB50A5}" {
+   "faction affiliation" "US"
+  }
+  MapDescriptorComponent "{5E607C88CE3D75F6}" {
+  }
+  SCR_CampaignBuildingComponent "{5E607C88F8575CF3}" {
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Rifleman"
@@ -66,10 +73,6 @@ SCR_ChimeraCharacter : "{F39178D190269C70}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
    }
-  }
-  MapDescriptorComponent "{5E607C88CE3D75F6}" {
-  }
-  SCR_CampaignBuildingComponent "{5E607C88F8575CF3}" {
   }
  }
  coords 1413.273 11 1875.696
