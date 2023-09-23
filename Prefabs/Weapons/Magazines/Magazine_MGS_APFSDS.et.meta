@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7F81D339B5730DC8}Prefabs/Weapons/Magazines/Magazine_MGS_APFSDS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

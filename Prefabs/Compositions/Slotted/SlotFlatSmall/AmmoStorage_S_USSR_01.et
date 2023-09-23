@@ -1,0 +1,19 @@
+GenericEntity : "{3BA9D94C4EE9B33B}Prefabs/Compositions/Slotted/CompositionBase.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  StaticModelEntity {
+   ID "5702F83814028529"
+   {
+    GenericEntity {
+     ID "58C28EA0E63A1002"
+     components {
+      SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+       m_eSupportedArsenalItemTypes 131382
+       m_eEditableAttributeGroups 22
+      }
+     }
+    }
+   }
+  }
+ }
+}

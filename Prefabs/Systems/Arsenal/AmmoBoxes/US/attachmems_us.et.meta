@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{34C886B78999FDF3}Prefabs/Systems/Arsenal/AmmoBoxes/US/attachmems_us.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

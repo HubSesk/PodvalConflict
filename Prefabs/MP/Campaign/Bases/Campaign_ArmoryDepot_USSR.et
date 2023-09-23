@@ -1,0 +1,13 @@
+GenericEntity : "{6C05433C85E0FD0C}Prefabs/MP/Campaign/Bases/Campaign_ArmoryDepot_US.et" {
+ ID "5584D662CB80A8C7"
+ {
+  GenericEntity {
+   ID "594C5DC6999D90F8"
+   components {
+    SCR_CampaignArmoryStorageComponent "{58A47AF59732F002}" {
+     m_eSupportedItemTypes 393736
+    }
+   }
+  }
+ }
+}
