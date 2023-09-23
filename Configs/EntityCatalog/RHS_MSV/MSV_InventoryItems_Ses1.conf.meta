@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9F3A31A491FEA0B9}Configs/EntityCatalog/RHS_MSV/MSV_InventoryItems_Ses1.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -56,9 +56,6 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et"
-     PrefabsToSpawn {
-      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_ak_3_pouch.et"
