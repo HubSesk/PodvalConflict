@@ -1,0 +1,812 @@
+FrameWidgetClass : "{F0C3A161AF7366F4}UI/layouts/Sights/Optic_Widgets_Sosna_Template.layout" {
+ Name "rootFrame"
+ {
+  HorizontalLayoutWidgetClass "{5E4B2EB2FDE650A7}" {
+   Prefab "{5E4B2EB2FDE650A7}"
+   {
+    VerticalLayoutWidgetClass "{5E4B2EB2FDE650A4}" {
+     Prefab "{5E4B2EB2FDE650A4}"
+     {
+      SizeLayoutWidgetClass "{5E4B2EB2FDE650A3}" {
+       Prefab "{5E4B2EB2FDE650A3}"
+       {
+        OverlayWidgetClass "{5E4B2EB2FDE650A1}" {
+         Prefab "{5E4B2EB2FDE650A1}"
+         {
+          GridLayoutWidgetClass "{5E4B2EEE3245C4A6}" {
+           Prefab "{5E4B2EEE3245C4A6}"
+           {
+            OverlayWidgetClass "{5E4B2EEF936187B6}" {
+             Prefab "{5E4B2EEF936187B6}"
+             {
+              OverlayWidgetClass "{5E6F2EB79932D153}" {
+               Name "Overlay_STT"
+               Slot OverlayWidgetSlot "{5E4B20CC72CED2AE}" {
+                Padding 0 0 0.5 0.5
+               }
+               {
+                ImageWidgetClass "{5E6F2EB79932D152}" {
+                 Name "STT"
+                 Slot OverlayWidgetSlot "{590AC8514A125E66}" {
+                  HorizontalAlign 3
+                  VerticalAlign 3
+                  Padding 0 0 0 0
+                 }
+                 "Is Enabled" 0
+                 "Is Visible" 0
+                 Texture "{0D9156B7B5DACFD2}Assets/Vehicles/Tracked/T14/data/T14_HUD/t14_ATT.edds"
+                 Size 500 500
+                 Range 1
+                }
+                ImageWidgetClass "{5E6F2EB79932D151}" {
+                 Name "STT_Cross"
+                 Slot OverlayWidgetSlot "{590AC8514A125E66}" {
+                  HorizontalAlign 3
+                  VerticalAlign 3
+                  Padding 0 0 0 0
+                 }
+                 Texture "{67EF838B7CBBC1F4}Assets/Vehicles/Tracked/T14/data/t14_gunner.edds"
+                 Size 500 500
+                 Range 1
+                }
+               }
+              }
+              OverlayWidgetClass "{5E4B2EF395E3A2C1}" {
+               Prefab "{5E4B2EF395E3A2C1}"
+               Slot OverlayWidgetSlot "{5E4B2EF395E3A2A7}" {
+                Padding 0 0 0 0
+               }
+               {
+                OverlayWidgetClass "{5E6F2EB79932D150}" {
+                 Name "OverlayButtons"
+                 Slot OverlayWidgetSlot "{5E035D30D93DD775}" {
+                  Padding 0 750 0 20
+                 }
+                 {
+                  ImageWidgetClass "{5E6F2EB79932D16F}" {
+                   Name "HUD_button1"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 450 0 0 0
+                   }
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Texture "{6B7B94397AA04F9D}UI/Imagesets/ButtonBase_ca.edds"
+                   Size 220 256
+                   Filter 0
+                  }
+                  ImageWidgetClass "{5E6F2EB79932CECF}" {
+                   Name "HUD_button0"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 0 0 450 0
+                   }
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Texture "{6B7B94397AA04F9D}UI/Imagesets/ButtonBase_ca.edds"
+                   Size 220 256
+                   Filter 0
+                  }
+                  ImageWidgetClass "{5E6F2EB79932CECD}" {
+                   Name "HUD_button2"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 0 0 0 0
+                   }
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Texture "{6B7B94397AA04F9D}UI/Imagesets/ButtonBase_ca.edds"
+                   Size 220 256
+                   Filter 0
+                  }
+                  ImageWidgetClass "{5E6F2EB79932CECC}" {
+                   Name "HUD_buttonRdy"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 0 0 900 0
+                   }
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Texture "{6B7B94397AA04F9D}UI/Imagesets/ButtonBase_ca.edds"
+                   Size 220 256
+                   Filter 0
+                  }
+                  ImageWidgetClass "{5E6F2EB79932CECB}" {
+                   Name "HUD_GrayLine"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 0 20 0 115
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Opacity 0.5
+                   Color 0.59 0.59 0.59 1
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 1000 45
+                  }
+                 }
+                }
+                OverlayWidgetClass "{5E6F2EB79932CECA}" {
+                 Name "Overlay_READY"
+                 Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                  Padding 0 0 0 20
+                 }
+                 {
+                  TextWidgetClass "{5E6F2EB79932CEC9}" {
+                   Name "HUD_AmmoType"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 805 450 0
+                   }
+                   Text "NODATA"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79932CEC8}" {
+                   Name "HUD_HunterKiller"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 450 805 0 0
+                   }
+                   Text "KILLER"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB799322675}" {
+                   Name "HUD_LRF"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 805 0 0
+                   }
+                   Text "00000"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79932267A}" {
+                   Name "HUD_RDY"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 805 900 0
+                   }
+                   Text "RDY"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+                OverlayWidgetClass "{5E6F2EB79932267B}" {
+                 Name "Overlay_TextButtons"
+                 Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                  Padding 0 0 0 500
+                 }
+                 {
+                  TextWidgetClass "{5E6F2EB799325C80}" {
+                   Name "HUD_Elevation"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 860 750 0
+                   }
+                   Text ""
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB799325C83}" {
+                   Name "HUD_unused"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 750 860 0 0
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Text "000"
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB799325C82}" {
+                   Name "HUD_Filler0"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 860 500 0
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Text "000"
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79935E034}" {
+                   Name "HUD_Filler1"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 860 250 0
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Text "000"
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79935E033}" {
+                   Name "HUD_Filler2"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 860 0 0
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Text "000"
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79935E032}" {
+                   Name "HUD_Filler3"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 250 860 0 0
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Text "000"
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB799353E1B}" {
+                   Name "HUD_Filler4"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 500 860 0 0
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Text "000"
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+                OverlayWidgetClass "{5E6F2EB799353E18}" {
+                 Name "Overlay_GPS_z"
+                 Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                  Padding 0 400 850 0
+                 }
+                 {
+                  ImageWidgetClass "{5E6F2EB799353E19}" {
+                   Name "WhiteUnderline_Height"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 0 0 0 0
+                   }
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 150 40
+                   Filter 0
+                  }
+                  TextWidgetClass "{5E6F2EB799353E06}" {
+                   Name "HUD_gpsZ"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 50 0 0 0
+                   }
+                   Color 0 0 0 1
+                   Text "111M"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB799353E07}" {
+                   Name "HUD_height"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 0 95 0
+                   }
+                   Color 0 0 0 1
+                   Text "ELV"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+                OverlayWidgetClass "{5E6F2EB799353895}" {
+                 Name "Overlay_GPS_y"
+                 Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                  Padding 0 480 700 0
+                 }
+                 {
+                  ImageWidgetClass "{5E6F2EB799353896}" {
+                   Name "BlackUnderline_Latitude"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 0 0 120 0
+                   }
+                   Color 0 0 0 1
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 200 40
+                   Filter 0
+                  }
+                  TextWidgetClass "{5E6F2EB799353897}" {
+                   Name "HUD_gpsY"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 0 50 0
+                   }
+                   Text "000000"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79934B7F8}" {
+                   Name "HUD_lat"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 0 240 0
+                   }
+                   Text "LAT"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+                OverlayWidgetClass "{5E6F2EB79934B7FF}" {
+                 Name "Overlay_GPS_x"
+                 Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                  Padding 0 550 700 0
+                 }
+                 {
+                  ImageWidgetClass "{5E6F2EB79934B7FE}" {
+                   Name "BlackUnderline_Longitude"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 0 0 120 0
+                   }
+                   Color 0 0 0 1
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 200 40
+                   Filter 0
+                  }
+                  TextWidgetClass "{5E6F2EB79934C68C}" {
+                   Name "HUD_gpsX"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 0 50 0
+                   }
+                   Text "000000"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79934C68F}" {
+                   Name "HUD_long"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 0 0 240 0
+                   }
+                   Text "LONG"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+               }
+              }
+              OverlayWidgetClass "{5E4B2EF19004E340}" {
+               Prefab "{5E4B2EF19004E340}"
+               Slot OverlayWidgetSlot "{5E4B2EF19004E310}" {
+                HorizontalAlign 3
+                Padding 0 140 0 0
+               }
+               {
+                OverlayWidgetClass "{5E6F2EB79934C68E}" {
+                 Name "Overlay_Errors"
+                 Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                  Padding -100 0 0 0
+                 }
+                 {
+                  OverlayWidgetClass "{5E6F2EB79934C681}" {
+                   Name "HUD_FireError"
+                   Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                    Padding 448.5 300 0 0
+                   }
+                   "Is Visible" 0
+                   {
+                    ImageWidgetClass "{5E6F2EB799341D56}" {
+                     Name "BlackUnderline"
+                     Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                      Padding 0 0 0 0
+                     }
+                     Color 0 0 0 1
+                     Rotation 0
+                     Pivot 0.5 0.5
+                     Size 265 40
+                     Filter 0
+                    }
+                    TextWidgetClass "{5E6F2EB799341D57}" {
+                     Name "fireError"
+                     Slot OverlayWidgetSlot "{5E033BE39A42EA06}" {
+                      Padding 0 0 0 0
+                     }
+                     Text "ЗАПРЕТ СТРЕЛЬБЫ"
+                     "Font Size" 40
+                     "Min Font Size" 40
+                     "Horizontal Alignment" Center
+                     FontProperties FontProperties "{5E033BE3001C11E1}" {
+                      Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                      ForceFont 1
+                     }
+                     Offset 0 0
+                    }
+                   }
+                  }
+                  OverlayWidgetClass "{5E6F2EB799341D54}" {
+                   Name "HUD_MoveError"
+                   Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                    Padding 500 220 0 0
+                   }
+                   "Is Visible" 0
+                   {
+                    ImageWidgetClass "{5E6F2EB799341D55}" {
+                     Name "WhiteUnderline"
+                     Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                      Padding 0 0 0 0
+                     }
+                     Rotation 0
+                     Pivot 0.5 0.5
+                     Size 315 40
+                     Filter 0
+                    }
+                    TextWidgetClass "{5E6F2EB799345E1F}" {
+                     Name "moveError"
+                     Slot OverlayWidgetSlot "{5E033BE39A42EA06}" {
+                      Padding 0 0 0 0
+                     }
+                     Color 0 0 0 1
+                     Text "ЗАПРЕТ ПЕРЕМЕЩЕНИЙ"
+                     "Font Size" 40
+                     "Min Font Size" 40
+                     "Horizontal Alignment" Center
+                     FontProperties FontProperties "{5E033BE3001C11E1}" {
+                      Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                      ForceFont 1
+                     }
+                     Offset 0 0
+                    }
+                   }
+                  }
+                  OverlayWidgetClass "{5E6F2EB799345E18}" {
+                   Name "HUD_ConnectionError"
+                   Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                    Padding 0 0 600 1040
+                   }
+                   {
+                    ImageWidgetClass "{5E6F2EB799345E19}" {
+                     Name "WhiteUnderline"
+                     Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                      Padding 0 0 0 0
+                     }
+                     Rotation 0
+                     Pivot 0.5 0.5
+                     Size 404 40
+                     Filter 0
+                    }
+                    TextWidgetClass "{5E6F2EB7993797F5}" {
+                     Name "ConnectionError"
+                     Slot OverlayWidgetSlot "{5E033BE39A42EA06}" {
+                      Padding 0 0 0 0
+                     }
+                     Color 0 0 0 1
+                     Text "NO DATALINK CONNECTION"
+                     "Font Size" 40
+                     "Min Font Size" 40
+                     "Horizontal Alignment" Center
+                     FontProperties FontProperties "{5E033BE3001C11E1}" {
+                      Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                      ForceFont 1
+                     }
+                     Offset 0 0
+                    }
+                   }
+                  }
+                  OverlayWidgetClass "{5E6F2EB7993797F6}" {
+                   Name "HUD_HatchOpen"
+                   Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                    Padding 920 300 0 0
+                   }
+                   "Is Visible" 0
+                   {
+                    ImageWidgetClass "{5E6F2EB7993797F7}" {
+                     Name "BlackUnderline"
+                     Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                      Padding 0 0 0 0
+                     }
+                     Color 0 0 0 1
+                     Rotation 0
+                     Pivot 0.5 0.5
+                     Size 163 40
+                     Filter 0
+                    }
+                    TextWidgetClass "{5E6F2EB79937D83C}" {
+                     Name "fireError"
+                     Slot OverlayWidgetSlot "{5E033BE39A42EA06}" {
+                      Padding 0 0 0 0
+                     }
+                     Text "ЛЮКИ ОТКР"
+                     "Font Size" 40
+                     "Min Font Size" 40
+                     "Horizontal Alignment" Center
+                     FontProperties FontProperties "{5E033BE3001C11E1}" {
+                      Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                      ForceFont 1
+                     }
+                     Offset 0 0
+                    }
+                   }
+                  }
+                  OverlayWidgetClass "{5E6F2EB79937DBC3}" {
+                   Name "HUD_StabOut"
+                   Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                    Padding 1000 0 0 950
+                   }
+                   {
+                    ImageWidgetClass "{5E6F2EB79937DBC2}" {
+                     Name "BlackUnderline"
+                     Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                      Padding 0 0 0 0
+                     }
+                     Color 0 0 0 1
+                     Rotation 0
+                     Pivot 0.5 0.5
+                     Size 161 40
+                     Filter 0
+                    }
+                    TextWidgetClass "{5E6F2EB799372804}" {
+                     Name "StabOut"
+                     Slot OverlayWidgetSlot "{5E033BE39A42EA06}" {
+                      Padding 0 0 0 0
+                     }
+                     Text "STAB OUT"
+                     "Font Size" 40
+                     "Min Font Size" 40
+                     "Horizontal Alignment" Center
+                     FontProperties FontProperties "{5E033BE3001C11E1}" {
+                      Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                      ForceFont 1
+                     }
+                     Offset 0 0
+                    }
+                   }
+                  }
+                 }
+                }
+                OverlayWidgetClass "{5E6F2EB799372807}" {
+                 Name "OverlayTank"
+                 Slot OverlayWidgetSlot "{5E035D30D93DD775}" {
+                  Padding 950 -750 30 0
+                 }
+                 {
+                  ImageWidgetClass "{5E6F2EB799372806}" {
+                   Name "HUD_TankBase"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                   }
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Texture "{7E19166D1C4818B3}UI/Imagesets/TankBase_ca.edds"
+                   Size 128 160
+                  }
+                  ImageWidgetClass "{5E6F2EB79937297C}" {
+                   Name "HUD_Turret"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                   }
+                   Pivot 0.5 0.5
+                   Texture "{C5BC43F01A44AA45}UI/Imagesets/GunnerTurret_ca.edds"
+                   Size 105 105
+                  }
+                  ImageWidgetClass "{5E6F2EB79937297B}" {
+                   Name "HUD_TraverseGunner_IMG"
+                   Slot OverlayWidgetSlot "{5E06AA73F891253D}" {
+                   }
+                   "Is Enabled" 0
+                   Rotation 0
+                   Texture "{9563365A9A0C16D6}UI/Imagesets/TurretGun_ca.edds"
+                   Size 160 160
+                  }
+                  ImageWidgetClass "{5E6F2EB79937297A}" {
+                   Name "HUD_TraverseCommander_IMG"
+                   Slot OverlayWidgetSlot "{5E06AA73F8912512}" {
+                   }
+                   "Is Enabled" 0
+                   "Is Visible" 0
+                   Rotation 18.1
+                   Texture "{9563365A9A0C16D6}UI/Imagesets/TurretGun_ca.edds"
+                   Size 80 80
+                  }
+                 }
+                }
+                OverlayWidgetClass "{5E6F2EB7993712DF}" {
+                 Name "Overlay_AngleInfo"
+                 Slot OverlayWidgetSlot "{5E032D987D73596E}" {
+                  Padding 0 0 80 0
+                 }
+                 {
+                  ImageWidgetClass "{5E6F2EB7993712DC}" {
+                   Name "BlackUnderline_azth_human"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 1000 0 0 450
+                   }
+                   Color 0 0 0 1
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 100 40
+                   Filter 0
+                  }
+                  ImageWidgetClass "{5E6F2EB7993712DD}" {
+                   Name "BlackUnderline_azth"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 1000 0 0 370
+                   }
+                   Color 0 0 0 1
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 100 40
+                   Filter 0
+                  }
+                  ImageWidgetClass "{5E6F2EB7993712D2}" {
+                   Name "WhiteUnderline_hdgdir"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 1000 0 0 290
+                   }
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 100 40
+                   Filter 0
+                  }
+                  ImageWidgetClass "{5E6F2EB7993712D3}" {
+                   Name "BlackUnderline_glel"
+                   Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                    Padding 750 0 0 750
+                   }
+                   Color 0 0 0 1
+                   Rotation 0
+                   Pivot 0.5 0.5
+                   Size 100 40
+                   Filter 0
+                  }
+                  TextWidgetClass "{5E6F2EB7993712D0}" {
+                   Name "HUD_Azimuth"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 1000 0 0 370
+                   }
+                   Text "143"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79936AA28}" {
+                   Name "HUD_Azimuth6K"
+                   Slot OverlayWidgetSlot "{5E033BE39A42EA06}" {
+                    Padding 1000 0 0 450
+                   }
+                   Text "AZ-TH"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Center
+                   FontProperties FontProperties "{5E033BE3001C11E1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79936AA29}" {
+                   Name "HUD_GlobalElevation"
+                   Slot OverlayWidgetSlot "{5E033BE39A42EA06}" {
+                    Padding 750 0 0 750
+                   }
+                   Text "GL-EL"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Center
+                   FontProperties FontProperties "{5E033BE3001C11E1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{5E6F2EB79936AA2E}" {
+                   Name "HUD_TraverseNONCAL"
+                   Slot OverlayWidgetSlot "{5E032D9BD6D60C93}" {
+                    Padding 1000 0 0 290
+                   }
+                   Color 0 0 0 1
+                   Text "HDGdir"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

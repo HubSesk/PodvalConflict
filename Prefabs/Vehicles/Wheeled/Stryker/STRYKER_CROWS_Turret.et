@@ -1,0 +1,77 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  BaconTankStuff_TurretStabilizationComponent "{5E3A7B68DFAD43CE}" {
+   Enabled 0
+  }
+  TurretComponent "{5B24B3A9B2859837}" {
+   components {
+    RHS_2DSightsComponent "{5E6F2EB6291DBEF8}" {
+     SightsPosition PointInfo "{5E6F2EB5CE0B5AAA}" {
+      PivotID "v_gun_01"
+      Offset -0.1332 -0.224 0.2447
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5E6F2EB5DE98072B}" {
+      m_fBaseZoom 2
+      m_fZoomMax 15
+      m_fStepZoomSize 5
+      m_fInterpolationSpeed 6
+     }
+     SightsPointFront PointInfo "{5E6F2EB5DD68D02D}" {
+      PivotID "v_gun_01"
+      Offset -0.1405 -0.2286 0.2483
+     }
+     SightsPointRear PointInfo "{5E6F2EB5E7332EEA}" {
+      PivotID "v_gun_01"
+      Offset -0.1405 -0.2286 0.153
+     }
+     ADSTime 0
+     SightsPriority 1
+     m_sLayoutResource "{4CE66FA8219D33D7}UI/layouts/Sights/Optic_Default.layout"
+     m_sReticleTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_sReticleGlowTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_fMagnification 2.6
+     m_fReticleAngularSize 3.6
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom 2.6
+     m_bIsTurretOptic 1
+     m_fObjectiveFov 23
+     m_fObjectiveScale 0.77
+     m_fVignetteScale 0.847
+     m_bShouldHideParentObject 0
+     m_fRotationScale 0
+     m_fRotationDampingSpeed 0
+     m_fMovementScale 0
+     m_fMovementDampingSpeed 0
+     m_fRollScale 0
+     m_fMisalignmentScale 0
+     m_fVignetteMoveSpeed 0
+     m_fMotionBlurScale 0
+     m_fMotionBlurMax 0
+     m_fRecoilScaleMax 1
+     m_fRecoilTranslationTarget 0.001
+     m_fRecoilScaleTranslation 1
+     m_sRHSLayoutOverlayResource "{071600F115B17DCF}UI/layouts/Sights/Optic_Widgets_STRYKER.layout"
+     m_eRadianCalculationMethod NATO
+     m_sNegativeElevationLetter "D"
+     m_sPositiveElevationLetter "U"
+     m_sNegativeTraverseLetter "L"
+     m_sPositiveTraverseLetter "R"
+     m_bShowTurretAngleRelativeToHull 1
+     m_bShowTurretElevationInRadians 1
+     m_bShowTurretAzimuthInDegrees 1
+     m_bShowTurretAzimuthInRadians 1
+     m_bShowTurretToHullIndicator 1
+     m_bShowVehicleGPSWidgets 1
+     m_bShowAmmoName 1
+     m_bShowReadyState 1
+     m_sEmptyText "EMPTY"
+     m_bAlwaysShowNumberOfAmmoLeft 1
+    }
+    SCR_2DSightsComponent "{5B24B3A9B2859831}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
