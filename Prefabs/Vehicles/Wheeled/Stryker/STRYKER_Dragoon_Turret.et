@@ -1,13 +1,16 @@
 Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
  ID "51ACD0965653D003"
  components {
-  TurretComponent "{5B24B3A9B2859837}" {
+  BaconTankStuff_TurretStabilizationComponent "{5E3A7B68D72D5319}" {
+   Enabled 0
+  }
+  TurretComponent "{5CA77AA65F673EA2}" {
    components {
     RHS_2DSightsComponent "{5E6F2EB6291DBEF8}" {
      Enabled 1
      SightsPosition PointInfo "{5E6F2EB5CE0B5AAA}" {
       PivotID "v_gun_01"
-      Offset -0.1332 -0.224 0.2447
+      Offset 0.6406 0.1285 0.7231
      }
      SightsFOVInfo SCR_SightsZoomFOVInfo "{5E6F2EB5DE98072B}" {
       m_fBaseZoom 2
@@ -17,11 +20,11 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      SightsPointFront PointInfo "{5E6F2EB5DD68D02D}" {
       PivotID "v_gun_01"
-      Offset -0.1405 -0.2286 0.2483
+      Offset 0.6406 0.1285 0.7532
      }
      SightsPointRear PointInfo "{5E6F2EB5E7332EEA}" {
       PivotID "v_gun_01"
-      Offset -0.1405 -0.2286 0.153
+      Offset 0.6406 0.1285 0.7231
      }
      ADSTime 0
      SightsPriority 1
@@ -66,14 +69,14 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_sEmptyText "EMPTY"
      m_bAlwaysShowNumberOfAmmoLeft 1
     }
-    SCR_2DSightsComponent "{5B24B3A9B2859831}" {
+    SCR_2DSightsComponent "{5CA77AA65F673EA0}" {
      Enabled 0
     }
    }
-   CameraAdsAttachment PointInfo "{5E56B2893834484B}" {
-    PivotID "v_gun_01"
+   CameraAdsAttachment PointInfo "{5E56B2892B3261E7}" {
+    Offset 0.6406 0.1285 0.7231
    }
   }
  }
- coords 2509.234 148.958 2275.433
+ coords 2504.954 148.958 2271.099
 }
