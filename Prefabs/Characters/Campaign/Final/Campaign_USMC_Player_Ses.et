@@ -62,13 +62,13 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{54A49B42D138207E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et"
     }
     ItemsInitConfigurationItem "{5538C040738A83D1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et"
     }
     ItemsInitConfigurationItem "{5538C040737C0BE0}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et"
     }
    }
   }
