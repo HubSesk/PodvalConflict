@@ -75,15 +75,5 @@ GenericEntity : "{7C20041DA3207190}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
    ID "5E6F1ED1CBF1F47B"
    coords 2.274 0.527 2.033
   }
-  GenericEntity : "{97AFDBFB3394A634}Prefabs/Compositions/Misc/CustomEntities/Systems/AmmoBoxArsenal_Weapons_USSR_Pistols.et" {
-   ID "5E6F1ED679DC6E8A"
-   components {
-    Hierarchy "{58C28EA6FC916371}" {
-    }
-   }
-   coords 2.394 0.72 1.371
-   angleY 26.653
-   scale 0.65
-  }
  }
 }
