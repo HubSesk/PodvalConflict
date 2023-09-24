@@ -8,10 +8,8 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutResource "{3F74F0EE60712D62}Prefabs/Characters/Campaign/Final/Campaign_RF_Player_Ses.et"
   }
   SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
-   m_sPreviewLoadout "{D774AFD56F8E7B1F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Base.et"
   }
   SCR_PlayerArsenalLoadout "{5B108B4948B445F8}" {
-   m_sLoadoutResource "{0C64FB5BB7FD0DC9}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Base.et"
   }
  }
 }
