@@ -1,0 +1,81 @@
+GenericEntity : "{5E3606C2EE668D0F}Prefabs/Vehicles/Wheeled/M923A1/M923A1_combox_MERDC.et" {
+ ID "5206D4E7EFE2C051"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5554D0E4A8570A47}" {
+     SourceMaterial "M923a1_COM"
+     AssignedMaterial "{E8B4291E56FE643E}Assets/Vehicles/Wheeled/M923A1/Data/M923a1_COM.emat"
+    }
+   }
+  }
+  SCR_CampaignMobileAssemblyComponent "{5E7550B05B699585}" {
+  }
+  SCR_MapDescriptorComponent "{5E7550B05B69958F}" {
+   VisibleOnMap 0
+   MainType Spawnpoint
+  }
+  ActionsManagerComponent "{5E7550B05B69958D}" {
+   ActionContexts {
+    UserActionContext "{5E7550B05B6995B2}" {
+     ContextName "door_rear"
+     Position PointInfo "{5E7550B05B6995B7}" {
+      Offset -0.0467 1.7 -4.6047
+     }
+    }
+   }
+   additionalActions {
+    SCR_CampaignDeployMobileAssemblyUserAction "{5E7550B05B6995B4}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E7550B05B6995BA}" {
+      Name "#AR-Campaign_Action_Deploy-UC"
+     }
+     VisibilityRange 3
+     Duration 10
+    }
+    SCR_CampaignPackMobileAssemblyUserAction "{5E7550B05B6995B8}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E7550B05B6995BF}" {
+      Name "#AR-Campaign_Action_Dismantle-UC"
+     }
+     VisibilityRange 3
+     Duration 5
+    }
+    SCR_CampaignGrabRadioUserAction "{5E7550B05B6995BE}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E7550B05B6995BC}" {
+      Name "GRAB RADIO"
+     }
+     VisibilityRange 3
+     Duration 1
+    }
+   }
+  }
+  RplComponent "{63136787FD0BCE14}" {
+   Streamable Disabled
+  }
+ }
+ {
+  SCR_SpawnPoint {
+   ID "5E7550B05B69959F"
+   components {
+    Hierarchy "{5E7550B05B6995A0}" {
+    }
+    RplComponent "{5E7550B05B69BED8}" {
+    }
+   }
+   coords 0 0 0
+   m_fSpawnRadius 4
+   m_sFaction ""
+   m_Info SCR_UIInfo "{5E7550B05B69BED1}" {
+    Name "#AR-Vehicle_MobileAssembly_Name"
+   }
+  }
+ }
+}
