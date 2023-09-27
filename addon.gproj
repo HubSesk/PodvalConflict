@@ -8,19 +8,6 @@ GameProject {
  Configurations {
   GameProjectConfig PC {
    WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
-    StringTables {
-     StringTableDefinition "{5E70A8A09D11A4E3}" {
-      StringTableSource "{1E912E1917B7240F}Localization/PodvalConflict.st"
-      Languages {
-       LanguageDefinition "{5E70A8A7641E02A4}" {
-        Code "en_us"
-       }
-       LanguageDefinition "{5E70A8A763A3624D}" {
-        Code "ru_ru"
-       }
-      }
-     }
-    }
    }
   }
   GameProjectConfig HEADLESS {
