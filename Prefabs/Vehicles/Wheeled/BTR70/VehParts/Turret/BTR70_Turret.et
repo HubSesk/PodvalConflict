@@ -1,0 +1,12 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{1D3DA71B9107070D}" {
+   components {
+    SCR_2DSightsComponent "{510B377BF6023291}" {
+     m_bIsNVGCompatible 1
+    }
+   }
+  }
+ }
+}

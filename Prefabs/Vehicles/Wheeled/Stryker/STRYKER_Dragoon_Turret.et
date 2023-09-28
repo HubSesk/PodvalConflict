@@ -28,6 +28,8 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      ADSTime 0
      SightsPriority 1
+     m_bIsNVGCompatible 1
+     m_bIsConfiguratedForRHSNVG 1
      m_sLayoutResource "{4CE66FA8219D33D7}UI/layouts/Sights/Optic_Default.layout"
      m_sReticleTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
      m_sReticleGlowTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"

@@ -69,10 +69,18 @@ GenericEntity : "{7C20041DA3207190}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
   }
   GenericEntity : "{4C2507B88612AB08}Prefabs/Compositions/Misc/CustomEntities/Systems/attachmems.et" {
    ID "5E6F291F3B3C40A9"
+   components {
+    Hierarchy "{5E78F149977E8853}" {
+    }
+   }
    coords 2.194 0.079 2.006
   }
   GenericEntity : "{9133C8719FA2D161}Prefabs/Props/Decorations/Prop_RHSStatue.et" {
    ID "5E6F1ED1CBF1F47B"
+   components {
+    Hierarchy "{5E78F1485D7E3401}" {
+    }
+   }
    coords 2.274 0.527 2.033
   }
  }

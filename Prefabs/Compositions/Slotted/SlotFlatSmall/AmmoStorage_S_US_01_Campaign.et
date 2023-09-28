@@ -3,12 +3,20 @@ GenericEntity : "{76A14F180887D76E}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
  {
   GenericEntity : "{34C886B78999FDF3}Prefabs/Systems/Arsenal/AmmoBoxes/US/attachmems_us.et" {
    ID "5E6F2A5521E0F78A"
+   components {
+    Hierarchy "{5E78F148078F197C}" {
+    }
+   }
    coords 0.491 0.087 1.896
    angleY -19.667
    angleZ 3.674
   }
   GenericEntity : "{A818BF34BFD8FCF2}Prefabs/Props/Decorations/Prop_RHSStatue_blue.et" {
    ID "5E6F2A5521E0F7A2"
+   components {
+    Hierarchy "{5E78F1480CA1F944}" {
+    }
+   }
    coords 0.457 0.538 1.796
    angleZ 3.889
   }

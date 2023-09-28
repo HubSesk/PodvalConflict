@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7C20041DA3207190}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_USSR_01.et"
+ Name "{BF068C5BAAC30073}Prefabs/Vehicles/Tracked/T14/Turret_T14.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
