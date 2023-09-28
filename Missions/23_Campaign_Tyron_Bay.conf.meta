@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7715CC24FE70A31D}Missions/23_Campaign_Tyron_Bay.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
