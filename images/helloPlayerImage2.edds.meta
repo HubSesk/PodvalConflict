@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B94AB51C038B961D}images/loadscreen.edds"
+ Name "{0BD757C3820B36CE}images/helloPlayerImage2.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
