@@ -1,0 +1,4 @@
+SCR_AIGroup : "{C824AA59A0243487}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad.et" {
+ ID "0000000000000001"
+ m_faction "US"
+}

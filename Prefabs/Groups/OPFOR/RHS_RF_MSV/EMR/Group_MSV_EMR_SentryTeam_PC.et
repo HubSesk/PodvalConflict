@@ -1,0 +1,4 @@
+SCR_AIGroup : "{81B7B7DEAFB535FD}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_SentryTeam.et" {
+ ID "0000000000000001"
+ m_faction "USSR"
+}

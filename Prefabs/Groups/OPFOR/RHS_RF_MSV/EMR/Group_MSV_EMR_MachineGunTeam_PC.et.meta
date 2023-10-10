@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1D00170F141E865C}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_MachineGunTeam_PC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

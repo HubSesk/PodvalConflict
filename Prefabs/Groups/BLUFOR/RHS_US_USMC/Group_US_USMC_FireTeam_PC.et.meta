@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6759CAD43AC24707}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_FireTeam_PC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

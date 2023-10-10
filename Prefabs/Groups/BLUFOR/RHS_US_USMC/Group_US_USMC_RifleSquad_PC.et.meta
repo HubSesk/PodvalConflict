@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D221683B679EE971}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_PC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
