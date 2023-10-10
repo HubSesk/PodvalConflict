@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{BF068C5BAAC30073}Prefabs/Vehicles/Tracked/T14/Turret_T14.et"
+ Name "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

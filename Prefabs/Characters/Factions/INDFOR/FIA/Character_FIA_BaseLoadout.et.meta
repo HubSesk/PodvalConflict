@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A97857BDDA2E1607}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_Turret.et"
+ Name "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
