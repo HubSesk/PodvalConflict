@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BF90BAE604C842D3}Worlds/ConflictRhs/Conflict_RHS.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,7 +1,0 @@
-Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
- ID "BBCBA43A9778AE21"
- components {
-  RHS_NavigationGadgetComponent "{5E6F2EB67FE4405B}" {
-  }
- }
-}

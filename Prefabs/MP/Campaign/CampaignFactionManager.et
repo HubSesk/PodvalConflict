@@ -1,9 +1,0 @@
-SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
- ID "50A6CDA4F7C1474A"
- Factions {
-  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{1541B1FDDA6862A6}Configs/Factions/RF_Campaign_Podval.conf" {
-  }
-  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{29C93FCB1BB57635}Configs/Factions/US_Campaign_Podval.conf" {
-  }
- }
-}

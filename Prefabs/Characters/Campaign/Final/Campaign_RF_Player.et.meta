@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{08D7B29AEC960675}Prefabs/MP/Campaign/CampaignFactionManager_RHS.et"
+ Name "{C72681EF8F6A752B}Prefabs/Characters/Campaign/Final/Campaign_RF_Player.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

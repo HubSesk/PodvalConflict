@@ -1,9 +1,0 @@
-Tank : "{4085446E2B406849}Prefabs/Vehicles/Core/Vehicle_Base.et" {
- ID "BBCBA43A9778AE21"
- components {
-  SCR_FuelConsumptionComponent "{5E529ED09B647D04}" {
-   m_fFuelConsumption 115
-   m_fFuelConsumptionIdle 4
-  }
- }
-}

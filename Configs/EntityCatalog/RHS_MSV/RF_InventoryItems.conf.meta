@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E3DE1AD43E23113A}Configs/EntityCatalog/USMC/USMC_InventoryItems.conf"
+ Name "{5D516A1394F1BB84}Configs/EntityCatalog/RHS_MSV/RF_InventoryItems.conf"
  Configurations {
   CONFResourceClass PC {
   }

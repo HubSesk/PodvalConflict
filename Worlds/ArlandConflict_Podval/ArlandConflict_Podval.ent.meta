@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9E07660CD2CF51F2}Worlds/ArlandConflict_RHS/ArlandConflict_RHS.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
