@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4969E91B3C7FB591}Configs/EntityCatalog/RHS_MSV/MSV_Podval_InventoryItems.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
