@@ -3,20 +3,20 @@ GameProject {
  GUID "5E50B80178E78305"
  TITLE "PodvalConflict"
  Dependencies {
-  "58D0FB3206B6F859" "595F2BF2F44836FB"
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "5AF6E0F075D79473"
  }
  Configurations {
   GameProjectConfig PC {
    WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
    }
   }
-  GameProjectConfig HEADLESS {
-  }
   GameProjectConfig XBOX_ONE {
   }
   GameProjectConfig XBOX_SERIES {
   }
   GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
   }
  }
 }

@@ -1,0 +1,23 @@
+Vehicle : "{20CC28A84709D23E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo mount_rear {
+    }
+    RegisteringComponentSlotInfo armor {
+     MergePhysics 1
+    }
+    RegisteringComponentSlotInfo Hardpoints {
+     MergePhysics 1
+    }
+    RegisteringComponentSlotInfo IRJammer {
+     MergePhysics 1
+    }
+    RegisteringComponentSlotInfo Countermeasures {
+     MergePhysics 1
+    }
+   }
+  }
+ }
+}

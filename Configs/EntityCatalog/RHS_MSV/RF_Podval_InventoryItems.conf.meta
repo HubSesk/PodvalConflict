@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{5D516A1394F1BB84}Configs/EntityCatalog/RHS_MSV/RF_InventoryItems.conf"
+ Name "{04A9DB37213CDD68}Configs/EntityCatalog/RHS_MSV/RF_Podval_InventoryItems.conf"
  Configurations {
   CONFResourceClass PC {
   }
