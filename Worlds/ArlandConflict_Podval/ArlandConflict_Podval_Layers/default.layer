@@ -22,7 +22,7 @@ RadioManagerEntity {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4926.701 34.279 10717.344
 }
-SCR_CampaignFactionManager CampaignFactionManager_RHS1 : "{08D7B29AEC960675}Prefabs/MP/Campaign/CampaignFactionManager_RHS.et" {
+SCR_CampaignFactionManager CampaignFactionManager_RHS1 : "{08D7B29AEC960675}Prefabs/MP/Campaign/CampaignFactionManager_Podval.et" {
 }
 TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
  coords 19.876 0 4.538
@@ -1794,7 +1794,7 @@ GenericEntity : "{6105032F794BA64B}Prefabs/Props/Civilian/LogChopping_01.et" {
  angleY -106.307
  scale 0.759
 }
-SCR_LoadoutManager : "{61704A1383B93AE4}Prefabs/MP/Campaign/CampaignLoadoutManager_RHS.et" {
+SCR_LoadoutManager : "{61704A1383B93AE4}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval.et" {
 }
 $grp GenericEntity : "{62B2ADC4243454F9}Prefabs/Props/Civilian/Jerrycan_01.et" {
  {

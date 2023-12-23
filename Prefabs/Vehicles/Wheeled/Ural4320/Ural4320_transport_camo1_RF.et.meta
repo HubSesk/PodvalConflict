@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E562C0C35865F41C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1_RF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

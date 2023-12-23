@@ -4,6 +4,9 @@ SCR_ChimeraCharacter : "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Camp
   FactionAffiliationComponent "{520EC9618276DF23}" {
    "faction affiliation" "USSR"
   }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
   }
@@ -41,8 +44,8 @@ SCR_ChimeraCharacter : "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Camp
      }
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage ""
-     TargetPurpose 32
+     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+     TargetPurpose 1
     }
     ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_ak_1_pouch.et"
