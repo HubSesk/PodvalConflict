@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F86E8C86CDAF94F6}Prefabs/Vehicles/Tracked/M1A2/M1A2_US.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
