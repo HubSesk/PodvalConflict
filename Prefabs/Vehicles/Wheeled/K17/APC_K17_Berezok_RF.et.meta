@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{115A113D110E5B16}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_RF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
