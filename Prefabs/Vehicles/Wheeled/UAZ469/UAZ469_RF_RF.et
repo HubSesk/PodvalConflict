@@ -1,0 +1,74 @@
+Vehicle : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5F2CDE988DD1FBF7}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{B22C8E4C243BB8DE}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Cumo.emat"
+    }
+    MaterialAssignClass "{5F2CDE988DD1FBFF}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{67BEA12C8AFDB65C}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_FIA.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_m02 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{5AD4F813E67ECB7E}" {
+      m_sDefaultOccupantPrefab "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{0B0ED4A785093996}UI/Textures/EditorPreviews/Vehicles/Wheeled/UAZ469/UAZ469_FIA.edds"
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 7110.71
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Frame {
+     Prefab "{2C40646A4376BF54}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_Cumo_roof_assembled.et"
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{D217758BDECEC63D}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_Cumo_door_L01.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{1D67AEC60E6DC77D}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_Cumo_door_R01.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{BE43416B620A4913}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_Cumo_door_L02.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{71339A26B2A94853}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_Cumo_door_R02.et"
+    }
+    RegisteringComponentSlotInfo FIA_CoatOfArms_decal {
+     Enabled 0
+     Prefab "{7851C866210A685F}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_FIA_CoatOfArms_decal.et"
+     InheritParentSkeleton 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     PivotID "v_body"
+     Offset -0.1873 1.1635 -1.6017
+     Angles -85.0629 0 0
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     PivotID "v_body"
+     Offset 0.4041 0.8851 -1.4127
+     Angles 25.2855 -93.0068 -1.2853
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}

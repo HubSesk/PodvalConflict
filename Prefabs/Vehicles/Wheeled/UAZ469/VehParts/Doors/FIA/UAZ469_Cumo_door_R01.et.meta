@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1D67AEC60E6DC77D}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_Cumo_door_R01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

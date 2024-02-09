@@ -1,0 +1,17 @@
+GenericEntity : "{AA8102F7B249EBCE}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_R01_bottom.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6092F4114E88F904}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{B22C8E4C243BB8DE}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Cumo.emat"
+    }
+    MaterialAssignClass "{6092F4114E88F93D}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{67BEA12C8AFDB65C}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_FIA.emat"
+    }
+   }
+  }
+ }
+}

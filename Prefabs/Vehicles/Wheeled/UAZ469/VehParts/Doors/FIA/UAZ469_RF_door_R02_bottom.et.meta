@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A7FF3D96D5BCE191}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_RF_door_R02_bottom.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

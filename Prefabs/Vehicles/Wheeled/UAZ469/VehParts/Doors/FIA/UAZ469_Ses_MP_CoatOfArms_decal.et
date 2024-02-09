@@ -1,0 +1,26 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{5030DE81C1050DF5}Assets/Vehicles/Wheeled/UAZ469/VehParts/Logos/UAZ469_FIA_CoatOfArms.xob"
+   Materials {
+    MaterialAssignClass "{6048C70A6B2C18C8}" {
+     SourceMaterial "FIA_CoatOfArms_66F803693C8814A2"
+     AssignedMaterial "{38E34B92BAF7C66C}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_MP.emat"
+    }
+   }
+   LODFactors {
+    1 1
+   }
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Enabled 0
+  }
+  SCR_HitZoneContainerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Tailgate : "{000477F2B739E64E}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_HZ_vehpart.conf" {
+    }
+   }
+  }
+ }
+}

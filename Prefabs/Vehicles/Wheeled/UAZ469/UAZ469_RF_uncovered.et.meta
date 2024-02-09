@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{696AF998C234265A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_RF_uncovered.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

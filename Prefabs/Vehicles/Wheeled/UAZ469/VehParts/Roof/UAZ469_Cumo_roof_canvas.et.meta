@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5EF54AD722E5923E}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_Cumo_roof_canvas.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

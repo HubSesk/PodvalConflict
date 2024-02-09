@@ -1,0 +1,13 @@
+GenericEntity : "{3C8EB193B030CCDC}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_roof_canvas.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5F2CDE9B0BFBC2E3}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{BEB5C5FC37E1093A}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_Cumo.emat"
+    }
+   }
+  }
+ }
+}
