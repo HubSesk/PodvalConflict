@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{49EA040B42F99998}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon_USMC.et"
+ Name "{D774AFD56F8E7B1F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
