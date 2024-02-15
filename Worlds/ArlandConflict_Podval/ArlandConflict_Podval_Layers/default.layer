@@ -118,6 +118,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -0.103
   angleY 167.574
   angleZ 3.685
+  Flags 2097155
  }
  {
   components {
@@ -135,6 +136,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 0.293
   angleY -51.628
   angleZ 2.514
+  Flags 2097155
  }
  {
   components {
@@ -152,6 +154,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -2.178
   angleY -50.202
   angleZ -2.975
+  Flags 2097155
  }
  {
   components {
@@ -169,6 +172,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -2.247
   angleY -51.556
   angleZ -2.923
+  Flags 2097155
  }
  {
   components {
@@ -186,6 +190,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -3.019
   angleY -68.982
   angleZ -2.116
+  Flags 2097155
  }
  {
   components {
@@ -203,6 +208,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 2.061
   angleY 132.013
   angleZ 3.057
+  Flags 2097155
  }
  {
   components {
@@ -220,6 +226,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -0.506
   angleY -21.91
   angleZ -3.651
+  Flags 2097155
  }
  {
   components {
@@ -237,6 +244,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -0.708
   angleY -25.087
   angleZ -3.618
+  Flags 2097155
  }
  {
   components {
@@ -254,6 +262,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -1.024
   angleY -30.138
   angleZ -3.541
+  Flags 2097155
  }
  {
   components {
@@ -271,6 +280,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -3.639
   angleY -113.181
   angleZ 0.586
+  Flags 2097155
  }
  {
   components {
@@ -288,6 +298,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 2.77
   angleY 34.641
   angleZ -2.433
+  Flags 2097155
  }
  {
   components {
@@ -305,6 +316,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -2.752
   angleY -62.276
   angleZ -2.454
+  Flags 2097155
  }
  {
   components {
@@ -322,6 +334,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 3.558
   angleY 91.171
   angleZ 0.966
+  Flags 2097155
  }
  {
   components {
@@ -339,6 +352,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -3.489
   angleY -85.157
   angleZ -1.192
+  Flags 2097155
  }
  {
   components {
@@ -356,6 +370,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 3.359
   angleY 51.629
   angleZ -1.518
+  Flags 2097155
  }
  {
   components {
@@ -373,6 +388,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -3.316
   angleY -129.945
   angleZ 1.61
+  Flags 2097155
  }
  {
   components {
@@ -390,6 +406,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -2.89
   angleY -65.617
   angleZ -2.289
+  Flags 2097155
  }
  {
   components {
@@ -407,6 +424,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -1.119
   angleY -31.687
   angleZ -3.512
+  Flags 2097155
  }
  {
   components {
@@ -424,6 +442,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 0.079
   angleY 164.74
   angleZ 3.685
+  Flags 2097155
  }
  {
   components {
@@ -441,6 +460,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -2.233
   angleY -156.792
   angleZ 2.934
+  Flags 2097155
  }
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
@@ -1829,6 +1849,7 @@ GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  }
  coords 930.934 38.969 2786.449
  angleY -71.515
+ Flags 2097155
 }
 $grp GenericEntity : "{65CD3EE14677E3AA}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V1.et" {
  {
@@ -1871,6 +1892,7 @@ GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  angleX -1.031
  angleY -99.487
  angleZ -0.735
+ Flags 2097155
 }
 GenericEntity : "{693602152472D2F6}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AssemblyKit_Soviet.et" {
  coords 2536.806 143.763 2268.467
@@ -4736,6 +4758,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 1.243
   angleY -43.995
   angleZ 1.288
+  Flags 2097155
  }
  {
   components {
@@ -4752,6 +4775,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 1.994
   angleY -148.604
   angleZ 0.169
+  Flags 2097155
  }
  {
   components {
@@ -4768,6 +4792,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -1.776
   angleY -72.282
   angleZ -6.18
+  Flags 2097155
  }
  {
   components {
@@ -4784,6 +4809,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 8.003
   angleY -0.126
   angleZ -0.904
+  Flags 2097155
  }
  {
   components {
@@ -4798,6 +4824,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 3102.983 17.661 2668.546
   angleY 31.27
+  Flags 2097155
  }
  {
   components {
@@ -4814,6 +4841,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -1.701
   angleY 108.175
   angleZ -0.558
+  Flags 2097155
  }
  {
   components {
@@ -4830,6 +4858,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -3.31
   angleY 43.49
   angleZ -5.585
+  Flags 2097155
  }
  {
   components {
@@ -4846,6 +4875,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 1.194
   angleY 100.075
   angleZ -1.605
+  Flags 2097155
  }
  {
   components {
@@ -4860,6 +4890,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 2465.366 92.587 1921.63
   angleY 101.85
+  Flags 2097155
  }
  {
   components {
@@ -4874,6 +4905,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 2042.412 58.861 2138.486
   angleY 132.615
+  Flags 2097155
  }
  {
   components {
@@ -4890,6 +4922,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 6.218
   angleY 0.39
   angleZ 3.598
+  Flags 2097155
  }
  {
   components {
@@ -4904,6 +4937,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 2594.543 112.38 2501.811
   angleY -16.301
+  Flags 2097155
  }
  {
   components {
@@ -4918,6 +4952,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 2602.54 111.325 2482.784
   angleY -82.024
+  Flags 2097155
  }
  {
   components {
@@ -4934,6 +4969,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 7.338
   angleY -84.738
   angleZ -2
+  Flags 2097155
  }
  {
   components {
@@ -4948,6 +4984,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 1345.653 37.836 2966.47
   angleX -0.895
+  Flags 2097155
  }
  {
   components {
@@ -4964,6 +5001,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 0.754
   angleY 81.578
   angleZ -1.016
+  Flags 2097155
  }
  {
   components {
@@ -4980,6 +5018,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -0.217
   angleY -104.049
   angleZ -0.868
+  Flags 2097155
  }
  {
   components {
@@ -4994,6 +5033,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 1348.132 39 2283.862
   angleY 52.996
+  Flags 2097155
  }
  {
   components {
@@ -5010,6 +5050,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -0.631
   angleY 44.93
   angleZ 1.899
+  Flags 2097155
  }
  {
   components {
@@ -5024,6 +5065,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 3316.924 1.969 2861.961
   angleY 142.225
+  Flags 2097155
  }
  {
   components {
@@ -5038,6 +5080,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 2208.065 53.409 2883.316
   angleZ -1.79
+  Flags 2097155
  }
  {
   components {
@@ -5054,6 +5097,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX 0.343
   angleY 112.529
   angleZ -0.827
+  Flags 2097155
  }
  {
   components {
@@ -5070,6 +5114,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   angleX -2.849
   angleY 42.077
   angleZ -6.161
+  Flags 2097155
  }
 }
 $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {

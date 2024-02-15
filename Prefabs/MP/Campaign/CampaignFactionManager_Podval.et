@@ -1,13 +1,40 @@
 SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "56B2B4776E6E4499"
  Factions {
-  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{24A9128614D36AE9}Configs/Factions/USSR_Campaign_Podval.conf" {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{24A9128614D36AE9}Configs/Factions/USSR_Campaign_RHS.conf" {
    FactionKey "USSR"
   }
-  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{29C93FCB1BB57635}Configs/Factions/US_Campaign_Podval.conf" {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{29C93FCB1BB57635}Configs/Factions/US_Campaign_RHS.conf" {
    FactionKey "US"
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EABB80080C}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{5D247327A7DF9711}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{5C54F92F5446F5E6}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{5C54F92F540A16D3}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{5C54F92F54E036C8}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{5D2473274C0136C7}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{5C54F92F5416B33D}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{5D2473274EC4AE03}" {
+       m_bEnabled 0
+      }
+     }
+    }
+   }
   }
  }
  m_bCanChangeFactionsPlayable 0
