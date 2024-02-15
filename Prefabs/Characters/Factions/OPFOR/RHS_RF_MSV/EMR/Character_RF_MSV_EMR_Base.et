@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{A3AD741A5B0CD863}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/VSR/Character_RF_MSV_VSR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{597D24F8904246A3}" {
+   "faction affiliation" "USSR"
+  }
+ }
+}
