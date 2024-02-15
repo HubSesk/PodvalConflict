@@ -1,0 +1,11 @@
+MatPBRDecal {
+ Color 0.007 0.036 0.087 1
+ ZBias 1
+ SortBias 1
+ AlphaTest 0.001
+ AlphaMul 0.7
+ BlendMode AlphaBlend
+ DielectricReflectance 0.02
+ OpacityMap "{D1DC3B4B2EEE55C7}images/USMCRofl.edds"
+ GBufferRoughness 1
+}
