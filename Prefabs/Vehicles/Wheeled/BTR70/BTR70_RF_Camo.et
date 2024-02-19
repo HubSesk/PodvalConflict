@@ -51,8 +51,7 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
      10 122 54
     }
     m_bEditorPlaceAsOneGroup 0
-    m_aOccupantFillCompartmentTypes {
-     2 0 1
+    m_aOccupantFillCompartmentTypes +{
     }
     m_aCrewEntityBudgetCost {
      SCR_EntityBudgetValue "{609EA3D1CA4AD453}" {
@@ -70,6 +69,16 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
   }
   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
    MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3D91D053}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+     SlotTemplate InventoryStorageSlot RPKammunition {
+      Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+     }
+    }
     MultiSlotConfiguration "{609EA3D1CA4AD45A}" {
      SlotTemplate InventoryStorageSlot Backpack {
       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
