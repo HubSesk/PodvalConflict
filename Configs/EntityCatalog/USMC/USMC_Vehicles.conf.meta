@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E3DE1AD43E23113A}Configs/EntityCatalog/USMC/USMC_InventoryItems.conf"
+ Name "{D83A5EFEEF6CBF62}Configs/EntityCatalog/US/US_Vehicles.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   CONFResourceClass XBOX_SERIES : PC {
   }
   CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
   }

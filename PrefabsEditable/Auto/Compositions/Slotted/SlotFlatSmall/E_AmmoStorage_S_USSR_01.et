@@ -4,7 +4,7 @@ GenericEntity : "{7C20041DA3207191}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
   SCR_EditableEntityComponent "{5E331960F5645280}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_EntityBudgetCost {
-     SCR_EntityBudgetValue "{60DF42472C422A64}" {
+     SCR_EntityBudgetValue "{60DF424C468236F8}" {
       m_BudgetType RANK_CORPORAL
       m_Value 2
      }

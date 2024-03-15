@@ -1,0 +1,18 @@
+Tank : "{F9FF4BDD5F962A2D}Prefabs/Vehicles/Tracked/M1A2/M1A2_TUSK.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1800
+     }
+     SCR_EntityBudgetValue "{60DF424388A1196B}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+   }
+  }
+ }
+}
