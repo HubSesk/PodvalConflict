@@ -40,7 +40,16 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
      20 21 26 36
     }
     m_aAutoLabels {
-     10 122 54
+     10 122 53
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 600
+     }
+     SCR_EntityBudgetValue "{60DF42574322736A}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
     }
     m_bEditorPlaceAsOneGroup 0
     m_aOccupantFillCompartmentTypes +{

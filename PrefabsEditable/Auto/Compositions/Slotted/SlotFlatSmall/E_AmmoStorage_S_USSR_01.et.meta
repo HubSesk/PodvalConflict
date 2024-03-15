@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E960470F2959B1BF}Prefabs/Vehicles/Wheeled/BTR70/BTR70_RF_Camo.et"
+ Name "{CD9004C6229D900B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass XBOX_SERIES : PC {
   }
   EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
   }
