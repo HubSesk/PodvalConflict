@@ -9,7 +9,7 @@ RHS_Tank : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 1800
+      m_Value 3000
      }
      SCR_EntityBudgetValue "{5EE71CA1677C234F}" {
      }
