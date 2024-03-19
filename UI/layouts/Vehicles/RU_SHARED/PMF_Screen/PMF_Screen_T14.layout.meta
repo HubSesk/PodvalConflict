@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2B7BC393D44B36CB}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMF_Screen_T14.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass PS5 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

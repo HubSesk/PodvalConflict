@@ -1,0 +1,8 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "476AE74AA8E99E2E"
+ components {
+  SlotManagerComponent "{5DE1567A8DC137C6}" {
+   Enabled 0
+  }
+ }
+}
