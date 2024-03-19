@@ -1,0 +1,32 @@
+Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{60E73C208199E726}" {
+     ContextName "hood_repair"
+     Position PointInfo "{60E73C2093C22468}" {
+      Offset -1.2942 1.2631 -0.0189
+     }
+     Radius 0.6
+    }
+    UserActionContext "{60E73C20BD0B1B35}" {
+     ContextName "fuel_cap"
+     Position PointInfo "{60E73C2093C22468}" {
+      Offset 1.3932 1.2305 -0.0505
+     }
+     Radius 0.6
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_VehicleAction "{5EAD79DA34CF2DF0}" {
+     ParentContextList {
+      "backRamp_disabled" "starter_switch"
+     }
+     m_bInteriorOnly 1
+    }
+   }
+  }
+ }
+}

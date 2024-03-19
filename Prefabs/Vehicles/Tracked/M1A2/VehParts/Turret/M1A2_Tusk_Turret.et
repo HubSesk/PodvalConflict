@@ -1,0 +1,27 @@
+Turret : "{79991EBD111EC9CA}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "CommanderHatch"
+       }
+      }
+     }
+    }
+    CargoCompartmentSlot LoaderCompartment {
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "LoaderHatch"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
