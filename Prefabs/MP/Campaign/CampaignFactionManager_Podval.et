@@ -3,9 +3,51 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
  Factions {
   SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{24A9128614D36AE9}Configs/Factions/USSR_Campaign_RHS.conf" {
    FactionKey "USSR"
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{60E9456D162271FC}" {
+       m_sIdentifier "Campaign"
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5DF695795800BF62}" {
+         m_sEntityPrefab "{C72681EF8F6A752B}Prefabs/Characters/Campaign/Final/Campaign_RF_Player.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogSpawnerData "{5DF6957955A19E10}" {
+           m_eSlotTypes GROUP_SMALL
+          }
+          SCR_EntityCatalogLoadoutData "{608AAACBB1CB19FB}" {
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{29C93FCB1BB57635}Configs/Factions/US_Campaign_RHS.conf" {
    FactionKey "US"
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{60E9456D3BBBE468}" {
+       m_sIdentifier "Campaign"
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5DF69575F4160EE2}" {
+         m_sEntityPrefab "{8B567897680EB9F9}Prefabs/Characters/Campaign/Final/Campaign_USMC_Player.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogSpawnerData "{5DF6957609E74636}" {
+           m_eSlotTypes GROUP_SMALL
+          }
+          SCR_EntityCatalogLoadoutData "{608AAACB83789355}" {
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
    m_aEntityCatalogs {
