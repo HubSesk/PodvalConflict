@@ -266,14 +266,15 @@ RHS_Tank : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "#RHS-Vehicle_T14_Name"
+    Name "Armalyga"
     Description "#RHS-Vehicle_T14_Description"
     Icon "{C25B7CFAE2C2F752}Assets/Vehicles/Tracked/T14/Tank.edds"
     m_Image "{92372ADE0C979003}UI/Textures/EditorPreviews/Vehicles/Tracked/T14/Tank_T14.edds"
-    m_sFaction "RHS_RF_MSV"
+    m_sFaction "USSR"
     m_aAuthoredLabels +{
     }
-    m_aAutoLabels +{
+    m_aAutoLabels {
+     122 54 10
     }
     m_bEditorPlaceAsOneGroup 0
     m_aOccupantFillCompartmentTypes +{
@@ -471,7 +472,7 @@ RHS_Tank : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "RHS_RF_MSV"
+   "faction affiliation" "USSR"
   }
   VehiclePerceivableComponent "{566CD04B8A6107DD}" {
    "Additional aim points" {

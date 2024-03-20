@@ -1,0 +1,16 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{60E9485F7995AF4C}" {
+     m_sAddon "PodvalConflict"
+     m_sSourceDirectory "{F9291FCE0C1F7605}Prefabs/Vehicles"
+     m_Prefabs {
+      "{050695595070022F}Prefabs/Vehicles/Tracked/T14/Tank_T14_Armalyga.et" "{18EB6B9C1217385B}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Crime.et"
+     }
+    }
+   }
+  }
+ }
+}

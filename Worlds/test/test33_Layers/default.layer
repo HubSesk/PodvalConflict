@@ -1,3 +1,23 @@
+$grp GenericEntity {
+ {
+  coords 128.773 1 130.397
+ }
+ {
+  components {
+   WeaponComponent "{CFBAA4B706BA66E8}" {
+    components {
+     AttachmentSlotComponent "{5472D211BFD78F81}" {
+      AttachmentSlot InventoryStorageSlot Dovetail {
+       Offset 0 0 0.0631
+       Prefab "{B623482E2704B69A}Prefabs/Weapons/Attachments/Optics/Optic_SPP/Optic_SPP.et"
+      }
+     }
+    }
+   }
+  }
+  coords 127.095 1 127.972
+ }
+}
 GenericEntity : "{026CE108BFB3EC03}Prefabs/Weapons/MachineGuns/UK59/MG_UK59.et" {
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
@@ -18,14 +38,14 @@ GenericEntity : "{026CE108BFB3EC03}Prefabs/Weapons/MachineGuns/UK59/MG_UK59.et" 
  }
  coords 128.132 1 130.425
 }
-GenericEntity : "{02F5E43792C951C5}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_Ball_AT.et" {
- coords 128.773 1 130.397
-}
 RHS_Tank Tank_T14_Armalyga1 : "{050695595070022F}Prefabs/Vehicles/Tracked/T14/Tank_T14_Armalyga.et" {
  coords 130.88 1 127.153
 }
 GenericEntity : "{0DB900C6C6C8E856}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_KPVT.et" {
  coords 132.355 3.073 134.806
+}
+Vehicle BTR70_Crime1 : "{18EB6B9C1217385B}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Crime.et" {
+ coords 123.723 1 125.9
 }
 GenericEntity : "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et" {
  coords 113.644 1 116.413
@@ -63,21 +83,6 @@ GenericEntity : "{74F49123D69A7F4A}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_npz_
 }
 GenericEntity : "{85FA621B61AA5BD9}Prefabs/Weapons/HeavyWeapons/HMG_KPVT.et" {
  coords 133.185 3.693 135.504
-}
-GenericEntity : "{8B93B1F5620FD989}Prefabs/Weapons/Rifles/SVD/Rifle_SVD111.et" {
- components {
-  WeaponComponent "{CFBAA4B706BA66E8}" {
-   components {
-    AttachmentSlotComponent "{5472D211BFD78F81}" {
-     AttachmentSlot InventoryStorageSlot Dovetail {
-      Offset 0 0 0.0631
-      Prefab "{B623482E2704B69A}Prefabs/Weapons/Attachments/Optics/Optic_SPP/Optic_SPP.et"
-     }
-    }
-   }
-  }
- }
- coords 127.095 1 127.972
 }
 GenericEntity : "{9483B197D72F2AE9}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV_SPP.et" {
  coords 127.56 1 132.108
