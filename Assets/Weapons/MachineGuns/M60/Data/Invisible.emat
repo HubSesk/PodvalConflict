@@ -1,0 +1,8 @@
+MatPBRBasic {
+ CastShadow 0
+ ReceiveShadow 0
+ AlphaTest 3
+ AlphaMul 0
+ BCRMap "{08AE6E3FD5EEC1DE}Assets/Weapons/MachineGuns/M60/Data/M60_Body_1_BCR.edds"
+ NMOMap "{3076D5AD0C999340}Assets/Weapons/MachineGuns/M60/Data/M60_Body_1_NMO.edds"
+}

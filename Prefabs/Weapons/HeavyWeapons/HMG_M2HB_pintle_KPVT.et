@@ -1,0 +1,41 @@
+GenericEntity : "{E517E6CCC1DF5737}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M1025.et" {
+ ID "476AE74DE20E1061"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       Enabled 1
+       ParticleEffect "{DE51D0FA64AD8AA3}Particles/Weapon/Casing_127x108_NSV.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        Offset 0 -0.08 -0.0953
+        Angles -83 0 0
+       }
+       WaterSurface 8100
+      }
+      CaseEjectingEffectComponent "{52D4A6D19FE1F420}" {
+       Enabled 1
+       ParticleEffect "{78F707EBECCD6F29}Particles/Weapon/Smoke_NSV.ptc"
+       WaterSurface 8100
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       Enabled 1
+       ParticleEffect "{7D4D61DB49505CB6}Particles/Weapon/Muzzle_NSV.ptc"
+      }
+     }
+     MagazineWell MagazineWellNSV "{60E2D700BB710DA3}" {
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_sCaliber "#AR-AmmunitionID_127x108mm"
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0.277 0.1794 0.005
+      Angles 0 90 90
+     }
+     MagazineTemplate "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+    }
+   }
+  }
+ }
+}
