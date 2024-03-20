@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{57E5E6ED512DA3D9}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle_a.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,40 @@
+GenericEntity : "{412CBCBED417FB62}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  InventoryItemComponent "{60E2D70B3DB543F7}" {
+   Enabled 0
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{7358739C33A518E5}Assets/Props/Industrial/CargoContainer_01/CargoContainer_01_10ft.xob"
+   Materials {
+    MaterialAssignClass "{60E2D70B1FAD3D6F}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{BB891606A7EA8F48}Assets/Props/Industrial/CargoContainer_01/Data/SupplyShippingContainer_01_Brown.emat"
+    }
+    MaterialAssignClass "{60E2D70B1FAD3D3D}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{7448573BC24C8F5F}Assets/Props/Industrial/CargoContainer_01/Data/SupplyShippingContainer_01_MLOD.emat"
+    }
+    MaterialAssignClass "{60E2D70B1FAD3D33}" {
+     SourceMaterial "Common/Materials/Default_Transparent"
+     AssignedMaterial "{3A5A6994C49BA9BC}Assets/Props/Industrial/CargoContainer_01/Data/SupplyShippingContainer_01_decals.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   SimState Collision
+   Static 0
+  }
+  SCR_ResourceComponent "{5D247A59598D71AE}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+     m_fResourceValueCurrent 600
+     m_fResourceValueMax 600
+    }
+   }
+  }
+  ActionsManagerComponent "{60E2D70B3DB543EF}" {
+   Enabled 0
+  }
+ }
+}
