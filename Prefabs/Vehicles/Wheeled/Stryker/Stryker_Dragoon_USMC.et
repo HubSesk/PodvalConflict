@@ -27,5 +27,12 @@ Vehicle : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et
     }
    }
   }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RHS_TriplexEntitySlotInfo Gunner_01 {
+     Enabled 0
+    }
+   }
+  }
  }
 }

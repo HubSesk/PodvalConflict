@@ -1,22 +1,155 @@
 Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
  ID "BBCBA43A9778AE21"
  components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RHS_TriplexEntitySlotInfo Driver_Front {
+     PivotID "v_body"
+     Offset -0.4722 1.7304 2.4861
+     Prefab "{BC415DDE606A280F}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Driver.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset -0.4756 1.873 2.5437
+      m_fCameraFoV 45
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Driver_Front_L {
+     PivotID "v_body"
+     Offset -0.6828 1.7317 2.3952
+     Angles 0 -60.1989 0
+     Prefab "{BC415DDE606A280F}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Driver.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset -0.7441 1.873 2.4284
+      Angles 0 -57.5486 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Driver_Front_R {
+     PivotID "v_body"
+     Offset -0.2777 1.7304 2.3903
+     Angles 0 -44.4404 0
+     Prefab "{BC415DDE606A280F}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Driver.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset -0.2316 1.873 2.4253
+      Angles 0 44 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Gunner_01 {
+     PivotID "v_body"
+     Offset 0.098 1.8338 -0.266
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset 0.0347 2.1241 -0.2741
+      Angles 0 -90.0616 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Gunner_02 {
+     PivotID "v_body"
+     Offset 0.1766 1.8338 -0.0266
+     Angles 0 126.8628 0
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset 0.1238 2.1241 0.0111
+      Angles 0 -52.653 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Gunner_03 {
+     PivotID "v_body"
+     Offset 0.3524 1.8338 0.1167
+     Angles 0 156.7005 0
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset 0.3216 2.1241 0.1747
+      Angles 0 -25.4432 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Gunner_04 {
+     PivotID "v_body"
+     Offset 0.5679 1.8338 0.1631
+     Angles 0 171.8119 0
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset 0.5645 2.1168 0.2981
+      Angles 0 -1.7761 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Gunner_05 {
+     PivotID "v_body"
+     Offset 0.782 1.8338 0.1085
+     Angles 0 -146.01878 0
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset 0.818 2.1168 0.1529
+      Angles 0 29.6869 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Gunner_06 {
+     PivotID "v_body"
+     Offset 0.9287 1.8338 -0.0532
+     Angles 0 -121.1056 0
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset 0.9969 2.1168 -0.0088
+      Angles 0 56.3857 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+    RHS_TriplexEntitySlotInfo Gunner_07 {
+     PivotID "v_body"
+     Offset 1.0193 1.8338 -0.2746
+     Angles 0 -89.3628 0
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+     m_CameraPointInfo RHS_CustomCameraPointInfo "{60EB1CA4BACA2CE8}" {
+      PivotID "v_body"
+      Offset 1.0839 2.1168 -0.2708
+      Angles 0 89.12039 0
+      m_fCameraFoV 45
+      m_fRotationAngle 0
+      m_rCameraOverlayLayout "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+     }
+    }
+   }
+  }
   ActionsManagerComponent "{C97BE5489221AE18}" {
    ActionContexts {
-    UserActionContext "{60E73C208199E726}" {
-     ContextName "hood_repair"
-     Position PointInfo "{60E73C2093C22468}" {
-      Offset -1.2942 1.2631 -0.0189
+    UserActionContext "{5EAD79DA34CDDF41}" {
+     Position PointInfo "{5EAD79DA34CDDF40}" {
+      Offset 0 0.0951 0.3106
      }
-     Radius 0.6
     }
-    UserActionContext "{60E73C20BD0B1B35}" {
+    UserActionContext "{60EA2A51201AE067}" {
      ContextName "fuel_cap"
-     Position PointInfo "{60E73C2093C22468}" {
-      Offset 1.3932 1.2305 -0.0505
-     }
-     Radius 0.6
-     Height 0
     }
    }
    additionalActions {
@@ -29,4 +162,5 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    }
   }
  }
+ coords -1.188 0.248 -0.393
 }

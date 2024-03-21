@@ -1,9 +1,24 @@
+Vehicle BTR70_Base1 : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ coords 107.135 1 142.633
+}
 Vehicle Stryker_Dragoon_USMC1 : "{49EA040B42F99998}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon_USMC.et" {
- coords 129.385 1 164.988
+ coords 124.366 1 143.093
 }
 Vehicle Stryker_CROWS_USMC1 : "{521FB2DC614686F9}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS_USMC.et" {
- coords 124.648 1 159.971
+ coords 118.363 1 142.567
 }
 Tank M1A2_TUSK_USMC1 : "{869291F3A13C7586}Prefabs/Vehicles/Tracked/M1A2/M1A2_TUSK_USMC.et" {
  coords 113.074 1 152.271
+}
+Vehicle Stryker_Base1 : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RHS_TriplexEntitySlotInfo Gunner_Test_01 {
+     Prefab "{5B6AFA3E489D21A2}Prefabs/Vehicles/Shared/Gauges_Ru/Ses_ZLP_IVNCH_Gunner.et"
+    }
+   }
+  }
+ }
+ coords 112.889 1.162 142.401
 }

@@ -3,7 +3,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
  components {
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    CompartmentSlots {
-    TurretCompartmentSlot TurretCompartment {
+    RHS_TurretCompartmentSlot TurretCompartment {
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
        ParentContextList {
@@ -11,6 +11,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
        }
       }
      }
+     m_bCameraIgnoreTurretRotation 1
     }
    }
   }
