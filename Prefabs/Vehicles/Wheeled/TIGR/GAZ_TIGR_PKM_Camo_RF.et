@@ -1,0 +1,44 @@
+Vehicle : "{2DC4DFC25370A088}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_PKM_Green.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6094CE48BA7DF816}" {
+     SourceMaterial "reflector_bc"
+     AssignedMaterial "{82C0B1E38133B4BE}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Reflector_BC/Reflector_BC.emat"
+    }
+    MaterialAssignClass "{5EACA5A4DBB00DFC}" {
+     SourceMaterial "ext_1"
+     AssignedMaterial "{3AC54FFA1F53A87C}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext1/ext_1_Multi.emat"
+    }
+    MaterialAssignClass "{5EACA5A4DBB00DEF}" {
+     SourceMaterial "ext_2"
+     AssignedMaterial "{10E16859E9BDCE53}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext2/ext_2_Multi.emat"
+    }
+    MaterialAssignClass "{5EACA5A4DBB00DD6}" {
+     SourceMaterial "ext_3"
+     AssignedMaterial "{695CB5C19E0EB16E}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext3/ext_3_Multi.emat"
+    }
+    MaterialAssignClass "{5EACA5A4DBB00DD2}" {
+     SourceMaterial "ext_4"
+     AssignedMaterial "{40FE85162EF83AC2}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext4/ext_4_Multi.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 430
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_14 {
+    }
+   }
+  }
+ }
+}

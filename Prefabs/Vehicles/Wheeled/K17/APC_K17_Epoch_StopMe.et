@@ -1,0 +1,32 @@
+Vehicle : "{3CFCB80B822033CF}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camoExpo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5EFCDA9E10515C10}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{DC71B9CF692512DC}Assets/Vehicles/Wheeled/K17bumerang/Data/Hull.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_aAutoLabels {
+     10 122 53 3
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.6716 -1.4042
+     Prefab "{71D9F6FB89A0C1D4}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret_OnleFrags.et"
+    }
+   }
+  }
+ }
+}

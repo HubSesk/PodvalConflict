@@ -1,0 +1,18 @@
+Vehicle : "{6464F48DB99235C9}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_PKM_Camo_RF.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret_PKM {
+     Offset -0.0064 0.5396 -1.7108
+     Prefab "{E9A3F5B1F76F25D5}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_RF.et"
+    }
+    EntitySlotInfo Obodok_tualeta {
+     Offset 0 4.6736 0
+     Angles 0 0 180
+     Prefab "{54CE28DA5A505834}Prefabs/Vehicles/Wheeled/TIGR/Obodok.et"
+    }
+   }
+  }
+ }
+}

@@ -18,6 +18,14 @@ $grp GenericEntity {
   coords 127.095 1 127.972
  }
 }
+$grp Vehicle {
+ BTR70_Crime1 {
+  coords 123.723 1 125.9
+ }
+ BTR70_AFRF_Camo1 {
+  coords 117.003 1 121.315
+ }
+}
 GenericEntity : "{026CE108BFB3EC03}Prefabs/Weapons/MachineGuns/UK59/MG_UK59.et" {
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
@@ -39,16 +47,20 @@ GenericEntity : "{026CE108BFB3EC03}Prefabs/Weapons/MachineGuns/UK59/MG_UK59.et" 
  coords 128.132 1 130.425
 }
 RHS_Tank Tank_T14_Armalyga1 : "{050695595070022F}Prefabs/Vehicles/Tracked/T14/Tank_T14_Armalyga.et" {
- coords 130.88 1 127.153
+ coords 133.996 1 125.528
 }
 GenericEntity : "{0DB900C6C6C8E856}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_KPVT.et" {
  coords 132.355 3.073 134.806
 }
-Vehicle BTR70_Crime1 : "{18EB6B9C1217385B}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Crime.et" {
- coords 123.723 1 125.9
+Vehicle GAZ_TIGR_PKM_Camo_Crime_RF1 : "{19487346A2B7F80F}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_PKM_Camo_Crime_RF.et" {
+ coords 139.281 1 126.065
+ angleY 0
 }
 GenericEntity : "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et" {
  coords 113.644 1 116.413
+}
+Vehicle BTR70_CRIME_RF1 : "{333FB9AFBA5AA477}Prefabs/Vehicles/Wheeled/BTR70/BTR70_CRIME_RF.et" {
+ coords 143.561 1 126.714
 }
 Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  coords 103.742 1 137.784
@@ -80,6 +92,9 @@ GenericEntity : "{74F49123D69A7F4A}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_npz_
   }
  }
  coords 126.585 1 127.923
+}
+Vehicle APC_K17_Epoch_StopMe1 : "{750A6DA0475B55BC}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_StopMe.et" {
+ coords 148.346 1 126.848
 }
 GenericEntity : "{85FA621B61AA5BD9}Prefabs/Weapons/HeavyWeapons/HMG_KPVT.et" {
  coords 133.185 3.693 135.504
@@ -128,9 +143,6 @@ GenericEntity : "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_
   }
  }
  coords 126.565 1 126.67
-}
-Vehicle BTR70_AFRF_Camo1 : "{E960470F2959B1BF}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_Camo.et" {
- coords 117.003 1 121.315
 }
 Turret : "{F617E3D8BAE8F332}Prefabs/Vehicles/Wheeled/K17/Turret_K17_Berezok_camo12323.et" {
  coords 111.547 1 125.524

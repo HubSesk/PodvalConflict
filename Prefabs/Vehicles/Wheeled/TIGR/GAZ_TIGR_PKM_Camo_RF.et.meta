@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6464F48DB99235C9}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_PKM_Camo_ebanina.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

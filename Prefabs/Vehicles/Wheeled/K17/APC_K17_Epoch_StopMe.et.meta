@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{750A6DA0475B55BC}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_StopMe.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
