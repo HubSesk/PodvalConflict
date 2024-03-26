@@ -9,7 +9,7 @@ RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 3000
+      m_Value 5000
      }
      SCR_EntityBudgetValue "{60DF42510C5723D5}" {
       m_BudgetType RANK_SERGEANT
