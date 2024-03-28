@@ -24,9 +24,10 @@ Vehicle : "{3CFCB80B822033CF}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camoExpo
    Slots {
     RegisteringComponentSlotInfo Turret {
      Offset 0 0.6716 -1.4042
-     Prefab "{71D9F6FB89A0C1D4}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret_OnleFrags.et"
+     Prefab "{70899C1C6ED89CF6}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret.et"
     }
    }
   }
  }
+ coords 0 0 0
 }

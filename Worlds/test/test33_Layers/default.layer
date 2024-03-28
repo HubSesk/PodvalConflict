@@ -49,9 +49,6 @@ GenericEntity : "{026CE108BFB3EC03}Prefabs/Weapons/MachineGuns/UK59/MG_UK59.et" 
 RHS_Tank Tank_T14_Armalyga1 : "{050695595070022F}Prefabs/Vehicles/Tracked/T14/Tank_T14_Armalyga.et" {
  coords 133.996 1 125.528
 }
-GenericEntity : "{0DB900C6C6C8E856}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_KPVT.et" {
- coords 132.355 3.073 134.806
-}
 Vehicle GAZ_TIGR_PKM_Camo_Crime_RF1 : "{19487346A2B7F80F}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_PKM_Camo_Crime_RF.et" {
  coords 139.281 1 126.065
  angleY 0
@@ -69,7 +66,7 @@ GenericEntity : "{57E5E6ED512DA3D9}Prefabs/Props/Military/SupplyBox/SupplyCrate/
  coords 110.012 1 118.402
 }
 Turret : "{6890A674DB2C84FE}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount_M2HB_Armata.et" {
- coords 130.29 1 134.346
+ coords 127.839 1 134.346
 }
 GenericEntity : "{74F49123D69A7F4A}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_npz_rail.et" {
  components {
@@ -96,9 +93,6 @@ GenericEntity : "{74F49123D69A7F4A}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_npz_
 Vehicle APC_K17_Epoch_StopMe1 : "{750A6DA0475B55BC}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_StopMe.et" {
  coords 148.346 1 126.848
 }
-GenericEntity : "{85FA621B61AA5BD9}Prefabs/Weapons/HeavyWeapons/HMG_KPVT.et" {
- coords 133.185 3.693 135.504
-}
 GenericEntity : "{9483B197D72F2AE9}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV_SPP.et" {
  coords 127.56 1 132.108
 }
@@ -120,12 +114,6 @@ GenericEntity : "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et" {
   }
  }
  coords 126.725 1 129.687
-}
-GenericEntity : "{BB35A8E1403CDE4B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB.et" {
- coords 132.981 3.124 135.03
-}
-GenericEntity : "{E4367156CB0D8ECE}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV.et" {
- coords 131.707 3.415 134.054
 }
 GenericEntity : "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et" {
  components {
