@@ -1,0 +1,13 @@
+GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E989B6592B45446}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_RF_MSV"
+    m_aAuthoredLabels {
+     108 1653989487
+    }
+   }
+  }
+ }
+}

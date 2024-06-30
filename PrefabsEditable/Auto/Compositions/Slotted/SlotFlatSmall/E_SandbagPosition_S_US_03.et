@@ -1,0 +1,16 @@
+GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95D8248F439}" {
+   "faction affiliation" "RHS_US_USMC"
+  }
+  SCR_EditableEntityComponent "{5DC704E50C318104}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_US_USMC"
+    m_aAutoLabels {
+     1677929688
+    }
+   }
+  }
+ }
+}

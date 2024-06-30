@@ -3,23 +3,23 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{61B6E0F31B759B19}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
-   m_sLoadoutResource "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Campaign_US_Player.et"
-   m_sAffiliatedFaction "US"
+   m_sLoadoutResource "{CD42471D8AD00925}Prefabs/Characters/Campaign/Final/Campaign_USAF_Player.et"
+   m_sAffiliatedFaction "RHS_US_USMC"
   }
   SCR_FactionPlayerLoadout "{61B6E0F31B759B0F}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
-   m_sLoadoutResource "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player.et"
-   m_sAffiliatedFaction "USSR"
+   m_sLoadoutResource "{E5EFEF99B589C8F0}Prefabs/Characters/Campaign/Final/Campaign_AFRF_Player.et"
+   m_sAffiliatedFaction "RHS_RF_MSV"
   }
   SCR_PlayerArsenalLoadout "{61B6E0F31B759B0C}" {
    m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
-   m_sLoadoutResource "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/Campaign_US_Base.et"
-   m_sAffiliatedFaction "US"
+   m_sLoadoutResource "{6B7B2FF25E6CA1E8}Prefabs/Characters/Campaign/Final/Campaign_USAF_Base.et"
+   m_sAffiliatedFaction "RHS_US_USMC"
   }
   SCR_PlayerArsenalLoadout "{61B6E0F31B759B33}" {
    m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
-   m_sLoadoutResource "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Campaign_USSR_Base.et"
-   m_sAffiliatedFaction "USSR"
+   m_sLoadoutResource "{0C82DFAFE4713046}Prefabs/Characters/Campaign/Final/Campaign_AFRF_Base.et"
+   m_sAffiliatedFaction "RHS_RF_MSV"
   }
  }
 }

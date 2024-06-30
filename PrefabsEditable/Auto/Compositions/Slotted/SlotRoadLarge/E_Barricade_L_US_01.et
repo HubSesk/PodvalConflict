@@ -1,0 +1,16 @@
+GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5CC6A59B0EA6726E}" {
+   "faction affiliation" "RHS_US_USMC"
+  }
+  SCR_EditableEntityComponent "{5EA88D65B4A67E3F}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_US_USMC"
+    m_aAutoLabels {
+     1677929688
+    }
+   }
+  }
+ }
+}

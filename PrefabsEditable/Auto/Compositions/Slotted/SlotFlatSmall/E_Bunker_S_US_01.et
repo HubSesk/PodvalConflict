@@ -1,0 +1,16 @@
+GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5CCCBEC3F0F1D9D6}" {
+   "faction affiliation" "RHS_US_USMC"
+  }
+  SCR_EditableEntityComponent "{5DC704E553650249}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_US_USMC"
+    m_aAutoLabels {
+     1677929688
+    }
+   }
+  }
+ }
+}

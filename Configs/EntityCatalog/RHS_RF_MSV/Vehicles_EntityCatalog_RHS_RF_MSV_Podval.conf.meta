@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{651DED8E7CF18B20}Configs/EntityCatalog/USSR/Vehicles_EntityCatalog_RHS_RF_MSV_Podval.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

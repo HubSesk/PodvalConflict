@@ -1,0 +1,16 @@
+GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{605ECD8CFCE8DD90}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
+  SCR_EditableEntityComponent "{605ED84588E52E46}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_RF_MSV"
+    m_aAutoLabels {
+     1653989487
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+GenericEntity : "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95D032854B0}" {
+   "faction affiliation" "RHS_US_USMC"
+  }
+  SCR_EditableEntityComponent "{5EA88D643C6D1ED3}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_US_USMC"
+    m_aAutoLabels {
+     1677929688
+    }
+   }
+  }
+ }
+}

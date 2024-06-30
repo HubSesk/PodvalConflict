@@ -1,0 +1,13 @@
+GenericEntity : "{525C793E1943EA05}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5EA88D6485245007}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_RF_MSV"
+    m_aAuthoredLabels {
+     5 260 210 39 23 92 1653989487 29 911 903 910 280
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+GenericEntity : "{F68F3B7247F6E810}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95ACD66BEF7}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
+  SCR_EditableEntityComponent "{5E94CE5A6EEA34AF}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_RF_MSV"
+    m_aAutoLabels {
+     1653989487
+    }
+   }
+  }
+ }
+}

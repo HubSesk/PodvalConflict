@@ -24,16 +24,7 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 4926.701 34.279 10717.344
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
- components {
-  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
-   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
-  }
-  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
-   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
-  }
- }
- coords 26.726 0 10.962
- m_iControlPointsThreshold 5
+ coords 0 0 0
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 20.291 0 5.837

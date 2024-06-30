@@ -1,0 +1,13 @@
+GenericEntity : "{4571D373817D63F2}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighPlastic_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E507279283B09B5}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_US_USMC"
+    m_aAuthoredLabels {
+     108 1677929688
+    }
+   }
+  }
+ }
+}
