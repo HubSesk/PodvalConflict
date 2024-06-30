@@ -1,8 +1,0 @@
-Vehicle : "{323B9051ED5C2F7A}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_camo1.et" {
- ID "BBCBA43A9778AE21"
- components {
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "USSR"
-  }
- }
-}

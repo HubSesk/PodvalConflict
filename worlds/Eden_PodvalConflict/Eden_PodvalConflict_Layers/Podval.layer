@@ -1,0 +1,4 @@
+SCR_CampaignFactionManager PodvalFactionManager1 : "{87D7C372694CDC8C}Prefabs/MP/Campaign/PodvalFactionManager.et" {
+}
+SCR_LoadoutManager : "{CC2415D5C08E9318}Prefabs/MP/Campaign/PodvalLoadoutManager.et" {
+}

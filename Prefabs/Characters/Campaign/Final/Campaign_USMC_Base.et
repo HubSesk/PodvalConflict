@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/Campaign_US_Base.et" {
- ID "520EC961A090BBD5"
- components {
-  FactionAffiliationComponent "{520EC961FB0A2E90}" {
-   "faction affiliation" "US"
-  }
- }
-}
