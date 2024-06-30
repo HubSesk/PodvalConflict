@@ -1,10 +1,10 @@
 SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "56B2B4776E6E4499"
  Factions {
-  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{C3C8730223A0688E}Configs/Factions/RHS_RF_MSV_Campaign.conf" {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{70910D78F4873D1E}Configs/Factions/Podval_AFRF_Campaign.conf" {
    m_sFactionBackground "{21533F2089005056}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_USSR.imageset"
   }
-  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{02D40AEC45F57851}Configs/Factions/RHS_US_USMC_Campaign.conf" {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{0497FBA7961E50CE}Configs/Factions/Podval_USAF_Campaign.conf" {
    m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
