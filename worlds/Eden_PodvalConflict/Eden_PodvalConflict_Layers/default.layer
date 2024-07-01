@@ -4640,6 +4640,20 @@ GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCac
 }
 BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 27.209 0 10.918
+ PrefabsToPreload {
+  PreloadEntry "{615E7910295F8C4A}" {
+   Prefab "{CD42471D8AD00925}Prefabs/Characters/Campaign/Final/Campaign_USAF_Player.et"
+  }
+  PreloadEntry "{615E7910231F929D}" {
+   Prefab "{E5EFEF99B589C8F0}Prefabs/Characters/Campaign/Final/Campaign_AFRF_Player.et"
+  }
+  PreloadEntry "{615E7911DD2434EE}" {
+   Prefab "{6B7B2FF25E6CA1E8}Prefabs/Characters/Campaign/Final/Campaign_USAF_Base.et"
+  }
+  PreloadEntry "{615E7911D33FD6CE}" {
+   Prefab "{0C82DFAFE4713046}Prefabs/Characters/Campaign/Final/Campaign_AFRF_Base.et"
+  }
+ }
 }
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Base.et" {
  coords 0 0 0

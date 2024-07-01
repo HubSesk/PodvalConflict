@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FE2C7F21B1F21E47}Configs/EntityCatalog/USMC/InventoryItems_EntityCatalog_USMC_Podval.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
