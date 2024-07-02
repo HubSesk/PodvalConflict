@@ -23,7 +23,12 @@ RadioManagerEntity {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4926.701 34.279 10717.344
 }
-SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 20.291 0 5.837
+}
+SCR_CampaignFactionManager PodvalFactionManager1 : "{87D7C372694CDC8C}Prefabs/MP/Campaign/PodvalFactionManager.et" {
+}
+SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
  components {
   SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
    m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
@@ -32,15 +37,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
   }
  }
- coords 26.726 0 10.962
- m_iControlPointsThreshold 2
  m_fVictoryTimer 450
-}
-ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
- coords 20.291 0 5.837
-}
-SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 20.291 0 5.837
 }
 $grp GenericEntity {
  {
@@ -1489,9 +1486,6 @@ GenericEntity Tower : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRe
    angleY 8.918
   }
  }
-}
-SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 0 0 0
 }
 GenericEntity : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V6_covered.et" {
  components {
@@ -4564,6 +4558,8 @@ GenericEntity : "{CAE8D08EA4E71FF5}Prefabs/Compositions/Locations/Arland/SupplyP
    }
   }
  }
+}
+SCR_LoadoutManager : "{CC2415D5C08E9318}Prefabs/MP/Campaign/PodvalLoadoutManager.et" {
 }
 GenericEntity : "{CEA239D9E1899899}Prefabs/Props/Garbage/Tires/TirePile_01_small.et" {
  coords 2505.223 147.416 2268.069
