@@ -27,6 +27,14 @@ ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity
  coords 20.291 0 5.837
 }
 SCR_CampaignFactionManager PodvalFactionManager1 : "{87D7C372694CDC8C}Prefabs/MP/Campaign/PodvalFactionManager.et" {
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_FactionLabel FACTION_USSR
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_FactionLabel FACTION_US
+  }
+ }
 }
 SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
  components {
