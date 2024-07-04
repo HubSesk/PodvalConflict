@@ -1,0 +1,13 @@
+GenericEntity : "{B918342272BA512D}Prefabs/Vehicles/Wheeled/M998/VehParts/M997_doors_front.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61C8ABD4F8ED4BB8}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{9F082E8D2231176F}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Podval_Des.emat"
+    }
+   }
+  }
+ }
+}

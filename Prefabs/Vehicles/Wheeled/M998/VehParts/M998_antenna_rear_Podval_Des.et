@@ -1,0 +1,13 @@
+GenericEntity : "{BB50F31C226E6F47}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_antenna_rear.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61C8B6823DE8A9D5}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{09D35CE025151DD5}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Podval_Desert.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0EF4E35F7D869BC3}Prefabs/Vehicles/Wheeled/M998/VehParts/M997_doors_front_Podval_Des.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,35 @@
+Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61C8B8209AEF0EAA}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{09D35CE025151DD5}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Podval_Desert.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Rollbar {
+     Prefab "{8A8F79F942167232}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_rollbar_Podval_Des.et"
+    }
+    RegisteringComponentSlotInfo Antenna_rear {
+     Prefab "{D4F05EBA723F3424}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_antenna_rear_Podval_Des.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{60D6619B6899E198}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_Podval_Des.et"
+    }
+    RegisteringComponentSlotInfo Brushguard {
+     Prefab "{ACBD9FDD977953A0}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard_Podval_Des.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{72AE4A7F17B0E5FE}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_mirrors_01_Podval_Des.et"
+    }
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{86C01BB6A4C756F1}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_canvas_long_Podval_Des.et"
+    }
+   }
+  }
+ }
+}

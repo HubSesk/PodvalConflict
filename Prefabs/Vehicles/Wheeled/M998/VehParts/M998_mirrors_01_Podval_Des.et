@@ -1,0 +1,13 @@
+GenericEntity : "{03E6CCCBA702AEEE}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_mirrors_01.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61C8A7D5D9ED74C6}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{09D35CE025151DD5}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Podval_Desert.emat"
+    }
+   }
+  }
+ }
+}

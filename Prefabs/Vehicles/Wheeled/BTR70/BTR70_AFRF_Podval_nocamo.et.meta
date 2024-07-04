@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D4523B05E20D5F14}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_Podval_nocamo.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

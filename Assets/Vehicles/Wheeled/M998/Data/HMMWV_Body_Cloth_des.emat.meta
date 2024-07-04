@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DAE789FCFE3DD662}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Cloth_des.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

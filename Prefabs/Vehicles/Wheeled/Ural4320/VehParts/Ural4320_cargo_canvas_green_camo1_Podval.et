@@ -1,0 +1,12 @@
+GenericEntity : "{8B65679368A0C9CC}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo_canvas_camo1.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{5D83561ABAB4ED0D}" {
+   Slots {
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{AA04B5E3BC7202ED}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_canvas_green.et"
+    }
+   }
+  }
+ }
+}

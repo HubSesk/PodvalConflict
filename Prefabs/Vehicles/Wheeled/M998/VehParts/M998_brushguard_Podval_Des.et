@@ -1,0 +1,13 @@
+GenericEntity : "{4C242990BA760EFF}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61C8A7D5CE943806}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{09D35CE025151DD5}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Podval_Desert.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{1885F9EC22AACDB1}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_canvas_short.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61C8B682B78B733B}" {
+     SourceMaterial "Base_Interior"
+     AssignedMaterial "{DAE789FCFE3DD662}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Cloth_des.emat"
+    }
+   }
+  }
+ }
+}

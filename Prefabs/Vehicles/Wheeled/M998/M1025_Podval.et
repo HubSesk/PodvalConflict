@@ -1,0 +1,12 @@
+Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Brushguard {
+     Prefab "{4C242990BA760EFF}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard.et"
+    }
+   }
+  }
+ }
+}
