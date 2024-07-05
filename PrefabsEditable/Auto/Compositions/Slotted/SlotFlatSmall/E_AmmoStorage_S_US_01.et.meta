@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8005D59198C1E8AE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_PODVAL_USAF_USMC_Rifleman.et"
+ Name "{1BED8F81D2FA2137}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_US_01.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

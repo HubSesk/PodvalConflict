@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E68823FCE250C99E}Configs/EntityCatalog/US/Vehicles_EntityCatalog_RHS_US_USMC_Podval.conf"
+ Name "{5D8EF1154C9E4D6D}Missions/23_Campaign_NorthCentral_Podval.conf"
  Configurations {
   CONFResourceClass PC {
   }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{24780C4A858A5CE5}Prefabs/Vehicles/Helicopters/UH1H/VehParts/UH1H_USMCDecal.et"
+ Name "{F717F3440400F338}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyCargoWest_Podval.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass XBOX_SERIES : PC {
   }
   EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
   }

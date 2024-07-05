@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{8005D59198C1E8AE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_PODVAL_USAF_USMC_Rifleman.et" {
+SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.et" {
  ID "52092032B0E62200"
  components {
   SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
@@ -27,6 +27,16 @@ SCR_ChimeraCharacter : "{8005D59198C1E8AE}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_ResourceComponent "{61B6E31CDADBF423}" {
    m_aConsumers {
     SCR_ResourceConsumer "{5E6485852E650CC4}" : "{E77EA96D4FC48177}Configs/Resources/Supplies/Consumers/Generic/Consumer_Self.conf" {
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2C367D173B99BCC}Prefabs/Weapons/Rifles/M4A1/Rifle_M4_RAS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9EFEE32C346C9F26}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_MarpatWD.et"
     }
    }
   }

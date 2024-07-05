@@ -1,0 +1,13 @@
+GenericEntity : "{11163822C9E62B3E}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyCargoEast.et" {
+ ID "5206D4E7CE97EC05"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61CB306D1CA4039B}" {
+     SourceMaterial "Ural_4320_Com_Exterior"
+     AssignedMaterial "{4600EE1F0B190F9D}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Com_camo1.emat"
+    }
+   }
+  }
+ }
+}

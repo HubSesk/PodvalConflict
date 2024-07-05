@@ -1,3 +1,24 @@
 Vehicle : "{E171C9F443958371}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyEast.et" {
  ID "5206D4E7C4A16F13"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61CB306D710F2C31}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{D34F8F957C2FEA2E}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_camo1.emat"
+    }
+    MaterialAssignClass "{61CB306D710F2C2B}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{1AD5A5307222E6D2}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_camo1.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{48877084F25DC070}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyCargoEast_Podval.et"
+    }
+   }
+  }
+ }
 }
