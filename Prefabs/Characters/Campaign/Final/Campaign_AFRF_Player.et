@@ -31,6 +31,13 @@ SCR_ChimeraCharacter : "{A0CAC00219D7EF55}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5F71AB03597B3D25}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47.et"
+    }
+   }
+  }
  }
  coords 535.865 0.985 843.547
 }

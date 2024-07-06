@@ -1,0 +1,15 @@
+Vehicle : "{DF74DF83617182F0}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest_Podval.et" {
+ ID "5206D4E79715C115"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF50B7A126F}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+   }
+  }
+ }
+}
