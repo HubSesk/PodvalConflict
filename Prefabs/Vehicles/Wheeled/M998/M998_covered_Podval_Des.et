@@ -9,6 +9,11 @@ Vehicle : "{5B226838F25B880E}Prefabs/Vehicles/Wheeled/M998/M998_covered_Podval.e
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{7BBF485F37CB723D}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/m998_covered.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Rollbar {

@@ -9,6 +9,11 @@ Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et"
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{A91F4B94EBA0DA0F}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/m998_covered_long_desert.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Rollbar {
