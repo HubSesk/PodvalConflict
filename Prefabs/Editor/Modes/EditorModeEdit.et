@@ -1,0 +1,11 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{61CEE5C583FEDC6B}" : "{ED4B5F1531B01057}Configs/Editor/PlaceableEntities/Vehicles/Podval_Vehicles.conf" {
+    }
+   }
+  }
+ }
+}
