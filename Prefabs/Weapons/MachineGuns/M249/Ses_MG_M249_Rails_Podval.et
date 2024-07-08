@@ -10,7 +10,7 @@ GenericEntity : "{599A1E833BEF3A43}Prefabs/Weapons/MachineGuns/M249/MG_M249_base
   }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
-    AttachmentSlotComponent "{61BAA6945CFB9B47}" {
+    AttachmentSlotComponent "{61D09DA552DDFE89}" {
      AttachmentSlot InventoryStorageSlot rails {
       PivotID "w_topcover"
       Offset 0 0.0075 -0.1387
@@ -19,14 +19,14 @@ GenericEntity : "{599A1E833BEF3A43}Prefabs/Weapons/MachineGuns/M249/MG_M249_base
       Name "fake_rails"
      }
     }
-    AttachmentSlotComponent "{61BAA6945CFB9B74}" {
+    AttachmentSlotComponent "{61D09DA552DDFEB8}" {
      AttachmentSlot InventoryStorageSlot optics {
       PivotID "w_topcover"
       Offset 0 0.0169 -0.1256
       Enabled 0
       Name "optics"
      }
-     AttachmentType AttachmentOpticsRIS1913Medium "{61BAA6945CFB9B7F}" {
+     AttachmentType AttachmentOpticsRIS1913Medium "{61D09DA552DDFEBC}" {
      }
     }
     SightsComponent "{BB23A637957CFFF8}" {
