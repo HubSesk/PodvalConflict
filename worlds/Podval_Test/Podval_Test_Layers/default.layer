@@ -1,0 +1,12 @@
+GameEntity : "{2CD09EA5C27E0FFD}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_pink.et" {
+ coords 126.469 1 127.444
+}
+GenericEntity : "{64BAF1DBA21F847C}Prefabs/Props/Military/Fuel/MobileWaterTank_USSR_01_Pivo.et" {
+ coords 123.881 1 127.573
+}
+GenericEntity : "{76244F7E097DAF37}Prefabs/Weapons/MachineGuns/M249/Ses_MG_M249_Rails_Podval.et" {
+ coords 126.769 1 127.394
+}
+GameEntity : "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et" {
+ coords 126.487 1 127.886
+}

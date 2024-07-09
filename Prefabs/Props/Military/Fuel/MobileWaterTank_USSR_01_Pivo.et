@@ -1,0 +1,17 @@
+GenericEntity : "{92BE346D5E0BD792}Prefabs/Props/Military/Fuel/MobileWaterTank_USSR_01_fuel.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{61D2AD56318ECE6A}" {
+     SourceMaterial "MobileWaterTankUSSR_01"
+     AssignedMaterial "{99E9F392940E7FDD}Assets/Props/Military/WaterTanks/MobileWaterTankUSSR_01/Data/MobileWaterTankUSSR_01_Pivo.emat"
+    }
+    MaterialAssignClass "{570224E1ECAE46E3}" {
+     SourceMaterial "MobileWaterTankUSSR_01_Decal"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+ }
+}
