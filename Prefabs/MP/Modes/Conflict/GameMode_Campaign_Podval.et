@@ -1,3 +1,15 @@
 SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  ID "56B2B479C6B96951"
+ components {
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   m_aVotingTemplates {
+    SCR_VotingKick "{58EA836E8F9304A4}" {
+     m_fDuration 60
+     m_fThreshold 0.4
+     m_iMinVotes 5
+     m_iJoinServerVoteCooldown 900
+    }
+   }
+  }
+ }
 }
