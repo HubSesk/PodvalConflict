@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4DBF2416D3F25C2E}Assets/Weapons/Attachments/Optics/ta31rco/data/Optic_ta31_HDR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

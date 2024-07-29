@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{99E9F392940E7FDD}Assets/Props/Military/WaterTanks/MobileWaterTankUSSR_01/Data/MobileWaterTankUSSR_01_Pivo.emat"
+ Name "{B28A3A50DD9051A1}Assets/Weapons/Attachments/Optics/sig_bravo4/data/Optic_bravo_HDR.emat"
  Configurations {
   EMATResourceClass PC {
   }
@@ -9,9 +9,9 @@ MetaFileClass {
   }
   EMATResourceClass PS4 : PC {
   }
-  EMATResourceClass PS5 : PC {
-  }
   EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
   }
  }
 }

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AC19779828A8503E}Assets/Weapons/Attachments/Optics/ta648mdo/data/Optic_ta648_HDR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

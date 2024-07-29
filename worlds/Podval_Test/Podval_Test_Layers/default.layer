@@ -1,11 +1,40 @@
+GenericEntity {
+ coords 123.881 1 127.573
+}
+SCR_ChimeraCharacter : "{19678B9267B3574A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper.et" {
+ coords 130.922 1 124.561
+}
+GameEntity : "{1DAE6B750D430AAE}Prefabs/Weapons/Attachments/Optics/1p86/Optic_1p86.et" {
+ coords 129.189 1 127.434
+}
 GameEntity : "{2CD09EA5C27E0FFD}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_pink.et" {
  coords 126.469 1 127.444
 }
-GenericEntity : "{64BAF1DBA21F847C}Prefabs/Props/Military/Fuel/MobileWaterTank_USSR_01_Pivo.et" {
- coords 123.881 1 127.573
+GameEntity : "{333A794F0B55C019}Prefabs/Weapons/Attachments/Optics/m8541/Optic_M8541.et" {
+ coords 126.737 1 126.055
+}
+GenericEntity : "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et" {
+ coords 132.278 1 124.59
+}
+GameEntity : "{5D6774CB06C4B12B}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2.et" {
+ coords 126.27 1 127.041
 }
 GenericEntity : "{76244F7E097DAF37}Prefabs/Weapons/MachineGuns/M249/Ses_MG_M249_Rails_Podval.et" {
  coords 126.769 1 127.394
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61FB0157ED67D167}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{048B08C1659AD398}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_yellow.emat"
+    }
+   }
+  }
+ }
+ coords 126.336 1 113.924
+ angleY -80.72
 }
 GameEntity : "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et" {
  coords 126.487 1 127.886

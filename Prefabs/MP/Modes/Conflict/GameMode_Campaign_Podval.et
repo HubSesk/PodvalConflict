@@ -12,4 +12,5 @@ SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Cam
    }
   }
  }
+ m_iRegularSuppliesIncome 100
 }

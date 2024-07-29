@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{048B08C1659AD398}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_yellow.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

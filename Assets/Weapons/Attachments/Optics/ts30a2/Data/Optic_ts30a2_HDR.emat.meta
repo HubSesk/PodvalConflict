@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A8257926E83305F9}Assets/Weapons/Attachments/Optics/ts30a2/Data/Optic_ts30a2_HDR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
