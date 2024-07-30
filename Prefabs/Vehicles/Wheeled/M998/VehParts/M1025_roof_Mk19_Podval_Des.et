@@ -1,0 +1,20 @@
+GenericEntity : "{1B8A9F09C98A981B}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61FCFE1833A67AC6}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{9F082E8D2231176F}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Podval_Des.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{CB6145DF14F7FD5A}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount_Mk19_Podval_Des.et"
+    }
+   }
+  }
+ }
+}

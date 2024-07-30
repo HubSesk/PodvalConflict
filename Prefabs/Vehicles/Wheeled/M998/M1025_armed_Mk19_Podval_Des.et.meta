@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{80460A425F52A469}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_Podval_Des.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

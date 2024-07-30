@@ -1,0 +1,13 @@
+Turret : "{B3ECA86AFA7DE657}Prefabs/Vehicles/Wheeled/M998/M1025_gun_mount_Mk19_fixed.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{61FCFE185367F07E}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{9F082E8D2231176F}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Podval_Des.emat"
+    }
+   }
+  }
+ }
+}

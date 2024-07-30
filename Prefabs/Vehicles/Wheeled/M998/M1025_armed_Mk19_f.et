@@ -1,0 +1,18 @@
+Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "M1025 Mk19 GL"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 975
+     }
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_BudgetType RANK_SERGEANT
+     }
+    }
+   }
+  }
+ }
+}

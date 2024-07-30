@@ -1,0 +1,12 @@
+Vehicle : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Brushguard {
+     Prefab "{4C242990BA760EFF}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard.et"
+    }
+   }
+  }
+ }
+}
