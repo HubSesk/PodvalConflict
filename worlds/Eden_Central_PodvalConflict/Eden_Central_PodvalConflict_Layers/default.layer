@@ -23,10 +23,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsSource 1
    }
   }
-  coords 4928.681 2.356 3897.454
-  angleX -4.404
-  angleY 117.158
-  angleZ 0.753
+  coords 3797.726 115.562 4998.128
+  angleX -4.078
+  angleY 102.718
+  angleZ 1.827
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -66,26 +66,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     Flags 2097155
    }
   }
- }
- SmallBaseWolfHill {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_WolfHill"
-    m_sBaseNameUpper "#AR-MapLocation_WolfHill"
-    m_sMapLocationName "H_Wolfhill"
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 900
-     }
-    }
-   }
-  }
-  coords 3844.685 160.871 4295.35
-  angleX 3.903
-  angleY 47.595
-  angleZ -2.351
  }
  SmallBaseLeMoule {
   components {
@@ -148,26 +128,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 5814.86 232.836 7252.186
   angleY -74.591
- }
- SmallBaseFigari {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_Figari"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
-    m_sMapLocationName "LocationFigari"
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 700
-     }
-    }
-   }
-  }
-  coords 5147.055 55.644 5432.878
-  angleX -3.527
-  angleY 125.326
-  angleZ 1.882
  }
  SmallBaseProvins {
   components {
@@ -249,26 +209,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -48.124
   angleZ -1.468
  }
- SmallBaseForest {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_Richemont"
-    m_sBaseNameUpper "#AR-MapLocation_Richemont"
-    m_sMapLocationName "S_Richemont"
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 1000
-     }
-    }
-   }
-  }
-  coords 4197.793 81.65 5114.624
-  angleX 2.419
-  angleY 26.235
-  angleZ 3.183
- }
  SmallBaseVileneuf {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -309,11 +249,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 34.564
   angleZ 3.5
  }
- MajorBaseLacourt {
+ SmallBaseLacourt {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bDisableWhenUnusedAsHQ 0
     m_sBaseName "#AR-MapLocation_Lacourt"
     m_sBaseNameUpper "#AR-MapLocation_Lacourt"
     m_sMapLocationName "S_Lacourt"
