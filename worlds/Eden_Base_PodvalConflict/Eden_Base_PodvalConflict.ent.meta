@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0025F96311F9F2B7}worlds/Eden_Base_PodvalConflict/Eden_Base_PodvalConflict.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -8,6 +8,65 @@ GameProject {
  Configurations {
   GameProjectConfig PC {
    WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{62168CF667223393}" {
+      StringTableSource "{FA34CB7EA6A4D2E1}UI/Lang/DrongoPointsName/Language.st"
+      Languages {
+       LanguageDefinition "{62168CF66052525E}" {
+        Code "cs_cz"
+        StringTableRuntime "{C8CAC6E05934B4D2}UI/Lang/DrongoPointsName/Language.cs_cz.conf"
+       }
+       LanguageDefinition "{62168CF660525202}" {
+        Code "de_de"
+        StringTableRuntime "{1DB4DCD34A97A5F2}UI/Lang/DrongoPointsName/Language.de_de.conf"
+       }
+       LanguageDefinition "{62168CF660525213}" {
+        Code "en_us"
+        StringTableRuntime "{434456982064A0F3}UI/Lang/DrongoPointsName/Language.en_us.conf"
+       }
+       LanguageDefinition "{62168CF66052521D}" {
+        Code "es_es"
+        StringTableRuntime "{86081B11CE66CBEC}UI/Lang/DrongoPointsName/Language.es_es.conf"
+       }
+       LanguageDefinition "{62168CF6605253EA}" {
+        Code "fr_fr"
+        StringTableRuntime "{3DA0EE2628E528EE}UI/Lang/DrongoPointsName/Language.fr_fr.conf"
+       }
+       LanguageDefinition "{62168CF6605253F6}" {
+        Code "it_it"
+        StringTableRuntime "{BDBC611285C7AB17}UI/Lang/DrongoPointsName/Language.it_it.conf"
+       }
+       LanguageDefinition "{62168CF6605253FC}" {
+        Code "ja_jp"
+        StringTableRuntime "{ADA7DC80BBB69BBC}UI/Lang/DrongoPointsName/Language.ja_jp.conf"
+       }
+       LanguageDefinition "{62168CF6605253C8}" {
+        Code "ko_kr"
+        StringTableRuntime "{0D19F42C289B9883}UI/Lang/DrongoPointsName/Language.ko_kr.conf"
+       }
+       LanguageDefinition "{62168CF6605253D7}" {
+        Code "pl_pl"
+        StringTableRuntime "{516852D6967404FF}UI/Lang/DrongoPointsName/Language.pl_pl.conf"
+       }
+       LanguageDefinition "{62168CF6605253A3}" {
+        Code "pt_br"
+        StringTableRuntime "{841FC81AAD8ACE45}UI/Lang/DrongoPointsName/Language.pt_br.conf"
+       }
+       LanguageDefinition "{62168CF6605253B0}" {
+        Code "ru_ru"
+        StringTableRuntime "{D15EDCB230F3AB33}UI/Lang/DrongoPointsName/Language.ru_ru.conf"
+       }
+       LanguageDefinition "{62168CF660525382}" {
+        Code "uk_ua"
+        StringTableRuntime "{5B0689445CDD1566}UI/Lang/DrongoPointsName/Language.uk_ua.conf"
+       }
+       LanguageDefinition "{62168CF66052538D}" {
+        Code "zh_cn"
+        StringTableRuntime "{81B6E779657DC57B}UI/Lang/DrongoPointsName/Language.zh_cn.conf"
+       }
+      }
+     }
+    }
    }
   }
   GameProjectConfig XBOX_ONE {

@@ -1,0 +1,62 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MajorBase_2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#DRG_Base_CalvaryHill"
+    m_sBaseNameUpper "#DRG_Base_CalvaryHill_U"
+    m_sMapLocationName "LocationChotain_MilitaryBase"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+  }
+  coords 3504.368 181.493 5817.28
+  angleY -18.505
+ }
+ MajorBase_1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#DRG_Base_Crossroads"
+    m_sBaseNameUpper "#DRG_Base_Crossroads_U"
+    m_sMapLocationName "LocationChotain_MilitaryBase"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+  }
+  coords 3285.548 115.071 5146.831
+  angleY -50.54
+ }
+ MajorBase_3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#DRG_Base_OldRuins"
+    m_sBaseNameUpper "#DRG_Base_OldRuins_U"
+    m_sMapLocationName "LocationChotain_MilitaryBase"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+  }
+  coords 3293.012 114.682 4377.972
+  angleY -18.505
+ }
+}

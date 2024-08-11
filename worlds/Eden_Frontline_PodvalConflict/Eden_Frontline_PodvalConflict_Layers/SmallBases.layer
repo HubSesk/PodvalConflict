@@ -1,0 +1,40 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ SmallBaseGoatbay {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#DRG_Base_RoadblockA"
+    m_sBaseNameUpper "#DRG_Base_RoadblockA_U"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 900
+     }
+    }
+   }
+  }
+  coords 2672.791 94.356 5384.816
+  angleX -2.998
+  angleY -150.212
+  angleZ 3.431
+ }
+ SmallBaseGoatbay2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#DRG_Base_RoadblockB"
+    m_sBaseNameUpper "#DRG_Base_RoadblockB_U"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 3801.357 115.55 5003.982
+  angleX -2.65
+  angleY -158.039
+  angleZ -2.994
+ }
+}
