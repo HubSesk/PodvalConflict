@@ -1,0 +1,332 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ StartingPos01 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 4928.681 2.356 3897.454
+  angleX -4.404
+  angleY 117.158
+  angleZ 0.753
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+  }
+ }
+ StartingPos02 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 3926.88 15.48 8457.886
+  angleY -86.06
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+  }
+ }
+ SmallBaseWolfHill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_WolfHill"
+    m_sBaseNameUpper "#AR-MapLocation_WolfHill"
+    m_sMapLocationName "H_Wolfhill"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 900
+     }
+    }
+   }
+  }
+  coords 3844.685 160.871 4295.35
+  angleX 3.903
+  angleY 47.595
+  angleZ -2.351
+ }
+ SmallBaseLeMoule {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_LeMoule"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_LeMoule-UC"
+    m_sMapLocationName "LocationLeMoule"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 2440.712 107.96 5466.572
+  angleX -1.467
+  angleY 84.939
+  angleZ 3.719
+ }
+ MajorBaseLamentine {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
+    m_sMapLocationName "LocationLamentin_Harbour"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+  }
+  coords 1087.339 2.781 6031.008
+  angleY -88.892
+ }
+ MajorBaseEntreDeux {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_EntreDeux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
+    m_sMapLocationName "LocationEntreDeux"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+  }
+  coords 5814.86 232.836 7252.186
+  angleY -74.591
+ }
+ SmallBaseFigari {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Figari"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
+    m_sMapLocationName "LocationFigari"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 5147.055 55.644 5432.878
+  angleX -3.527
+  angleY 125.326
+  angleZ 1.882
+ }
+ SmallBaseProvins {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Provins"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
+    m_sMapLocationName "LocationProvins"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 5586.954 89.231 5888.474
+  angleX 3.283
+  angleY 8.259
+  angleZ 2.282
+ }
+ SmallBaseMontignacFarm {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Montignac"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
+    m_sMapLocationName "LocationMontignac"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 5148.785 175.369 7016.881
+  angleX 1.455
+  angleY 42.129
+  angleZ 3.724
+ }
+ SmallBaseGravette {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Gravette"
+    m_sBaseNameUpper "#AR-MapLocation_Gravette"
+    m_sMapLocationName "C_LocationGravette"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 4072.557 34.897 7865.439
+  angleX 3.719
+  angleY -48.124
+  angleZ -1.468
+ }
+ SmallBaseHouse {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_TillersFind"
+    m_sBaseNameUpper "#AR-MapLocation_TillersFind"
+    m_sMapLocationName "L_TillersFind"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 3825.996 64.13 6946.557
+  angleX 3.719
+  angleY -48.124
+  angleZ -1.468
+ }
+ SmallBaseForest {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Richemont"
+    m_sBaseNameUpper "#AR-MapLocation_Richemont"
+    m_sMapLocationName "S_Richemont"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+  }
+  coords 4197.793 81.65 5114.624
+  angleX 2.419
+  angleY 26.235
+  angleZ 3.183
+ }
+ SmallBaseVileneuf {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Villeneuf"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf-UC"
+    m_sMapLocationName "LocationVilleneuf"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+  }
+  coords 2786.325 86.978 6302.945
+  angleX 0.93
+  angleY -103.14
+  angleZ -3.888
+ }
+ SmallBaseHumboldtHill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_HumboldtHill"
+    m_sBaseNameUpper "#AR-MapLocation_HumboldtHill-UC"
+    m_sMapLocationName "H_HumboldtHill"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 2502.91 59.473 7243.345
+  angleX 1.933
+  angleY 34.564
+  angleZ 3.5
+ }
+ MajorBaseLacourt {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "#AR-MapLocation_Lacourt"
+    m_sBaseNameUpper "#AR-MapLocation_Lacourt"
+    m_sMapLocationName "S_Lacourt"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+  }
+  coords 3953.021 102.709 6325.13
+  angleY -97.677
+ }
+}
