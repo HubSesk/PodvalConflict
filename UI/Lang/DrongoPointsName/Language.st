@@ -81,5 +81,13 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{62168CFD4CD13C54}" {
+   Id "DRG_FrontlineMissionConflict"
+   Target_en_us "Everon Frontline"
+   Target_ru_ru "Эверон передовая"
+   Modified 1645658693
+   Author "hasta"
+   LastChanged "hasta"
+  }
  }
 }
