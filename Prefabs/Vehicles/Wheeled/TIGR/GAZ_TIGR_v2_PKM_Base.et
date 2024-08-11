@@ -5,7 +5,7 @@ Vehicle : "{F0EAF7B2E35F5F51}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_Mounted_T
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 750
+      m_Value 475
      }
     }
    }
