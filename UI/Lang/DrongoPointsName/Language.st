@@ -81,6 +81,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{62429DA321250A21}" {
+   Id "DRG_Base_Tower_Kailo"
+   Target_en_us "Tower on Mount Kailo"
+   Target_ru_ru "Башня на горе Кайло"
+   Modified 1648539354
+   Author "reyco"
+   LastChanged "reyco"
+  }
   CustomStringTableItem "{6216EB416B7064DA}" {
    Id "DRG_CentralMissionConflict"
    Target_en_us "Everon - Central"
@@ -95,6 +103,14 @@ StringTable {
    Target_ru_ru "Эверон передовая"
    Modified 1645671813
    Author "hasta"
+   LastChanged "reyco"
+  }
+  CustomStringTableItem "{62429DA2F73BE8C6}" {
+   Id "DRG_RadioTowersMissionConflict"
+   Target_en_us "Everon - Radio towers"
+   Target_ru_ru "Эверон - Радио вышки"
+   Modified 1648539502
+   Author "reyco"
    LastChanged "reyco"
   }
  }
