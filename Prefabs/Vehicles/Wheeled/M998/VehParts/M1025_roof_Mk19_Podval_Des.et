@@ -3,9 +3,9 @@ GenericEntity : "{1B8A9F09C98A981B}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_
  components {
   MeshObject "{4B42E716914465B9}" {
    Materials {
-    MaterialAssignClass "{61FCFE1833A67AC6}" {
+    MaterialAssignClass "{62AEF7426689244D}" {
      SourceMaterial "Base"
-     AssignedMaterial "{9F082E8D2231176F}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Podval_Des.emat"
+     AssignedMaterial "{E8DED8E64059D625}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_USAF_D.emat"
     }
    }
   }

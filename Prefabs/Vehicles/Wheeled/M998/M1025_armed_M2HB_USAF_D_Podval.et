@@ -1,4 +1,4 @@
-Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
  ID "BBCBA43A9778AE21"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {

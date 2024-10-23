@@ -3,15 +3,15 @@ Vehicle : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et
  components {
   MeshObject "{51DAA09FEFBFC0E7}" {
    Materials {
-    MaterialAssignClass "{61FCFE19AC4F4FED}" {
+    MaterialAssignClass "{62AEF7427FA24CB5}" {
      SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
-     AssignedMaterial "{09D35CE025151DD5}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Podval_Desert.emat"
+     AssignedMaterial "{C4AB365990070417}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_USAF_D.emat"
     }
    }
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_Image "{66F710DFC0D1198B}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/m1025_armed_m2hb_desert.edds"
+    m_Image "{8D74FEA774BE500B}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/M1025_MK19_USAF_D.edds"
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
@@ -20,10 +20,10 @@ Vehicle : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et
      Prefab "{8A8F79F942167232}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_rollbar_Podval_Des.et"
     }
     RegisteringComponentSlotInfo Tailgate {
-     Prefab "{60D6619B6899E198}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_Podval_Des.et"
+     Prefab "{043F0CF18FDEB7B7}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_USAF_D.et"
     }
     RegisteringComponentSlotInfo Brushguard {
-     Prefab "{ACBD9FDD977953A0}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard_Podval_Des.et"
+     Prefab "{9B4A3C537F363CAE}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard_USAF_D.et"
     }
     RegisteringComponentSlotInfo Mirrors {
      Prefab "{72AE4A7F17B0E5FE}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_mirrors_01_Podval_Des.et"
