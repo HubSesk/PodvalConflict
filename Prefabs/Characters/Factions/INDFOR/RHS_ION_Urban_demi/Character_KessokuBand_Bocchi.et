@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{6BE60EB05E46CC78}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{6239642BBB275066}" {
+   "faction affiliation" "FIA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "FIA"
+    m_aAuthoredLabels {
+     70 2 12 46
+    }
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{E096A3AB94A3CC6D}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Eot_Bocchi.et"
   }
