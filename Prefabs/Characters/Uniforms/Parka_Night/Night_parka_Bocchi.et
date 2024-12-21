@@ -1,0 +1,29 @@
+GameEntity : "{073A44E5838B5B87}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{632538C4E005531F}" {
+     SourceMaterial "night_parka"
+     AssignedMaterial "{B63C3A99BFCFEF20}Assets/Characters/Uniforms/Parka_Night/Data/night_parka_Bocchi.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Bocchi Parka"
+     Description "Kessoku Band PMC"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{B63C3A99BFCFEF20}Assets/Characters/Uniforms/Parka_Night/Data/night_parka_Bocchi.emat"
+   }
+   ItemMaterialsOverride {
+    "{B63C3A99BFCFEF20}Assets/Characters/Uniforms/Parka_Night/Data/night_parka_Bocchi.emat"
+   }
+  }
+ }
+}

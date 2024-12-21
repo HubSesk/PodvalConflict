@@ -1,0 +1,20 @@
+GameEntity : "{0806C36951B3C052}Prefabs/Characters/HeadGear/Hat_BallCap/Hat_ballcap_TAN_backwards.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_Ballcap_Name - Pink"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{8AD0E89109174136}Assets/Characters/HeadGear/BallCap/Data/ballcap_Bocchi.emat"
+   }
+   ItemMaterialsOverride {
+    "{8AD0E89109174136}Assets/Characters/HeadGear/BallCap/Data/ballcap_Bocchi.emat"
+   }
+  }
+ }
+}
