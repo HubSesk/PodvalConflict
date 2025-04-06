@@ -1,0 +1,12 @@
+Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo USArmyDecal {
+     Prefab "{C1C71CAF0037DDED}Prefabs/Vehicles/Helicopters/UH1H/VehParts/UH1H_USMCDecal_Podval.et"
+    }
+   }
+  }
+ }
+}

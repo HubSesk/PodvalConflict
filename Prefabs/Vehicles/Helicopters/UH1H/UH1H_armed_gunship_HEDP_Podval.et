@@ -1,0 +1,13 @@
+Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{650CFB638E92ACFF}" {
+     SourceMaterial "UH_1H_Body01_6224CA051369DE45"
+     AssignedMaterial "{BA08A690573457FF}Assets/Vehicles/Helicopters/UH1H/Data/UH_1H_Body01_White.emat"
+    }
+   }
+  }
+ }
+}
