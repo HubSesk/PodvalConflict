@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/eyewear_npp_kondor.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

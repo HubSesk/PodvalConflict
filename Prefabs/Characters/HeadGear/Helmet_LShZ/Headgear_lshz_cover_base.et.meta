@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{344F32A4A36EA3FD}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_lshz_cover_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

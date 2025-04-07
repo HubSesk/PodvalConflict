@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B9F4691761DB0077}Prefabs/Characters/HeadGear/Helmet_TBH3A/Helmet_Triada_BASE.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

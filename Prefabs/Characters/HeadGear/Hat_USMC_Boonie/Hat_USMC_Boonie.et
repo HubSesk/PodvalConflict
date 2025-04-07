@@ -1,0 +1,14 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BA9EE725D7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966DE76BABC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966DC437F32}" {
+      m_AffiliatedFactionKey "US"
+     }
+    }
+   }
+  }
+ }
+}

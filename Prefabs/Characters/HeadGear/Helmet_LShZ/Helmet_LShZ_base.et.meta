@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{ABCD327C7E4EEE01}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

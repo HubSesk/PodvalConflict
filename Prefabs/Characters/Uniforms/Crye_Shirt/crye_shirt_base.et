@@ -1,0 +1,14 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D170D6865BB95C}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D6817D4CC8}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D680CEC4DD}" {
+      m_AffiliatedFactionKey "US"
+     }
+    }
+   }
+  }
+ }
+}

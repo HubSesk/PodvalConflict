@@ -1,0 +1,63 @@
+$grp SCR_ChimeraCharacter : "{713E16B9F2837B37}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player_Podval.et" {
+ {
+  components {
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+     }
+     LoadoutSlotInfo ArmoredVest {
+     }
+     LoadoutSlotInfo Pants {
+     }
+     LoadoutSlotInfo Mask {
+      Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black.et"
+     }
+    }
+   }
+  }
+  coords 1297.406 38.01 2900.774
+ }
+ {
+  coords 1299.918 38 2899.948
+ }
+}
+$grp SCR_ChimeraCharacter : "{E14DBF03E271673D}Prefabs/Characters/Campaign/Final/Campaign_US_Player_Podval.et" {
+ {
+  components {
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{CDAEDCACFA174F9E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_MARPAT_Woodland.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{0417F658F2723A30}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
+     }
+     LoadoutSlotInfo Boots {
+     }
+     LoadoutSlotInfo HandWear {
+      Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{625C0076B1FC600F}" {
+      PrefabsToSpawn {
+       "" ""
+      }
+     }
+     ItemsInitConfigurationItem "{625C007402F011A0}" {
+      PrefabsToSpawn {
+       "" ""
+      }
+     }
+    }
+   }
+  }
+  coords 1296.46 38.01 2901.025
+ }
+ {
+  coords 1299.174 38 2900.207
+ }
+}

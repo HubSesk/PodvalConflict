@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F72A8745457018B2}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

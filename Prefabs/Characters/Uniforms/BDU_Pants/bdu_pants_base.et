@@ -1,0 +1,14 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D170D788CAE762}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D78B4EF7E5}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D7855DBEE0}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}

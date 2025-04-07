@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{52BE66B6E343D441}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Impact.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

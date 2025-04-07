@@ -1,0 +1,8 @@
+GameEntity : "{92B915606F93CA84}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D170D63056B0E6}" {
+   Enabled 0
+  }
+ }
+}

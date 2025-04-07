@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VDV_Beret.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+GameEntity : "{ABCD327C7E4EEE01}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}

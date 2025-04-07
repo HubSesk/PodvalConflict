@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FF333CDF80EAE252}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

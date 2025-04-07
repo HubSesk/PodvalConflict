@@ -1,0 +1,14 @@
+GameEntity : "{916484D0EB7F9923}Prefabs/Characters/Core/AttachableHeadgear_Base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D17D88D18EF4F7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D17D88D157C3EC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D17D88D0CECA3A}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}

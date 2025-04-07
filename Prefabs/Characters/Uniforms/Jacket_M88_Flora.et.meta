@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A51A7FB179F6D9A0}Prefabs/Characters/Uniforms/Jacket_M88_Flora.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

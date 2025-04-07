@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B17F3E122C7EF592}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

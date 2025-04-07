@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9F263AD420624725}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

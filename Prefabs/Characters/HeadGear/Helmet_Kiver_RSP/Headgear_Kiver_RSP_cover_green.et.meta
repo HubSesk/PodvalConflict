@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{679FEE1DC98FE1C3}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/Headgear_Kiver_RSP_cover_green.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

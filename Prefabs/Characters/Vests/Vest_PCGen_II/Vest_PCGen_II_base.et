@@ -1,0 +1,14 @@
+GenericEntity : "{E34E9F101C7ECB4B}Prefabs/Characters/Core/RHS_Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D170D31B27039B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D31ACC5389}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D315AEE057}" {
+      m_AffiliatedFactionKey "US"
+     }
+    }
+   }
+  }
+ }
+}
