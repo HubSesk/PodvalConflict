@@ -5,7 +5,7 @@ Vehicle : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et"
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "USSR"
     m_aAutoLabels {
-     10 123 50
+     10 122
     }
    }
   }
