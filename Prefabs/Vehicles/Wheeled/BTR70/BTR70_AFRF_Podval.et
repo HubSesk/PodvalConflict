@@ -6,6 +6,12 @@ Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
     m_aAutoLabels {
      10 122
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE1D3329EE6}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {

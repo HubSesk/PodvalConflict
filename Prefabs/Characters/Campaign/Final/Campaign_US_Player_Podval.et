@@ -44,5 +44,43 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{66AAEDA477051298}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3B247CAC215C0D51}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cwd.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{10E29D7868CEA01B}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_filbe_Podval.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{607EC165EA2B4CBE}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/filbevest/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{64F7353989062490}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/filbevest2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{607F3D079897B13A}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/filbevest3/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{62B69B4A285FC62F}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m67/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{62B69B4A37E83F73}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{62B69B4A370468DD}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m18_1/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{62B69B4A36B105B6}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+   }
+  }
  }
 }
