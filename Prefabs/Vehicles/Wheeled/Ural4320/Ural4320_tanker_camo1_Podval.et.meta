@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C611F02863B0F9DE}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_camo1_Podval.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+Turret : "{28E2AD864580E3BE}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{650E8E34C401DCD4}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{8F3AED6E888AE4A9}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_AFRF.emat"
+    }
+   }
+  }
+ }
+}
