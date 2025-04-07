@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4E0161B3FBE46FB4}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_Podval.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

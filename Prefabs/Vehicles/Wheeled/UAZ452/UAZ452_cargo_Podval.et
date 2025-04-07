@@ -1,0 +1,13 @@
+Vehicle : "{01F65EFB8D767A91}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{650E8E2BDDC345BE}" {
+     SourceMaterial "uaz452_body"
+     AssignedMaterial "{DF4775DAEE5ACEE8}Assets/Vehicles/Wheeled/UAZ452/Data/uaz452_body_AFRF_Camo.emat"
+    }
+   }
+  }
+ }
+}
