@@ -47,7 +47,7 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{3B247CAC215C0D51}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cwd.et"
+     Prefab "{1285B7FAD09DC0D3}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH_Shroud_marpatWoodland.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{10E29D7868CEA01B}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_filbe_Podval.et"
