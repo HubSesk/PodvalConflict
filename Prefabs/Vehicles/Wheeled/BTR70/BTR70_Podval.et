@@ -95,11 +95,35 @@ Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
     }
     EntitySlotInfo Lable_B {
      PivotID "v_body"
-     Offset -0.9 0.6 -3.625
+     Offset -0.7821 0.6152 -3.625
      Angles 0 -90 0
      Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
     }
    }
+  }
+  RHS_GroupMaterialController "{65151D74DAFD4445}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B724A768}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B44285C1}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
   }
  }
 }

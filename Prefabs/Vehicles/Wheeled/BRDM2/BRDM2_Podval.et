@@ -11,5 +11,81 @@ Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
     }
    }
   }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Lable_R {
+     PivotID "v_body"
+     Offset -0.7587 1.7392 1.1528
+     Angles -60.6594 -89.91911 126.5998
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset 0.9397 0.7313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset 0.9397 0.6313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset 0.9397 0.5313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number1_B {
+     PivotID "v_body"
+     Offset 0.1 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_B {
+     PivotID "v_body"
+     Offset 0 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_B {
+     PivotID "v_body"
+     Offset -0.1 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Lable_B {
+     PivotID "v_body"
+     Offset -0.8062 -2.6628 0.665
+     Angles 0 90 -90
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{65151D74DAFD4445}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B724A768}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B44285C1}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
  }
 }

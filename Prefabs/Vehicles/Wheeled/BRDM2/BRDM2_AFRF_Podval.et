@@ -1,4 +1,4 @@
-Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
  ID "BBCBA43A9778AE21"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
@@ -8,9 +8,9 @@ Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
      10 122
     }
     m_EntityBudgetCost {
-     SCR_EntityBudgetValue "{5EF07CE1D3329EE6}" {
-      m_BudgetType RANK_CORPORAL
-      m_Value 2
+     SCR_EntityBudgetValue "{62ACE79B7FDC31CE}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
      }
     }
    }

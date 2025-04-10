@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A9AA85A7A4EA7066}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Podval_Podval_Camo.et"
+ Name "{951B62288061E2EC}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF_Podval.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
