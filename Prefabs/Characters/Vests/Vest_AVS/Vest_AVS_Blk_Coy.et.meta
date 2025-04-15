@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EA6BBDCB72ED5510}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_Blk_Coy.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

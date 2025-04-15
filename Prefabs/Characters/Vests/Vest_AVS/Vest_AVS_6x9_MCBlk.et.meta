@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EC914CF14AD01C67}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MCBlk.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

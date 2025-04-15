@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8EA3CB650C1DF461}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_zvoy.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GameEntity : "{C3058526330584E3}Prefabs/Characters/Uniforms/Shirt_Muscle/muscle_shirt_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D170D1FA05E33C}" {
+   Enabled 1
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D1F5D2ACD3}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D1F4A19F5A}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{34B89390DAD5390B}Prefabs/Characters/Uniforms/Jacket_M88_VSR_rolledup.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

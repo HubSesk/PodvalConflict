@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DD6750AD7E2ECC61}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MARPAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

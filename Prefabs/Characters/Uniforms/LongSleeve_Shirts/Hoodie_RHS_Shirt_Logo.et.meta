@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B63D7CDEA813E130}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_Logo.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

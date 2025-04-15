@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{54F4BE2F9CA75DAD}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

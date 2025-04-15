@@ -1,3 +1,8 @@
 GameEntity : "{1F49EEF2B889F0C1}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_base.et" {
  ID "50D485E1435D6C72"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D17D88D18EF4F7}" {
+   Enabled 0
+  }
+ }
 }

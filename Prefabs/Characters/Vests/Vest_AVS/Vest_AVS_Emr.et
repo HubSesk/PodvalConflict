@@ -1,0 +1,33 @@
+GenericEntity : "{551DB06603E248AE}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_AAAVS_Name - #RHS-Camo_EMR_SUMMER"
+     Description "#RHS-Vest_AAAVS_Description"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{64D170D31B27039B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D31ACC5389}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D315AEE057}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Camerband {
+     Prefab "{208CE06DBDCAF9B3}Prefabs/Characters/Vests/Vest_AVS/attachment_AVS_camerband_empty_EMR.et"
+    }
+   }
+   WornMaterialsOverride +{
+   }
+   ItemMaterialsOverride +{
+   }
+  }
+ }
+}

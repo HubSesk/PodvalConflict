@@ -1,0 +1,14 @@
+GameEntity : "{B17978F2A1E5E3A4}Prefabs/Characters/Uniforms/Tactical_Pants/tactical_pants_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D170D7E3942D57}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D7E28E2F28}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D61DABB2D6}" {
+      m_AffiliatedFactionKey "US"
+     }
+    }
+   }
+  }
+ }
+}

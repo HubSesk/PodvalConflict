@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{907F51E4DFF366FF}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_MICH_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

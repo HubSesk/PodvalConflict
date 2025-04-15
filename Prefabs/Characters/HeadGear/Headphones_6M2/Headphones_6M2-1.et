@@ -1,3 +1,8 @@
 GameEntity : "{F8554F236521F974}Prefabs/Characters/HeadGear/Headphones_6M2/headphones_6m2.et" {
  ID "50D485E1435D6C72"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D17D88D18EF4F7}" {
+   Enabled 0
+  }
+ }
 }

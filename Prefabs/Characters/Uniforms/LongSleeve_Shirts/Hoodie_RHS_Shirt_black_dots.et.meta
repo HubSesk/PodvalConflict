@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{49C8C96043852020}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_black_stripes.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

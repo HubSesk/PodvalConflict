@@ -1,0 +1,14 @@
+GameEntity : "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BA742C881B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841FFD3695A}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841FF4AEFAF}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}

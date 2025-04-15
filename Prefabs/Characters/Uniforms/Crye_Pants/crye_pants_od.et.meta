@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FCFE4E066D9E2249}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_od.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

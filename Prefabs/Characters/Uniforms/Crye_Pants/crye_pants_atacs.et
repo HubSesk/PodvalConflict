@@ -1,0 +1,14 @@
+GameEntity : "{92B915606F93CA84}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D170D63056B0E6}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D6328B4559}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D62DAEFCCE}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}

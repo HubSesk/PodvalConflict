@@ -1,0 +1,8 @@
+GameEntity : "{916484D0EB7F9923}Prefabs/Characters/Core/AttachableHeadgear_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_ItemOutfitFactionComponent "{64D17D88D18EF4F7}" {
+   Enabled 0
+  }
+ }
+}
