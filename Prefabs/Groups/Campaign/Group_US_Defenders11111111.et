@@ -1,6 +1,0 @@
-SCR_AIGroup : "{412A7767B11310C5}Prefabs/Groups/Campaign/Group_US.et" {
- ID "13BAA835F61E3602"
- m_aUnitPrefabSlots {
-  "{2619482C6C4202E0}Prefabs/Characters/Campaign/Final/Campaign_US_AI.et" "{2619482C6C4202E0}Prefabs/Characters/Campaign/Final/Campaign_US_AI.et" "{2619482C6C4202E0}Prefabs/Characters/Campaign/Final/Campaign_US_AI.et"
- }
-}
