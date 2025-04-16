@@ -7,6 +7,15 @@ Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
     m_aAutoLabels {
      11 14 122
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1600
+     }
+     SCR_EntityBudgetValue "{64891D4FBACD4B66}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {

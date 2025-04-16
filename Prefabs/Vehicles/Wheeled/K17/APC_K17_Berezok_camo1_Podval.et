@@ -7,6 +7,11 @@ Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.
     m_aAutoLabels {
      10 122 53 3
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{650E8E075C071980}" {
+      m_BudgetType RANK_SERGEANT
+     }
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
