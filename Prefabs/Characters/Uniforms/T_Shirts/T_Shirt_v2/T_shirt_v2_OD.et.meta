@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{48860142E46956D0}Prefabs/Characters/Uniforms/T_Shirts/T_Shirt_v2/T_shirt_v2_OD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

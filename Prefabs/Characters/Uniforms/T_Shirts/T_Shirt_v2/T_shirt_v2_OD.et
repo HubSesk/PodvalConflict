@@ -1,11 +1,14 @@
-GameEntity : "{608CACF4D026697B}Prefabs/Characters/Uniforms/T_Shirts/T_shirt_base.et" {
+GameEntity : "{18E92AA4457A4203}Prefabs/Characters/Uniforms/T_Shirts/T_Shirt_v2/T_shirt_v2_base.et" {
  ID "5104869D194C6243"
  components {
+  CommunicationSoundComponent "{65209A007523F79B}" {
+   Enabled 0
+  }
   SCR_ItemOutfitFactionComponent "{64D170D01143BDDE}" {
    m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D013B7F787}" {
     m_aOutfitFactionData {
      SCR_OutfitFactionData "{64D170D01377495A}" {
-      m_AffiliatedFactionKey "RHS_USAF"
+      m_AffiliatedFactionKey "USSR"
      }
     }
    }
