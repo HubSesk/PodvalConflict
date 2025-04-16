@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5D45DB79D47408D7}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_M203_weaver.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

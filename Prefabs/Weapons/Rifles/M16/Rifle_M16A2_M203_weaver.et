@@ -1,0 +1,29 @@
+GenericEntity : "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et" {
+ ID "51F6738C9E78C104"
+ components {
+  SlotManagerComponent "{62B6D9EAF90D6ECA}" {
+   Slots {
+    EntitySlotInfo weaver {
+     Offset 0 0.1342 0.0457
+     Prefab "{5D00C138E2510EDC}Prefabs/Weapons/Attachments/Mounts/Mount_WeaverCarryhandle.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5534745C44D1EF58}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{62B6D9EAAE63C4AF}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      PivotID "w_root"
+      Offset 0 0.158 0.0125
+      InspectionWidgetOffset 0 0.1466 0.0308
+     }
+     AttachmentType AttachmentOpticsRIS1913Medium "{62B6D9EABCC60B97}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+ }
