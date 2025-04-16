@@ -9,8 +9,8 @@ Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{62ACE79B7FDC31CE}" {
-      m_BudgetType RANK_SERGEANT
-      m_Value 3
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
      }
     }
    }

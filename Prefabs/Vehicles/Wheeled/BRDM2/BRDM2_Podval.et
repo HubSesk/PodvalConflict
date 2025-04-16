@@ -1,12 +1,36 @@
 Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
  ID "BBCBA43A9778AE21"
  components {
+  RHS_GroupMaterialController "{65151D74DAFD4445}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B724A768}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{65151D74B44285C1}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{62ACE79B7FDC31CE}" {
-      m_BudgetType RANK_SERGEANT
-      m_Value 3
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
      }
     }
    }
@@ -62,30 +86,6 @@ Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
      Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
     }
    }
-  }
-  RHS_GroupMaterialController "{65151D74DAFD4445}" {
-   m_aGroups {
-    RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
-     m_iNumberOfTextures 10
-     m_bRandomize 1
-    }
-    RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
-     m_sGroupName "GROUP2"
-     m_iNumberOfTextures 10
-     m_bRandomize 1
-    }
-    RHS_MaterialGroupProperties "{65151D74B724A768}" {
-     m_sGroupName "GROUP3"
-     m_iNumberOfTextures 10
-     m_bRandomize 1
-    }
-    RHS_MaterialGroupProperties "{65151D74B44285C1}" {
-     m_sGroupName "LABELS"
-     m_iNumberOfTextures 13
-     m_bRandomize 1
-    }
-   }
-   m_iMaxAllowedDepth 2
   }
  }
 }
