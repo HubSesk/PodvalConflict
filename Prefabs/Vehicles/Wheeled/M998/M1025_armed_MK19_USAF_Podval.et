@@ -3,6 +3,8 @@ Vehicle : "{46E2C84AFFC3708B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_M1025_Name Mk 19"
+    m_Image "{ACB3BE6720ADD960}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/M1025_MK19_USAF.edds"
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 650

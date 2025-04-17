@@ -21,8 +21,16 @@ Vehicle : "{76B87DFCCFE628B0}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_tr
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{5007A9979213A0FE}UI/Textures/EditorPreviews/Vehicles/Helicopters/mi8/mi8.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
+    RegisteringComponentSlotInfo door_rear {
+     Prefab "{67F445B03429FEF7}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_rear_door_black.et"
+    }
     RegisteringComponentSlotInfo jammer {
      Prefab "{90D5E88C5BE3ED57}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_IRJammer_black.et"
     }

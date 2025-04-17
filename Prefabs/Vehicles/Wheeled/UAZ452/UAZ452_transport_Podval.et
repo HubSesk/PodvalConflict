@@ -9,5 +9,10 @@ Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{4559189EDB443497}UI/Textures/EditorPreviews/Vehicles/Wheeled/buhanka/buhanka_pasanger.edds"
+   }
+  }
  }
 }

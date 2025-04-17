@@ -9,5 +9,10 @@ Vehicle : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunshi
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{DBFF84806AA47A90}UI/Textures/EditorPreviews/Vehicles/Helicopters/UH1H/UH_he.edds"
+   }
+  }
  }
 }

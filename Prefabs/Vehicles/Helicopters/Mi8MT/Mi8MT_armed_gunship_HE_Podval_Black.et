@@ -21,6 +21,11 @@ Vehicle : "{DA92C428D572C1C7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_guns
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{D814EE1B291E59EC}UI/Textures/EditorPreviews/Vehicles/Helicopters/mi8/mi8_he.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     SCR_WeaponRackSlotInfo Hardpoints {
