@@ -25,8 +25,7 @@ SCR_ChimeraCharacter : "{A0CAC00219D7EF55}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "USSR"
-    m_aAuthoredLabels {
-     70 2 10 10506 10503 10502 70 1670057115 10513
+    m_aAuthoredLabels +{
     }
    }
   }
@@ -39,6 +38,14 @@ SCR_ChimeraCharacter : "{A0CAC00219D7EF55}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_ResourceComponent "{650CFB652FE5D3B7}" {
    m_aConsumers {
     SCR_ResourceConsumer "{5E64858555320952}" : "{E77EA96D4FC48177}Configs/Resources/Supplies/Consumers/Generic/Consumer_Self.conf" {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61D50D6F08B557DB}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Bayonet/Pouch_6x9Scabbard.et"
+     TargetPurpose 64
     }
    }
   }

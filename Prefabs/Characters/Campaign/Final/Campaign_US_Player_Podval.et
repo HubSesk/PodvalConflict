@@ -25,8 +25,7 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "US"
-    m_aAuthoredLabels {
-     70 2 11 10533 10518
+    m_aAuthoredLabels +{
     }
    }
   }
@@ -79,6 +78,12 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{62B69B4A36B105B6}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6522FED97C610977}" {
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
+     PrefabsToSpawn {
+      "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
+     }
     }
    }
   }
