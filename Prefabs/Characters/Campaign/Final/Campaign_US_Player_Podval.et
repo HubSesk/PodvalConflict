@@ -70,6 +70,14 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{607F3D079897B13A}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/filbevest3/Pouch_FILBE_doubleM4_3.et"
     }
+    ItemsInitConfigurationItem "{625C0076B1FC600F}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{625C007402F011A0}" {
+     PrefabsToSpawn {
+     }
+    }
     ItemsInitConfigurationItem "{62B69B4A285FC62F}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m67/Pouch_Filbe_M67_Base.et"
     }
