@@ -1,0 +1,15 @@
+Vehicle : "{92AA1080824A3F7E}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{62F492337C717EA0}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+ }
+}

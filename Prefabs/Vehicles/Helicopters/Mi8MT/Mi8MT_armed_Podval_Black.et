@@ -21,16 +21,21 @@ Vehicle : "{31E004EC353C42B2}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_Podv
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{F1EC4311EDB35A57}UI/Textures/EditorPreviews/Vehicles/Helicopters/mi8/mi8_armed.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
-    RegisteringComponentSlotInfo CockpitArmor {
-     Prefab "{9493DFB6E1F0F641}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_armor_black.et"
-    }
     RegisteringComponentSlotInfo jammer {
      Prefab "{90D5E88C5BE3ED57}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_IRJammer_black.et"
     }
     RegisteringComponentSlotInfo countermeasures {
      Prefab "{9C57A6C02C50B980}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_Countermeasures_black.et"
+    }
+    RegisteringComponentSlotInfo CockpitArmor {
+     Prefab "{9493DFB6E1F0F641}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_armor_black.et"
     }
    }
   }

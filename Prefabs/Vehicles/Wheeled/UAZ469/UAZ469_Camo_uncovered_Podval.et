@@ -3,6 +3,7 @@ Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_uncover
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{38A01C00BB02384B}UI/Textures/EditorPreviews/Vehicles/Wheeled/UAZ/uaz_open.edds"
     m_sFaction "USSR"
     m_aAutoLabels {
      10 122 50

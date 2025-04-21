@@ -2,7 +2,13 @@ GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helm
  ID "50D485E1435D6C72"
  components {
   SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
-   Enabled 0
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "US"
+     }
+    }
+   }
   }
  }
 }

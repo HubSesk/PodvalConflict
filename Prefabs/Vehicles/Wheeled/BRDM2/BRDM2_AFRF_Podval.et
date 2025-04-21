@@ -3,14 +3,15 @@ Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{06387475A4962E45}UI/Textures/EditorPreviews/Vehicles/Wheeled/brdm/brdm_camo.edds"
     m_sFaction "USSR"
     m_aAutoLabels {
      10 122
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{62ACE79B7FDC31CE}" {
-      m_BudgetType RANK_SERGEANT
-      m_Value 3
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
      }
     }
    }

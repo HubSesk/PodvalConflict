@@ -9,5 +9,10 @@ Vehicle : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{BEF018BEE55A8489}UI/Textures/EditorPreviews/Vehicles/Wheeled/buhanka/buhanka_Medical.edds"
+   }
+  }
  }
 }

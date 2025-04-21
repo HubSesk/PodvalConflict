@@ -5,7 +5,16 @@ Vehicle : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "US"
     m_aAutoLabels {
-     11 122 50
+     11 14 122
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1600
+     }
+     SCR_EntityBudgetValue "{64891D4FBACD4B66}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
     }
    }
   }

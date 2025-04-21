@@ -1,0 +1,14 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{6522BAB8076521CF}" {
+     m_Prefabs {
+      "{5B6AA3811528D181}Prefabs/Vehicles/Helicopters/UH1H/UH1H_Podval.et" "{BBD408C42C68C9FA}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_Podval.et" "{A2DCF8786020EE87}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE_Podval.et" "{DC1D0B120AD95958}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_Podval.et" "{76B87DFCCFE628B0}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport_Podval.et" "{4E0950A86BBCFB8F}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport_Podval_Black.et" "{31E004EC353C42B2}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_Podval.et" "{B8F61AE66A7D7F8A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_Podval_Black.et" "{DA92C428D572C1C7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE_Podval.et" "{C047EBD2F4B5995C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE_Podval_Black.et" "{25DF9FF7A0D9B32A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP_Podval.et" "{6151F65EB5DD7B1E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP_Podval_Black.et" "{4665722F559DABFD}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Podval.et" "{C004F9EC865C4F7C}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Podval.et" "{9A14C77CEC73677F}Prefabs/Vehicles/Wheeled/M998/M1025_armed_MK19_USAF_Podval.et" "{708FD2CBB40637C0}Prefabs/Vehicles/Wheeled/M998/M1025_armed_MK19_USAF_D_Podval.et" "{53809315090EA8AA}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_Podval.et" "{38DB946229CE0504}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_Podval.et" "{4E0161B3FBE46FB4}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_Podval.et" "{DCE27C4110744121}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Podval.et"
+     }
+    }
+   }
+  }
+ }
+}

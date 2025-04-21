@@ -25,8 +25,7 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "US"
-    m_aAuthoredLabels {
-     70 2 11 10533 10518
+    m_aAuthoredLabels +{
     }
    }
   }
@@ -40,6 +39,9 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
     SCR_ResourceConsumer "{5E6485852E650CC4}" : "{E77EA96D4FC48177}Configs/Resources/Supplies/Consumers/Generic/Consumer_Self.conf" {
     }
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{66AAEDA477051298}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR.et"
@@ -68,17 +70,33 @@ SCR_ChimeraCharacter : "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{607F3D079897B13A}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/filbevest3/Pouch_FILBE_doubleM4_3.et"
     }
+    ItemsInitConfigurationItem "{625C0076B1FC600F}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{625C007402F011A0}" {
+     PrefabsToSpawn {
+     }
+    }
     ItemsInitConfigurationItem "{62B69B4A285FC62F}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m67/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{62B69B4A37E83F73}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m67_2/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+     }
     }
     ItemsInitConfigurationItem "{62B69B4A370468DD}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m18_1/Pouch_Filbe_M18_1.et"
     }
     ItemsInitConfigurationItem "{62B69B4A36B105B6}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe_Podval.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6522FED97C610977}" {
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
+     PrefabsToSpawn {
+      "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
+     }
     }
    }
   }
