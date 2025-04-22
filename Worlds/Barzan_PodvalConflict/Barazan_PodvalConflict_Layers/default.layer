@@ -28,7 +28,6 @@ SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}P
  coords 0 0.731 0
 }
 SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
- m_iControlPointsThreshold 3
  m_fVictoryTimer 420
 }
 ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
@@ -591,26 +590,14 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleZ -5.074
  }
 }
-$grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 1009.111 19.354 716.148
+ angleX -0.37
+ angleY 46.781
+ angleZ -1.635
  {
-  coords 1009.111 19.354 716.148
-  angleX -0.37
-  angleY 46.781
-  angleZ -1.635
-  {
-   GenericEntity {
-    ID "5CCCBEE55EFE2A14"
-   }
-  }
- }
- {
-  coords 1314.047 10.195 923.876
-  angleY -43.997
-  {
-   GenericEntity {
-    ID "5CCCBEE55EFE2B40"
-    coords 2.218 0 0.293
-   }
+  GenericEntity {
+   ID "5CCCBEE55EFE2A14"
   }
  }
 }
@@ -947,7 +934,7 @@ $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyC
     {
      GenericEntity {
       ID "5D1ED92C8FCFAAB4"
-      coords 0 0 -0
+      coords 0 0 0
       angleY -180
      }
     }
@@ -4317,7 +4304,6 @@ $grp GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyC
       coords -0.334 0.007 0.729
       angleX 0.894
       angleY -0.042
-      angleZ -0
      }
      GenericEntity {
       ID "5D453938F45912F6"
