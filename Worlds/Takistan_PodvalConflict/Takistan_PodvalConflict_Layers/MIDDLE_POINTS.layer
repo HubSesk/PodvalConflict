@@ -1,0 +1,464 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ ChardarahBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Chardarah"
+    m_sBaseNameUpper "CHARDARAH"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 10208.805 372.975 2368.35
+  angleX -1.499
+  angleY -99.923
+  angleZ -3.368
+ }
+ SultansafeBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Sultansafe"
+    m_sBaseNameUpper "SULTANSAFE"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 6563.545 376.76 2090.244
+  angleX -1.499
+  angleY -99.923
+  angleZ -3.368
+ }
+ NaranDarrePassBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Naran Darre pass"
+    m_sBaseNameUpper "NARAN DARRE PASS"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 8189.71 443.245 3825.227
+  angleX -1.499
+  angleY -99.923
+  angleZ -3.368
+ }
+ AnarBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Anar"
+    m_sBaseNameUpper "ANAR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 6861.232 326.531 6057.635
+  angleX -0.064
+  angleY -76.966
+  angleZ -3.686
+ }
+ KakaruBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Kakaru"
+    m_sBaseNameUpper "KAKARU"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 5362.294 262.145 4815.197
+  angleX -0.064
+  angleY -76.966
+  angleZ -3.686
+ }
+ SakheBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Sakhe"
+    m_sBaseNameUpper "SAKHE"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3764.956 248.877 4618.461
+  angleX -0.064
+  angleY -76.966
+  angleZ -3.686
+ }
+ FalarBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Falar"
+    m_sBaseNameUpper "FALAR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 6055.726 142.258 7528.196
+  angleX 3.092
+  angleY -18.984
+  angleZ -2.008
+ }
+ KhushabBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Khushab"
+    m_sBaseNameUpper "KHUSHAB"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 1642.391 254.819 5705.266
+  angleX 3.092
+  angleY -18.984
+  angleZ -2.008
+ }
+ ShukurkalayBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Shukurkalay"
+    m_sBaseNameUpper "SHUKURKALAY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 1560.006 239.37 3614.036
+  angleX 3.092
+  angleY -18.984
+  angleZ -2.008
+ }
+ GospandiBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Gospandi"
+    m_sBaseNameUpper "GOSPANDI"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3692.224 178.723 8652.286
+  angleX 0.156
+  angleY 15.967
+  angleZ -0.547
+ }
+ NagaraBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Nagara"
+    m_sBaseNameUpper "NAGARA"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3156.435 86.626 9989.129
+  angleX 0.156
+  angleY 15.967
+  angleZ -0.547
+ }
+ ImaratBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Imarat"
+    m_sBaseNameUpper "IMARAT"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 7849.594 180.21 8048.68
+  angleX 0.156
+  angleY 15.967
+  angleZ -0.547
+ }
+ RasmanBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Rasman"
+    m_sBaseNameUpper "RASMAN"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 5980.625 93.273 10384.565
+  angleX 0.156
+  angleY 15.967
+  angleZ -0.547
+ }
+ GarmadurBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Garmadur"
+    m_sBaseNameUpper "GARMADUR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 9264.556 236.545 6730.816
+  angleX 0.544
+  angleY 33.38
+  angleZ -1.343
+ }
+ RavanayBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Ravanay"
+    m_sBaseNameUpper "RAVANAY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 11528.265 301.286 8227.903
+  angleX 0.544
+  angleY 33.38
+  angleZ -1.343
+ }
+ ValleyBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Valley"
+    m_sBaseNameUpper "VALLEY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 6661.923 393.764 4597.725
+  angleX 0.156
+  angleY 15.967
+  angleZ -0.547
+ }
+ SareSangPassBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Sar-e Sang pass"
+    m_sBaseNameUpper "SAR-E SANG PASS"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 4140.277 602.245 2755.353
+  angleX -0.505
+  angleY -83.826
+  angleZ -3.652
+ }
+ ChakCkakPassBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Chak Chak"
+    m_sBaseNameUpper "CHAK CHAK"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 5168.917 335.803 880.588
+  angleX -1.499
+  angleY -99.923
+  angleZ -3.368
+ }
+}

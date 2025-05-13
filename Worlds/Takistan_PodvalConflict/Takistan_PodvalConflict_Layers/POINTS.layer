@@ -1,0 +1,302 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ HQEast {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50.5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 3000
+      "Transmitting Range" 600
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 6031.787 109.313 11891.697
+  angleX 1.18
+  angleY -57.316
+  angleZ -3.492
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -7.241 0 12.587
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 5.269 0 12.41
+   }
+  }
+ }
+ HQWest {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50.5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 8326.175 322.188 2099.173
+  angleX 4.441
+  angleY 59.351
+  angleZ 0.483
+  {
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 5.777 0 15.868
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0.902 0
+   }
+  }
+ }
+ DarbangPassPoint_SuperBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Darbang"
+    m_sBaseNameUpper "DARBANG"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 5251.977 542.104 3452.771
+  angleX 1.549
+  angleY 160.083
+  angleZ 4.266
+ }
+ FeruzAbadPoint_SuperBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "FeruzAbad"
+    m_sBaseNameUpper "FERUZABAD"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 5241.176 171.645 6139.723
+  angleX -0.364
+  angleY 160.155
+  angleZ -0.171
+ }
+ BastamPoint_SuperBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Bastam"
+    m_sBaseNameUpper "BASTAM"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 5616.622 108.082 9053.142
+  angleX -0.364
+  angleY 160.155
+  angleZ -0.171
+ }
+ MulladostPoint_SuperBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Mulladost"
+    m_sBaseNameUpper "MULLADOST"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 2039.382 303.745 7689.786
+  angleX -9.302
+  angleY 160.43
+  angleZ -1.767
+ }
+ GarmsartPoint_SuperBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Garmsar"
+    m_sBaseNameUpper "GARMSAR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 10875.591 308.432 6447.241
+  angleX 3.684
+  angleY 160.475
+  angleZ 0.199
+ }
+ TimurkalayPoint_SuperBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Timurkalay"
+    m_sBaseNameUpper "TIMURKALAY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 8859.35 297.52 5255.664
+  angleX 1.215
+  angleY 160.585
+  angleZ -2.535
+ }
+ JilavurPoint_SuperBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Jilavur"
+    m_sBaseNameUpper "JILAVUR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 2666.653 223.504 5131.308
+  angleX 1.215
+  angleY 160.585
+  angleZ -2.535
+ }
+}
