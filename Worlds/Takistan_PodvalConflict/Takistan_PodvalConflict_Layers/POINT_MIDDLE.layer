@@ -1,5 +1,5 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- ChardarahBase2 {
+ ChardarahBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Chardarah"
@@ -12,17 +12,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 600
+      "Transmitting Range" 2000
      }
     }
    }
   }
-  coords 10208.805 372.975 2368.35
+  coords 10249.374 380.435 2468.198
   angleX -1.499
   angleY -99.923
   angleZ -3.368
  }
- SultansafeBase3 {
+ SultansafeBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Sultansafe"
@@ -45,7 +45,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -99.923
   angleZ -3.368
  }
- NaranDarrePassBase2 {
+ NaranDarrePassBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Naran Darre pass"
@@ -68,7 +68,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -99.923
   angleZ -3.368
  }
- AnarBase3 {
+ AnarBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Anar"
@@ -91,7 +91,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -76.966
   angleZ -3.686
  }
- KakaruBase2 {
+ KakaruBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Kakaru"
@@ -118,7 +118,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -76.966
   angleZ -3.686
  }
- SakheBase3 {
+ SakheBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Sakhe"
@@ -145,7 +145,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -76.966
   angleZ -3.686
  }
- FalarBase2 {
+ FalarBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Falar"
@@ -172,7 +172,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -18.984
   angleZ -2.008
  }
- KhushabBase3 {
+ KhushabBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Khushab"
@@ -199,7 +199,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -18.984
   angleZ -2.008
  }
- ShukurkalayBase2 {
+ ShukurkalayBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Shukurkalay"
@@ -226,7 +226,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -18.984
   angleZ -2.008
  }
- GospandiBase3 {
+ GospandiBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Gospandi"
@@ -253,7 +253,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 15.967
   angleZ -0.547
  }
- NagaraBase2 {
+ NagaraBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Nagara"
@@ -280,7 +280,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 15.967
   angleZ -0.547
  }
- ImaratBase3 {
+ ImaratBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Imarat"
@@ -307,7 +307,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 15.967
   angleZ -0.547
  }
- RasmanBase2 {
+ RasmanBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Rasman"
@@ -334,7 +334,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 15.967
   angleZ -0.547
  }
- GarmadurBase3 {
+ GarmadurBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Garmadur"
@@ -361,7 +361,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 33.38
   angleZ -1.343
  }
- RavanayBase2 {
+ RavanayBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Ravanay"
@@ -388,7 +388,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 33.38
   angleZ -1.343
  }
- ValleyBase3 {
+ ValleyBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Valley"
@@ -460,5 +460,28 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleX -1.499
   angleY -99.923
   angleZ -3.368
+ }
+ LalezarBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Lalezar"
+    m_sBaseNameUpper "LALEZAR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 4695.5 159.11 9501.886
+  angleX -0.213
+  angleY -76.965
+  angleZ -0.341
  }
 }
