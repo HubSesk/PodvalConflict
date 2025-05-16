@@ -1,0 +1,12 @@
+GameEntity : "{5F71AB03597B3D25}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{712F76DA44136525}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor_olive.et"
+    }
+   }
+  }
+ }
+}

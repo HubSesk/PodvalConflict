@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{42329A924424969B}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_ACU1.et" {
+ ID "52092032B0E62200"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo HandWear {
+     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+    }
+   }
+  }
+ }
+}

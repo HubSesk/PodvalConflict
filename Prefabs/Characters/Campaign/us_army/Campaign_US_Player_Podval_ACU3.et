@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{42329A924424969B}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_ACU1.et" {
+ ID "52092032B0E62200"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2762DCAFA0720B81}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_UCP_glasses.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+   }
+  }
+ }
+}

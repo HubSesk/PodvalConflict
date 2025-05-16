@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{713E16B9F2837B37}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player_Podval.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6561138E9159BD07}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6561138E905A6F75}" {
+      m_sVariantPrefab "{3B8430877E1DC7B7}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new2.et"
+     }
+     SCR_EditableEntityVariant "{6561138E902B3A6A}" {
+      m_sVariantPrefab "{DE187C7E72F850DC}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new3.et"
+     }
+     SCR_EditableEntityVariant "{6561138E8FFD5D1F}" {
+      m_sVariantPrefab "{E32C59460794D9EB}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new4.et"
+     }
+    }
+   }
+  }
+ }
+}

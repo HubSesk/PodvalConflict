@@ -1,0 +1,13 @@
+GameEntity : "{E111F32E2154AD79}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_DCU.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "" "{13BB0141E4DA88C6}Assets/Characters/HeadGear/Helmet_ACH_MICH/data/rhs_ach_cov_ucp.emat"
+   }
+   ItemMaterialsOverride {
+    "" "{13BB0141E4DA88C6}Assets/Characters/HeadGear/Helmet_ACH_MICH/data/rhs_ach_cov_ucp.emat"
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C2798DF9D51CD1AE}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_ACU1_MC2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

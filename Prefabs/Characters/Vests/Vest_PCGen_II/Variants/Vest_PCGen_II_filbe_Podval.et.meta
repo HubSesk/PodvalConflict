@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{10964609B3E09844}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe_Podval.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

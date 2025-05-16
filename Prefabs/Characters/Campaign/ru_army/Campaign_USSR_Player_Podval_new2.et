@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+    }
+   }
+  }
+ }
+}

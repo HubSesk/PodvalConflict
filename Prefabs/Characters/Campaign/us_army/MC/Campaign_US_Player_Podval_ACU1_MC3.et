@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{CF92A72294E5BFD6}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_ACU1_MC.et" {
+ ID "52092032B0E62200"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6F3AD28BB3B84C98}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_MC_Glasses.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C7AB6F6342093F30}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_base_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{651D048C906638EA}" {
+     TargetStorage "Jacket/ACU_jacket_base_MC.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+SCR_LoadoutManager : "{61704A1383B93AE4}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval.et" {
+ ID "5690D9DBA5D97663"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+   m_sLoadoutResource "{42329A924424969B}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_ACU1_UCP.et"
+  }
+ }
+}

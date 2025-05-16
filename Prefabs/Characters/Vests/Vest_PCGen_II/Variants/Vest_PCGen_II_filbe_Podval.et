@@ -1,0 +1,16 @@
+GenericEntity : "{70B5348CD5387289}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo tako2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+     Enabled 0
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+}

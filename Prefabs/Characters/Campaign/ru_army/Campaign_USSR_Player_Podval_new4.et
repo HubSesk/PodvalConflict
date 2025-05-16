@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6062F658F714ECED}" {
+     TargetStorage "Jacket/Undershirt_VKPO.et"
+    }
+   }
+  }
+ }
+}

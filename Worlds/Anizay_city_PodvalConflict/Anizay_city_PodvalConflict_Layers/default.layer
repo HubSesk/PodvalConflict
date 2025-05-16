@@ -26,6 +26,13 @@ ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity
 }
 SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}Prefabs/MP/Campaign/CampaignFactionManager_Podval.et" {
  coords 0 0.731 0
+ Factions {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+    "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et"
+   }
+  }
+ }
 }
 SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
  components {
@@ -47,9 +54,6 @@ SCR_MapLocator {
  m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{C1534F222D0F74D2}Configs/Map/MapLocatorHints/LocationHintsArland.conf" {
  }
 }
-GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
- coords 1224.641 5.313 997.469
-}
 $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
  {
   components {
@@ -63,10 +67,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1587.568 3.729 2169.747
-  angleX -1.001
-  angleY -29.773
-  angleZ -3.548
+  coords 1926.739 137.28 6605.406
+  angleX -1.75
+  angleY 87.577
+  angleZ 0.97
  }
  {
   components {
@@ -80,7 +84,24 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1391.808 3.313 1980.118
+  coords 2045.533 139.662 7286.061
+  angleX 0.696
+  angleY -3.173
+  angleZ -3.62
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 2160.507 140.344 7391.046
   angleX -0.874
   angleY 167.571
   angleZ 0.193
@@ -97,10 +118,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1246.752 7.101 1905.986
-  angleX -1.764
-  angleY 90.844
-  angleZ -1.815
+  coords 2298.733 140.868 7849.022
+  angleX -2.559
+  angleY 8.451
+  angleZ 5.032
  }
  {
   components {
@@ -114,10 +135,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1256.742 7.145 2095.658
-  angleX 3.694
-  angleY 121.885
-  angleZ -0.86
+  coords 2252.244 141.344 8084.754
+  angleY 89.255
  }
  {
   components {
@@ -131,10 +150,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1301.972 9.067 2448.14
-  angleX 0.89
-  angleY -0.071
-  angleZ -3.577
+  coords 2454.328 144.93 8528.797
+  angleX 1.889
+  angleY 82.712
+  angleZ 0.66
  }
  {
   components {
@@ -148,10 +167,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1138.342 7.121 1891.024
-  angleX 1.256
-  angleY 5.867
-  angleZ -3.466
+  coords 2709.204 141.922 8080.989
+  angleX 0.817
+  angleY 72.298
+  angleZ 2.557
  }
  {
   components {
@@ -165,10 +184,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1042.42 4.5 1843.2
-  angleX 3.386
-  angleY 99.284
-  angleZ 1.458
+  coords 3661.272 139.061 7842.795
+  angleX 2.265
+  angleY -108.485
+  angleZ 1.129
  }
  {
   components {
@@ -182,10 +201,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1224.165 5.952 1017.547
-  angleX 2.603
-  angleY 121.084
-  angleZ 2.611
+  coords 3019.795 138.216 7077.395
+  angleX -2.813
+  angleY 27.013
+  angleZ 1.577
  }
  {
   components {
@@ -199,10 +218,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1254.502 5.201 1015.895
-  angleX -2.532
-  angleY -57.366
-  angleZ -2.68
+  coords 3802.751 138.844 7298.933
+  angleY 172.84
  }
  {
   components {
@@ -216,10 +233,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1343.63 2 901.517
-  angleX 2.77
-  angleY 34.641
-  angleZ -2.433
+  coords 3737.884 139.156 6862.438
+  angleY -40.115
  }
  {
   components {
@@ -233,10 +248,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1449.287 2.126 758.044
-  angleX 1.784
-  angleY 14.873
-  angleZ -3.227
+  coords 3678.738 138.348 6770.269
+  angleX -0.144
+  angleY 99.229
+  angleZ 0.884
  }
  {
   components {
@@ -250,10 +265,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1184.066 5.027 975.769
-  angleX 2.844
-  angleY 36.42
-  angleZ -2.346
+  coords 3863.409 138.578 7379.408
+  angleX 2.283
+  angleY -101.347
+  angleZ 2.278
  }
  {
   components {
@@ -267,10 +282,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1180.268 4.299 895.11
-  angleX 4.891
-  angleY -69.015
-  angleZ -2.135
+  coords 3808.942 138.281 7396.587
+  angleY 53.913
  }
  {
   components {
@@ -284,10 +297,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1015.706 5.059 873.338
-  angleX -0.557
-  angleY 174.643
-  angleZ 3.644
+  coords 3697.119 140.7 7766.646
+  angleX -0.04
+  angleY 0.257
+  angleZ 8.881
  }
  {
   components {
@@ -301,10 +314,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1010.978 13.057 1160.132
-  angleX -3.684
-  angleY -102.372
-  angleZ -0.106
+  coords 3972.23 140.928 7821.066
+  angleX -1.686
+  angleY -96.039
+  angleZ 1.078
  }
  {
   components {
@@ -318,10 +331,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 971.111 4.221 1290.596
-  angleX -2.89
-  angleY -65.617
-  angleZ -2.289
+  coords 3731.461 142.207 7922.156
+  angleX -2.381
+  angleY -154.839
+  angleZ 0.859
  }
  {
   components {
@@ -335,10 +348,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1066.73 3.354 1395.891
-  angleX -0.822
-  angleY -134.482
-  angleZ 1.334
+  coords 3510.668 143.19 8151.943
+  angleX -2.68
+  angleY -3.074
+  angleZ 0.144
  }
  {
   components {
@@ -352,10 +365,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1265.802 5.572 1664.644
-  angleX -0.428
-  angleY -118.575
-  angleZ -0.786
+  coords 3393.967 144.406 7928.788
+  angleY -143.477
  }
  {
   components {
@@ -369,10 +380,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1110.905 2.505 775.13
-  angleX 2.963
-  angleY 39.423
-  angleZ -2.194
+  coords 3196.426 141.692 7917.379
+  angleX 1.925
+  angleY 79.309
+  angleZ 0.547
  }
  {
   components {
@@ -386,10 +397,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 891.839 1.333 2628.538
-  angleX -2.852
-  angleY -50.39
-  angleZ 3.44
+  coords 3036.576 139.245 7437.686
+  angleX -0.834
+  angleY -158.605
+  angleZ -0.326
  }
  {
   components {
@@ -403,10 +414,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 842.269 1.97 1231.256
-  angleX -6.034
-  angleY -50.533
-  angleZ 3.11
+  coords 3019.938 139.017 6938.811
+  angleX -1.757
+  angleY -42.474
+  angleZ -3.241
  }
  {
   components {
@@ -420,10 +431,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2947.345 4.121 2009.059
-  angleX -1.001
-  angleY -29.773
-  angleZ -3.548
+  coords 2634.739 137.688 6953.887
+  angleY 26.864
  }
  {
   components {
@@ -437,10 +446,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2923.067 2.572 1967.494
-  angleX -0.584
-  angleY 175.071
-  angleZ 3.64
+  coords 2650.947 137.186 6870.867
+  angleX 0.049
+  angleY 165.209
+  angleZ 3.686
  }
  {
   components {
@@ -454,10 +463,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2845.259 2.29 1956.105
-  angleX 2.422
-  angleY 27.005
-  angleZ -2.78
+  coords 2106.627 139.901 6454.416
+  angleX 1.393
+  angleY 17.545
+  angleZ -1.437
  }
  {
   components {
@@ -471,10 +480,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2677.659 2.97 2495.535
-  angleX 3.008
-  angleY -167.45
-  angleZ -1.162
+  coords 2097.282 134.023 6096.171
+  angleX 0.277
+  angleY 122.352
+  angleZ 1.235
  }
  {
   components {
@@ -488,10 +497,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2330.121 13.73 2374.37
-  angleX -1.025
-  angleY -177.204
-  angleZ 2.637
+  coords 1960.395 131.923 6011.764
+  angleX 3.787
+  angleY 82.137
+  angleZ 1.281
  }
  {
   components {
@@ -505,10 +514,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2120.251 10.092 2413.608
-  angleX -3.365
-  angleY -128.172
-  angleZ 1.506
+  coords 3279.204 141.629 7857.468
+  angleX 1.133
+  angleY -18.529
+  angleZ 0.564
  }
  {
   components {
@@ -522,10 +531,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1936.874 4.544 2273.529
-  angleX 2.46
-  angleY 124.147
-  angleZ 2.747
+  coords 3242.032 142.179 8103.457
+  angleX -0.179
+  angleY 101.545
+  angleZ 0.877
  }
  {
   components {
@@ -539,10 +548,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 984.354 1.259 1942.234
-  angleX -2.491
-  angleY -151.566
-  angleZ 2.718
+  coords 3304.618 142.008 8225.522
+  angleX 1.84
+  angleY -79.705
+  angleZ -5.109
  }
  {
   components {
@@ -556,10 +565,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1027.3 3.498 1845.018
-  angleX -1.308
-  angleY -173.284
-  angleZ 3.447
+  coords 3122.205 141.061 8218.032
+  angleX 0.211
+  angleY 57.396
+  angleZ 1.99
  }
  {
   components {
@@ -573,10 +582,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1312.281 8.982 2054.899
-  angleX 0.681
-  angleY -40.498
-  angleZ -0.581
+  coords 3719.859 141.556 8072.036
+  angleX 2.038
+  angleY 100.661
+  angleZ -5.968
  }
  {
   components {
@@ -590,10 +599,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2590.651 0.505 1921.212
-  angleX 2.102
-  angleY 20.689
-  angleZ -3.029
+  coords 3976.291 142.259 8079.047
+  angleX -7.305
+  angleY -24.277
+  angleZ 3.282
  }
  {
   components {
@@ -607,9 +616,143 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1846.917 2 2964.89
-  angleX -0.741
-  angleY -25.624
+  coords 3934.167 142.211 7765.395
+  angleX -1.61
+  angleY -95.492
+  angleZ 1.952
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 3848.179 138.344 7414.143
+  angleY -158.917
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 3757.715 138.759 7308.633
+  angleX 1.78
+  angleY -96.197
+  angleZ -0.193
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4423.861 139.716 8085.945
+  angleX -0.704
+  angleY -128.146
+  angleZ 0.553
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4531.184 143.688 8145.97
+  angleX 0.68
+  angleY -139.428
+  angleZ 0.582
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4574.047 146.152 8032.254
+  angleX -0.88
+  angleY 10.629
+  angleZ -0.165
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4700.612 143.691 8117.725
+  angleX -0.788
+  angleY -28.4
+  angleZ 0.426
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 8404.271 111.41 6785.009
+  angleX 0.894
+  angleY -2.983
+  angleZ -0.046
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 8389.809 111.532 6786.052
+  angleX 0.74
+  angleY -2.471
   angleZ -3.611
  }
  {
@@ -624,10 +767,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1777.95 2.133 2914.029
-  angleX 1.967
-  angleY 18.18
-  angleZ -3.118
+  coords 8406.248 111.531 7189.709
+  angleY -51.861
  }
  {
   components {
@@ -641,10 +782,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1308.581 9.036 2680.138
-  angleX 2.816
-  angleY 35.73
-  angleZ -2.38
+  coords 7425.965 89.814 6849.65
+  angleX 0.318
+  angleY -20.836
+  angleZ 0.837
  }
  {
   components {
@@ -658,10 +799,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1225.817 7.427 2660.853
-  angleX 1.662
-  angleY 139.191
-  angleZ 3.291
+  coords 7331.932 88.663 6921.638
+  angleX -3.858
+  angleY -78.629
+  angleZ 1.047
  }
  {
   components {
@@ -675,10 +816,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1157.116 3.627 2694.888
-  angleX 0.007
-  angleY -177.274
-  angleZ -0.401
+  coords 6152.915 103.948 7024.466
+  angleX 1.961
+  angleY -51.932
+  angleZ 0.399
  }
  {
   components {
@@ -692,10 +833,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 970.286 1.474 2496.607
-  angleX 0.448
-  angleY 24.278
-  angleZ 1.184
+  coords 5033.383 137.948 6971.205
+  angleX 1.193
+  angleY -36.126
+  angleZ 4.66
  }
  {
   components {
@@ -709,10 +850,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1163.991 6.845 2493.342
-  angleX 2.241
-  angleY 128.557
-  angleZ 2.928
+  coords 4958.21 140.532 6998.649
+  angleX 2.338
+  angleY -105.834
+  angleZ -1.592
  }
  {
   components {
@@ -726,10 +867,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1270.221 6.027 2195.805
-  angleX 1.122
-  angleY 148.258
-  angleZ 3.511
+  coords 4807.945 136.094 7030.884
+  angleX 0.736
+  angleY -55.352
+  angleZ 0.509
  }
  {
   components {
@@ -743,10 +884,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1380.355 4.376 2001
-  angleX 3.659
-  angleY 82.99
-  angleZ 0.451
+  coords 4681.258 140.689 7402.937
+  angleX -0.073
+  angleY 12.906
+  angleZ -3.685
  }
  {
   components {
@@ -760,10 +901,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1419.588 6.86 2103.014
-  angleX 3.878
-  angleY -46.986
-  angleZ 2.392
+  coords 4788.658 140.274 7629.088
+  angleX -6.435
+  angleY -130.197
+  angleZ -6.197
  }
  {
   components {
@@ -777,10 +918,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1476.453 3.4 2079.693
-  angleX -6.189
-  angleY 150.331
-  angleZ -3.646
+  coords 4473.716 140.319 7945.232
+  angleX 3.104
+  angleY -107.962
+  angleZ 0.874
  }
  {
   components {
@@ -794,10 +935,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1559.834 3.361 2149.087
-  angleX 2.793
-  angleY 27.554
-  angleZ 0.448
+  coords 4495.427 144.321 8327.49
+  angleX -3.508
+  angleY -176.117
+  angleZ -1.133
  }
  {
   components {
@@ -811,10 +952,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1452.052 2.421 2017.286
-  angleX -3.2
-  angleY -74.224
-  angleZ -1.832
+  coords 4838.881 144.323 8323.021
+  angleX 3.216
+  angleY 150.368
+  angleZ 0.228
  }
  {
   components {
@@ -828,10 +969,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1221.339 6.483 1644.625
-  angleX -0.331
-  angleY 171.107
-  angleZ 3.671
+  coords 4686.732 139.929 7781.505
+  angleX 1.875
+  angleY -134.303
+  angleZ 1.92
  }
  {
   components {
@@ -845,10 +986,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1566.221 1.552 2090.588
-  angleX -3.209
-  angleY 151.98
-  angleZ -0.319
+  coords 5069.636 143.537 8400.62
+  angleX 0.881
+  angleY -100.397
+  angleZ -0.162
  }
  {
   components {
@@ -862,10 +1003,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1388.821 1.064 1878.972
-  angleX 0.358
-  angleY -64.291
-  angleZ -2.806
+  coords 4583.247 139.711 7475.724
+  angleX 1.588
+  angleY -117.458
+  angleZ -0.825
  }
  {
   components {
@@ -879,10 +1020,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 881.498 1.497 1510.677
-  angleX 2.806
-  angleY 116.433
-  angleZ 2.391
+  coords 4263.786 143.037 7356.074
+  angleX 1.627
+  angleY -62.164
+  angleZ -1.165
  }
  {
   components {
@@ -896,10 +1037,8 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 987.841 4.701 1559.93
-  angleX 3.684
-  angleY 78.126
-  angleZ 0.139
+  coords 4025.969 147.562 7475.116
+  angleY -102.879
  }
  {
   components {
@@ -913,22 +1052,61 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 984.677 1.156 1963.862
-  angleY 80.154
- }
-}
-$grp GenericEntity : "{0F2C5498D415A01C}Prefabs/Props/Recreation/Beach/PedalBoat_01/PedalBoat_01_base.et" {
- {
-  coords 828.583 -0.269 554.739
-  angleX 9.953
-  angleY 34.079
-  angleZ -0.127
+  coords 4028.846 141.6 7659.823
+  angleX 3.981
+  angleY 148.294
+  angleZ -0.358
  }
  {
-  coords 801.77 -0.17 590.461
-  angleX 7.463
-  angleY 1.076
-  angleZ -8.934
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 3937.654 141.718 7698.395
+  angleX -3.638
+  angleY 156.659
+  angleZ 0.596
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 3852.395 143.356 7895.207
+  angleX -2.109
+  angleY -60.238
+  angleZ 1.885
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4037.906 141.627 7850.196
+  angleX -0.712
+  angleY -79.244
+  angleZ -1.046
  }
 }
 GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
@@ -943,83 +1121,6 @@ GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pi
  angleZ 0.887
 }
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- CherayPointBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bDisableWhenUnusedAsHQ 0
-    m_bIsSupplyHub 1
-    m_sBaseName "#AR-MapLocation_CherayPoint"
-    m_sBaseNameUpper "#AR-MapLocation_CherayPoint"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 561.7
-     }
-    }
-   }
-  }
-  coords 882.093 1.5 2650.368
-  angleY 160.154
- }
- AgnatBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bDisableWhenUnusedAsHQ 0
-    m_bIsSupplyHub 1
-    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Agnat"
-    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Agnat"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 677.1
-     }
-    }
-   }
-  }
-  coords 1151.794 9.998 1775.254
-  angleY 0.256
- }
- EtaleRidgeBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
-    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 598.8
-     }
-    }
-   }
-  }
-  coords 2629.815 21.646 2103.429
-  angleX -2.126
-  angleY 173.078
-  angleZ 4.753
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 0 -0.299 12
-   }
-  }
- }
  HQEast {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -1045,10 +1146,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsSource 1
    }
   }
-  coords 3038.259 14.767 2132.716
-  angleX 1.18
-  angleY -57.316
-  angleZ -3.492
+  coords 1726.006 122.688 5786.169
+  angleY -29.455
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -1057,6 +1156,188 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "606078EE23DE48AC"
     coords 5.269 0 12.41
+   }
+  }
+ }
+ AgnatBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Agnat"
+    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Agnat"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 677.1
+     }
+    }
+   }
+  }
+  coords 3986.178 137.625 7066.917
+  angleY -171.512
+ }
+ ChaspinhacBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Chaspinhac"
+    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Chaspinhac"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 538
+     }
+    }
+   }
+  }
+  coords 5023.322 143.085 8182.113
+  angleX 4.684
+  angleY -81.984
+  angleZ 5.15
+ }
+ CherayPointBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_CherayPoint"
+    m_sBaseNameUpper "#AR-MapLocation_CherayPoint"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 561.7
+     }
+    }
+   }
+  }
+  coords 3116.842 144.219 8482.382
+  angleY -63.648
+ }
+ EtaleRidgeBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
+    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 598.8
+     }
+    }
+   }
+  }
+  coords 2604.253 136.012 6650.885
+  angleX 0.167
+  angleY 3.57
+  angleZ -2.679
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.299 12
+   }
+  }
+ }
+ FarmBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_Arland_MapLocation_Farm"
+    m_sBaseNameUpper "#AR-Campaign_Arland_MapLocation_Farm"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 647.2
+     }
+    }
+   }
+  }
+  coords 4489.792 134.875 5849.062
+  angleY 86.025
+ }
+ EtaleRidgeBase2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
+    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 598.8
+     }
+    }
+   }
+  }
+  coords 4097.585 144.956 7998.436
+  angleX -1.265
+  angleY -43.457
+  angleZ -0.034
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.299 12
+   }
+  }
+ }
+ EtaleRidgeBase3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
+    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Etale"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 598.8
+     }
+    }
+   }
+  }
+  coords 3659.389 132.324 6192.995
+  angleX 3.035
+  angleY -14.085
+  angleZ -2.603
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.299 12
    }
   }
  }
@@ -1085,10 +1366,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsSource 1
    }
   }
-  coords 826.591 1.543 590.116
-  angleX 4.051
-  angleY 28.153
-  angleZ -1.885
+  coords 6137.053 104.002 6946.747
+  angleX -0.858
+  angleY 92.354
+  angleZ -0.931
   {
    GenericEntity {
     ID "606078EE23DE48AC"
@@ -1099,55 +1380,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     coords 0.797 0.902 3.878
    }
   }
- }
- ChaspinhacBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Chaspinhac"
-    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Chaspinhac"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 538
-     }
-    }
-   }
-  }
-  coords 1344.012 2.741 946.48
-  angleX 1.297
-  angleY -81.17
-  angleZ -2.514
- }
- FarmBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bDisableWhenUnusedAsHQ 0
-    m_bIsSupplyHub 1
-    m_sBaseName "#AR-Campaign_Arland_MapLocation_Farm"
-    m_sBaseNameUpper "#AR-Campaign_Arland_MapLocation_Farm"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 647.2
-     }
-    }
-   }
-  }
-  coords 1632.578 10.422 2597.109
-  angleX 1.752
-  angleY 132.374
-  angleZ -3.244
  }
 }
 GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
@@ -4969,10 +5201,6 @@ $grp GenericEntity : "{C74EA351062C4CBB}Prefabs/Compositions/Slotted/SlotFlatSma
   angleY 170.235
   angleZ 2.227
  }
-}
-Vehicle UAZ452_transport_CIV_randomized1 : "{C7CE8044B5E301F5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_randomized.et" {
- coords 1244.611 7.193 2095.878
- angleY 74.628
 }
 $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
  {

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5B0D6ED99C93080D}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_ACU3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
