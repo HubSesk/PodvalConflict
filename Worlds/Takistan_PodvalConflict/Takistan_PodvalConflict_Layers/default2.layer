@@ -50,5 +50,6 @@ BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/G
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 0 0 0
 }
-SCR_LoadoutManager : "{61704A1383B93AE4}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval.et" {
+SCR_LoadoutManager : "{466C6293A108DDEC}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval_Takistan.et" {
+ coords 6323.791 333.009 6455.472
 }

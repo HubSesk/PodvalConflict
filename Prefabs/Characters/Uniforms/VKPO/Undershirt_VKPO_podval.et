@@ -1,0 +1,15 @@
+GameEntity : "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{6564B0E76CB15305}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6564B0E76BED9B82}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6564B0E76AD7373E}" {
+      m_AffiliatedFactionKey "USSR"
+      m_iOutfitFactionValue 25
+     }
+    }
+   }
+  }
+ }
+}
