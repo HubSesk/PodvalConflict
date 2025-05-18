@@ -1,0 +1,32 @@
+$grp GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     51
+    }
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 7997.521 322.187 1754.326
+  angleY 60.498
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     51
+    }
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 8046.972 322.187 1780.399
+  angleY 60.498
+ }
+}
