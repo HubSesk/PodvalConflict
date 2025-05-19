@@ -15,6 +15,9 @@ SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
  }
  coords 4772.179 26.323 10658.781
 }
+RadioManagerEntity {
+ coords 7242.859 262.437 8222.258
+}
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 20.291 0 5.837
 }
