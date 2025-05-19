@@ -1,42 +1,12 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- GarmsarPoint_SuperBase2 {
+ Rasman_SuperBase2 {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
     m_bIsSupplyHub 1
-    m_sBaseName "Timurkalay"
-    m_sBaseNameUpper "TIMURKALAY"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 600
-     }
-    }
-   }
-   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
-    m_fHeight 10
-    m_bFollowTerrain 1
-   }
-  }
-  coords 10860.428 307.011 6444.421
-  angleX -5.261
-  angleY -84.831
-  angleZ -1.611
- }
- FeruzAbadPoint_SuperBase2 {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bDisableWhenUnusedAsHQ 0
-    m_bIsSupplyHub 1
-    m_sBaseName "FeruzAbad"
-    m_sBaseNameUpper "FERUZABAD"
+    m_sBaseName "Rasman"
+    m_sBaseNameUpper "RASMAN"
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 90
@@ -59,14 +29,14 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -71.29
   angleZ -0.721
  }
- AnarSuperBase {
+ GarmarudSuperBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
     m_bIsSupplyHub 1
-    m_sBaseName "Anar"
-    m_sBaseNameUpper "ANAR"
+    m_sBaseName "Garmarud"
+    m_sBaseNameUpper "GARMARUD"
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 90
@@ -79,10 +49,44 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
      }
     }
    }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
   }
-  coords 6861.232 326.531 6057.635
-  angleX -0.064
-  angleY -76.966
-  angleZ -3.686
+  coords 9292.098 238.969 6682.266
+  angleX -5.319
+  angleY -33.196
+  angleZ -2.947
+ }
+ ImaratSuperBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Lupa Valley"
+    m_sBaseNameUpper "LUPA VALLEY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 7766.879 178.014 8086.854
+  angleX 1.359
+  angleY 109.867
+  angleZ -0.415
  }
 }

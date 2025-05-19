@@ -1,30 +1,5 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- FalarBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Falar"
-    m_sBaseNameUpper "FALAR"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 600
-     }
-    }
-   }
-   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
-    m_fHeight 10
-    m_bFollowTerrain 1
-   }
-  }
-  coords 5250.385 171.625 6125.322
-  angleY -70.613
- }
- ImaratBase {
+ SagramBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_sBaseName "Sagram"
@@ -51,11 +26,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -139.159
   angleZ 4.314
  }
- BastamBase {
+ FalarBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Bastam"
-    m_sBaseNameUpper "BASTAM"
+    m_sBaseName "Falar"
+    m_sBaseNameUpper "FALAR"
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 90
@@ -68,42 +43,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
      }
     }
    }
-   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
-    m_fHeight 10
-    m_bFollowTerrain 1
-   }
   }
-  coords 6911.056 146.937 8908.365
-  angleX -0.353
-  angleY 7.189
-  angleZ 0.528
- }
- GarmarudBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Garmarud"
-    m_sBaseNameUpper "GARMARUD"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 600
-     }
-    }
-   }
-   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
-    m_fHeight 10
-    m_bFollowTerrain 1
-   }
-  }
-  coords 9292.098 238.969 6682.266
-  angleX -5.319
-  angleY -33.196
-  angleZ -2.947
+  coords 6011.842 148.619 7416.342
+  angleX 0.456
+  angleY 13.257
+  angleZ -1.936
  }
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {

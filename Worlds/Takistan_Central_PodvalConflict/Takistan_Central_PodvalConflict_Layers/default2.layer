@@ -22,7 +22,7 @@ SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}P
  coords 0 0.731 0
 }
 SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
- m_iControlPointsThreshold 5
+ m_iControlPointsThreshold 3
  m_fVictoryTimer 420
 }
 ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
