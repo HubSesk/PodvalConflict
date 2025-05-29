@@ -1,0 +1,14 @@
+ParticleEffectEntity {
+ ID "65791AC61F0525D7"
+ components {
+  Hierarchy "{65791AC61F0525CC}" {
+  }
+ }
+ coords 936.066 114.401 2230.449
+ angleX 78.682
+ angleY 180
+ angleZ -161.422
+ UseFrameEvent 1
+ DeleteWhenStopped 1
+ EffectPath "{3F6E7793A26C6091}A10_warthog/Particles/A10_Tracer.ptc"
+}

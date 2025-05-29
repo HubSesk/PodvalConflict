@@ -25,8 +25,25 @@ SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}P
  coords 0 0.731 0
 }
 SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
+ components {
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" {
+    m_aCallIns {
+     SCR_CallInSupportContainer "{613B10C7889A9423}" {
+     }
+     SCR_CallInSupportContainer "{657A8A1870A9A160}" {
+      m_eSupportType FIRE_GUNRUN
+      m_CallInInfo UIInfo "{610F58CA533C0B90}" {
+       Name "A10 GUNRUN"
+       Description "BRRRRRRT"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 6739.056 154.276 9130.142
  m_iControlPointsThreshold 3
- m_fVictoryTimer 420
 }
 ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
  coords -0.018 0 0.077

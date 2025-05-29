@@ -1,0 +1,40 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Tracer {
+   ConeAngle 360 0 5
+   ConeAngleRndRange 5
+   MaxNum 1
+   BirthRate 0.01
+   LodMin 0
+   LodMax 2
+   ParticleType Prefab
+   Prefab "{A6A4180A4894F6DA}A10_warthog/Prefabs/Particles/A10_Tracer.et"
+   SizeMultiplier 4
+   SizeRND 1
+   CenterX 1
+   CenterY 1
+   CenterZ 1
+   RotMultiplier_3D 0 0 0
+   RotRND_3D 0 0 0
+   VelAngle 1
+   VelAngleCatchUp 1
+   Velocity 850
+   ParentVelRelToAir 0.26
+   Lifetime 60
+   LifetimeShortening 0.6
+   Color {
+    0 0 0 0
+   }
+   Alpha {
+    0 0
+   }
+   EmittingTime 0.5
+   Repeat 0
+   EnableLight 1
+   MaxLV 4.293
+  }
+ }
+ CollisionPreset "{5D9EE44C68755DF5}"
+ LightClipEV 1.39
+}

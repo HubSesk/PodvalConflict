@@ -1,0 +1,39 @@
+GenericEntity : "{1126AD9D919F82FF}Prefabs/Weapons/Warheads/Warhead_Explosive_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{FDBAF947936E1744}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Shot.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5F10B4D8DC73BB97}" {
+     ExplosionEffects {
+      ExplosionFragmentationEffect "{6578AA4748F01790}" {
+       DamageValue 6
+       DamageDistance 2
+       ExplosionEffectSpeed 100
+       DamageEffect {
+        SCR_FragmentationDamageEffect "{6578AA4773ED621E}" {
+        }
+       }
+      }
+     }
+    }
+    SpawnParticleEffect "{6578AA467FB604C9}" {
+     FollowParent 1
+     UseFrameEvent 1
+     ParticleEffect "{486F565CCF5C8139}Particles/Enviroment/Hit_30mm_APDS.ptc"
+     SoundEvent "SOUND_SHOT"
+    }
+   }
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+  }
+  Hierarchy "{657A664C24C9699D}" {
+  }
+ }
+ coords 1229.957 51 1386.624
+}

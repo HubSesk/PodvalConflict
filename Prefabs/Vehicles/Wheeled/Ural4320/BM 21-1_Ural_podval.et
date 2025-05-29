@@ -1,0 +1,187 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RHS_VehicleScreensControllerComponent "{657A8A1B6F5E40D9}" {
+   m_bUseTurretMainCameras 1
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Active Inactive
+   Mass 7970
+   CenterOfMass 0 0.15 -0.034
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_m01 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList +{
+       }
+      }
+     }
+     DoorInfoList +{
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SampleMod-EditableEntity_BMl_Name"
+    Description "FUFUFUUFF"
+    Icon "{570455ABF8699CEC}UI/Textures/Editor/EditableEntities/Vehicles/RSZO.edds"
+    m_Image "{F878C25A85820F68}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ural4320_BM.edds"
+    m_aAuthoredLabels + {
+     10 3 21
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2000
+     }
+     SCR_EntityBudgetValue "{6576B32F5657FCE4}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+    }
+    m_bEditorPlaceAsOneGroup 0
+    m_aOccupantFillCompartmentTypes {
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BD27BDDD6}" {
+      m_Value 0
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BD2719A94}" {
+      m_Value 0
+     }
+    }
+   }
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     FuelCapPosition EntitySlotInfo "{566ADD176462F2F9}" {
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MaxCumulativeVolume 1000
+   MaxItemSize 40 40 40
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+     }
+    }
+    MultiSlotConfiguration "{6576B32F5657FC8B}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{3C238E9197A64F01}Prefabs/Items/Equipment/BalisticTable/BalisticTable_BM-21.et"
+     }
+     NumSlots 1
+    }
+   }
+   m_fMaxWeight 1000
+  }
+  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+   m_fSpeedMax 150
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+     }
+    }
+   }
+   m_SecondaryFires SCR_SecondaryExplosions "{5E6D5DC3C388AA21}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{5E64FE87EB002CBB}" {
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{5E64FE87E97CDE04}" {
+        m_fMinValue 30
+       }
+       SCR_SecondaryExplosion "{5E64FE87E95D3D28}" {
+        m_fMinValue 20
+       }
+       SCR_SecondaryExplosion "{5E64FE87E8B525AE}" {
+        m_fMinValue 10
+       }
+      }
+     }
+    }
+   }
+   m_fVehicleDestroyDamage 11360.7
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo BM21 {
+     PivotID "v_root"
+     Offset 0.0374 1.6935 -1.3949
+     MergePhysics 1
+     Enabled 1
+     Prefab "{1396E15AEE1766F7}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/static_platform_BM21.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 0
+     RegisterActions 1
+     RegisterDamage 0
+     RegisterControllers 0
+     RegisterWeapons 0
+     RegisterCompartments 0
+     RegisterLights 0
+    }
+    RegisteringComponentSlotInfo Weapon {
+     PivotID "v_root"
+     Offset 0 1.7205 -1.482
+     Prefab "{4C6D8574DF1B9652}Prefabs/Vehicles/Wheeled/Ural4320/BM21/BM21_turret_podval.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+    RHS_ScreenEntitySlotInfo BM21_gunner_screen {
+     PivotID "v_body"
+     Offset 0.1289 0.9205 0.9131
+     Angles 0 -90 12.354
+     Prefab "{3741385B71BE10DE}Prefabs/Vehicles/Wheeled/Ural4320/BM21/BM21_gunner_screen.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{509D45B13FF4C999}" {
+     Position PointInfo "{509D45B105E470DD}" {
+      Offset 0 0 0
+     }
+     Omnidirectional 0
+    }
+    UserActionContext "{6576B32F5657FCAD}" {
+     UIInfo SCR_ActionContextUIInfo "{6576B32F5657FCA0}" {
+     }
+     ContextName "passenger_m01_openDoor"
+     Position PointInfo "{6576B32F5657FCA1}" {
+      PivotID "codriver_02_idle"
+      Offset 0.0628 -0.0096 0
+     }
+     Height 0
+    }
+   }
+  }
+ }
+ Flags 3
+ coords 150.379 1 244.18
+ angleY 180
+}

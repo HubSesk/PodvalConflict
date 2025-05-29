@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{9543361F172DFD7A}Assets/Vehicles/Airplanes/A10-warthog/tracer.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{657962878594F974}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{5B3D79BE9384766B}Assets/Weapons/Ammo/Tracers/Data/Tracer_Red_emit.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Tracer {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCS_A10_tracer {
+     LayerPreset "Projectile"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 1
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6579628785A9D6F0}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6579628785A9D7A4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6579628785A9D72F}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6579628785A9D89C}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6579628785A9D856}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6579628785A9D826}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{6579628785A9D992}" {
+   }
+  }
+ }
+}

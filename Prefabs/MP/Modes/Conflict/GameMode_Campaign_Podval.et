@@ -1,4 +1,73 @@
 SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  ID "56B2B479C6B96951"
+ components {
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" {
+    m_aCallIns {
+     SCR_CallInSupportContainer "{613B10C78ECB03E7}" {
+      m_iMaxCallInDistance 2000
+      m_iMinSpawnDelay 4
+      m_iMaxSpawnDelay 10
+     }
+     SCR_CallInSupportContainer "{613B10C7889A9423}" {
+      m_iRequestCooldown 180
+      m_iRequestCost 500
+      m_eRequiredRank SERGEANT
+      m_iMaxCallInDistance 2000
+      m_iMinSpawnDelay 4
+      m_iMaxSpawnDelay 10
+      m_iCancellationCooldown 6
+      m_bMustBeSquadLeader 0
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B351DB734E}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{657A93F4180E7D8F}" {
+      m_sCallInPrefab "{66DC92251946170D}Prefabs/Vehicles/Airplanes/A10/A10_flyby.et"
+      m_eSupportType FIRE_GUNRUN
+      m_CallInInfo UIInfo "{610F58CA533C0B90}" {
+       Name "A10 Gunrun"
+       Description "BRRRRRT"
+      }
+      m_iRequestUsageLimit -1
+      m_iRequestCooldown 120
+      m_iRequestCost 300
+      m_eRequiredRank SERGEANT
+      m_aAvialableForFactions {
+       "US"
+      }
+      m_iMaxCallInDistance 2000
+      m_iMinSpawnDelay 4
+      m_iMaxSpawnDelay 10
+      m_iCancellationCooldown 6
+      m_bMustBeSquadLeader 0
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B351DB734E}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+       SCR_CallInRequiredRadioContainer "{657A93F5E8AAC818}" {
+        m_sGadgetType "RADIO_BACKPACK"
+        m_sGadgetName "#RHS-CISS_Gadget_RadioBackpack_Name"
+        m_bRequireRadioFromCorrectFaction 1
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
+  }
+ }
+ m_fVictoryTimer 450
  m_iRegularSuppliesIncome 50
 }

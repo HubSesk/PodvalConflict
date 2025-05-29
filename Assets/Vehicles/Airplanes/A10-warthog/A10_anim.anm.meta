@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{264D67303F982207}A10_warthog/Assets/Vehicles/Airplanes/A10-warthog/A10_anim.anm"
+ Configurations {
+  FBXAnimResourceClass PC {
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass XBOX_SERIES : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass PS5 : PC {
+  }
+  FBXAnimResourceClass HEADLESS : PC {
+  }
+  FBXAnimResourceClass Xbox : PC {
+  }
+ }
+}

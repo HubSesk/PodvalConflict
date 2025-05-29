@@ -1,0 +1,17 @@
+GenericEntity : "{D1D61A1D9B274E1A}Prefabs/Vehicles/Missles/Shared/CAS_Spawner_Flyby.et" {
+ ID "6205264A53BC08DC"
+ components {
+  BaseTriggerComponent "{6205264B8772DC49}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6205264B8772DC5D}" {
+     EffectPrefab "{0ABFBFA6BFEC9CB2}A10_warthog/Prefabs/Warheads/A10_warhead/A10_CAS_warhead.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   TriggerOffset 0
+   ArmingTime 0
+  }
+ }
+ Flags 524291
+ coords 1232.58 51 1389.037
+}

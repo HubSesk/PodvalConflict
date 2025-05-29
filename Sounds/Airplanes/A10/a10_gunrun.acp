@@ -1,0 +1,500 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 24589
+   name "Signal Reverb"
+   tl 950.852 546.167
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 40 112 139
+   }
+   outputsport {
+    34 39 105 107 106 110
+   }
+   inputvalues {
+    40 1 1 16000 16000
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    100 1 1 16000 16000
+   }
+   path "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+  }
+  SignalClass {
+   id 33805
+   name "Signal Occlusion"
+   tl -602.403 565.991
+   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+   inputsport {
+    45 55 57 94 103 111
+   }
+   outputsport {
+    74
+   }
+   inputvalues {
+    0 0 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 10000 10000 1
+   }
+   path "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+  }
+  SignalClass {
+   id 40973
+   name "CAS_SIGNAL"
+   tl 208.482 279.989
+   res "{1CCE94349DAE46D7}Sounds/Vehicles/cas_trigger_signal.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2 4
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{1CCE94349DAE46D7}Sounds/Vehicles/cas_trigger_signal.sig"
+  }
+ }
+ filters {
+  FilterClass {
+   id 25622
+   name "Filter HS"
+   version 5
+   tl -1433.976 -325.575
+   pi {
+    1 0
+   }
+   pu {
+    16 0
+   }
+   DSPObject BiquadDSPTypeClass dsp {
+    biquadType HighShelf
+    fc 3000
+    Q 1
+    gain 8
+   }
+  }
+  FilterClass {
+   id 29718
+   name "Filter PEAK"
+   version 5
+   tl -1400.676 -435.007
+   pi {
+    1 0
+   }
+   DSPObject BiquadDSPTypeClass dsp {
+    biquadType PeakingEQ
+    fc 6000
+    Q 1
+    gain -6
+   }
+  }
+  FilterClass {
+   id 45078
+   name "Filter 44"
+   version 5
+   tl 216.784 -145.32
+   pi {
+    3 0
+   }
+  }
+ }
+ filter_chain {
+  FilterChainClass {
+   id 30743
+   name "FilterChain Turbine Noise"
+   version 5
+   tl -1026.977 -351.002
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 29718
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 25622
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  FilterChainClass {
+   id 46103
+   name "FilterChain 45"
+   version 5
+   tl 391.561 -47.332
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 45078
+       port 65
+      }
+     }
+    }
+   }
+  }
+ }
+ sounds {
+  SoundClass : "{DE374121BF83A6FA}Sounds/_SharedData/Configs/Sound/Weapons/Sound_Weapons_Shot_25mm.conf" {
+   id 21513
+   name "A10 GUNRUN SOUND"
+   version 5
+   tl 551.874 302.121
+   parent "{DE374121BF83A6FA}Sounds/_SharedData/Configs/Sound/Weapons/Sound_Weapons_Shot_25mm.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 40973
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 40973
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 28690
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   outState 12299
+   outStatePort 79879
+   delayTime 3300
+   eventNoRepeatTimeMSec 400
+   speedOfSoundSimulation 0
+   transformation Bone
+   boneName "v_gun"
+   type "One shot"
+   threshold 0.001
+   reset 20
+   time 200000
+  }
+ }
+ buses {
+  BusClass {
+   id 26631
+   name "Bus Turbine Noise"
+   version 7
+   tl -797.779 -515.785
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 30743
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 35844
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+  }
+ }
+ mixers {
+  MixerClass {
+   id 12299
+   name "OutputState"
+   version 4
+   tl 1420.649 310.62
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 21513
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+     links {
+      ConnectionClass connection {
+       id 14365
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    49152 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 28690
+   name "Shader Turbine"
+   version 5
+   tl 205.696 403.591
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 32796
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 31763
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 34837
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 44036
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   ITD 0
+  }
+  ShaderClass {
+   id 38930
+   name "Flyby"
+   version 5
+   tl -446.219 -670.31
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 39955
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 26631
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   ITD 0
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-25LUFS_to_-20LUFS.conf" {
+   id 31763
+   version 5
+   tl -366.854 321.843
+   parent "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-25LUFS_to_-20LUFS.conf"
+   outerRange 3200
+   slopeFactor 45
+  }
+  AmplitudeClass : "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-25LUFS_to_-20LUFS.conf" {
+   id 39955
+   version 5
+   tl -1089.675 -653.674
+   parent "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-25LUFS_to_-20LUFS.conf"
+   curve SCurve
+   innerRange 1
+  }
+ }
+ frequency {
+  FrequencyClass : "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf" {
+   id 34837
+   version 5
+   tl -351.173 479.593
+   parent "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf"
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 33805
+       port 74
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+   filterStrength 0.9
+   enableDirectivity 1
+   directivityFactor 0.67
+   terrainEffects 1
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 35844
+   name "Noise"
+   version 7
+   tl -1395.483 -530.517
+   pu {
+    3 0
+   }
+   Volume -23.824
+   Pitch -5
+   "Termination Fade Out" 3000
+   "Fade in time" 1000
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{0EEA52EC75E96E6E}Sounds/_SharedData/SamplesForFuture/Rockets/RocketFlight_Loop.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 44036
+   name "Bank 43"
+   version 7
+   tl -40.673 600.858
+   Volume 12
+   "Volume variance" 2
+   Pitch -1
+   "Pitch variance" 2
+   Selection SequenceFromFirst
+   Resampler FIR_4
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{8823846FC54AD5AC}A10_warthog/Sounds/Airplanes/A10/gau30.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 32796
+   name "Spatiality 3D"
+   version 5
+   tl -103.535 199.206
+   spatialFactor 0.45
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 14365
+   name "AuxOut Reverb INT"
+   version 5
+   tl 1196.007 403.15
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 21513
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 24589
+       port 34
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 24589
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 152583
+  }
+ }
+ version 1
+ listenerWindowModel "{C1BFA9AF4310784F}A10_warthog/Assets/Vehicles/Airplanes/A10-warthog/A10.xob"
+}

@@ -1,0 +1,5 @@
+VehiclePartPanel : "{2960FB8B187A3122}BM21/gunner_screen_bm21.et" {
+ ID "F0DBA538AC2A0552"
+ coords 7499.658 124.997 10394.415
+ angleY 0
+}

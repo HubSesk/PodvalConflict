@@ -1,0 +1,67 @@
+SCR_GameModeCampaign : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
+ ID "56B2B479C6B96951"
+ components {
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" {
+    m_aCallIns {
+     SCR_CallInSupportContainer "{613B10C78ECB03E7}" {
+      m_iRequestCooldown 120
+      m_iRequestCost 300
+      m_eRequiredRank SERGEANT
+      m_iMinSpawnDelay 4
+      m_iMaxSpawnDelay 15
+      m_iCancellationCooldown 12
+      m_bMustBeSquadLeader 0
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B351DB734E}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{613B10C7889A9423}" {
+      m_iRequestCooldown 120
+      m_iRequestCost 300
+      m_eRequiredRank SERGEANT
+      m_iMinSpawnDelay 4
+      m_iMaxSpawnDelay 15
+      m_iCancellationCooldown 12
+      m_bMustBeSquadLeader 0
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B351DB734E}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B34E1269D8}" {
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{624ED09013D608AA}" {
+      m_iRequestCooldown 12000
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B343A5C35C}" {
+        m_sGadgetType "NONE"
+        m_sGadgetName ""
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{624ED090108265B6}" {
+      m_iRequestCooldown 12000
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B343A5C35C}" {
+        m_sGadgetType "NONE"
+        m_sGadgetName ""
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

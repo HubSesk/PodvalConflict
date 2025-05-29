@@ -1,0 +1,42 @@
+Projectile {
+ ID "65796281DF95612C"
+ components {
+  CollisionTriggerComponent "{657A6B55319B9645}" {
+   Enabled 1
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{657A6B552BB8BF66}" {
+     EffectPrefab "{0ABFBFA6BFEC9CB2}A10_warthog/Prefabs/Warheads/A10_warhead/A10_CAS_warhead.et"
+     ParticleEffect "{486F565CCF5C8139}Particles/Enviroment/Hit_30mm_APDS.ptc"
+    }
+   }
+  }
+  MeshObject "{65796281A9F459EC}" {
+   Object "{9543361F172DFD7A}A10_warthog/Assets/tracer.xob"
+   CastShadow 0
+   CastFarShadow 0
+   PixelSizeFilter 0
+  }
+  SlotManagerComponent "{657A664F23EE9977}" {
+   Enabled 0
+   Slots {
+    EntitySlotInfo Warhead {
+     Offset 0 1.407 0
+     MergePhysics 1
+     Prefab "{0ABFBFA6BFEC9CB2}A10_warthog/Prefabs/Warheads/A10_warhead/A10_CAS_warhead.et"
+    }
+   }
+  }
+  RigidBody "{657A77E0078CFE33}" {
+   LayerPreset "ItemFireView"
+   ModelGeometry 1
+  }
+  SCR_EffectsModuleChildComponent "{657A77E10074921F}" {
+  }
+ }
+ coords 1545.201 51 2305.412
+ SpawnAsCartridge 1
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{9543361F172DFD7A}A10_warthog/Assets/tracer.xob"
+ CartridgeModel "{9543361F172DFD7A}A10_warthog/Assets/tracer.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

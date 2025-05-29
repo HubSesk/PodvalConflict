@@ -1,0 +1,79 @@
+GenericEntity : "{C4C2DAA24E4CDC6E}Prefabs/Vehicles/Airplanes/F22/f22_mesh.et" {
+ ID "62D73C56138873DC"
+ components {
+  RHS_CASSoundComponent "{62D73C56138873EE}" {
+   Filenames {
+    "{DD983785E5E26A36}A10_warthog/Sounds/Airplanes/A10/A10_engine_new.acp" "{3AD6B824BFAB3EA5}A10_warthog/Sounds/Airplanes/A10/a10_gunrun.acp"
+   }
+   SoundPoints {
+    SoundPointInfo kh55 {
+    }
+    SoundPointInfo gun {
+     PivotID "v_gun"
+    }
+   }
+   m_sBoneName "V_A10"
+  }
+  MeshObject "{62D73C56138873E4}" {
+   Object "{C1BFA9AF4310784F}A10_warthog/Assets/Vehicles/Airplanes/A10-warthog/A10.xob"
+   PixelSizeFilter 0
+  }
+  RHS_ParticleEmiterSpawnerComponent "{6578AA48D0715670}" {
+   m_fEmmitDelay 200
+   m_sParticleName "{098AE394F272E76B}Prefabs/Particles/CounterMeasure_Emitter.et"
+   m_EmmitPoint PointInfo "{6578AA48C31FE7CF}" {
+    PivotID "V_A10"
+    Offset -0.7132 0.8807 -3.5827
+    Angles 0 139.13934 120.36539
+   }
+   m_fStartDelay 4
+   m_fEmmitTime 10
+  }
+  RHS_ParticleEmiterSpawnerComponent "{6578AA48D44652DE}" {
+   m_fEmmitDelay 200
+   m_sParticleName "{098AE394F272E76B}Prefabs/Particles/CounterMeasure_Emitter.et"
+   m_EmmitPoint PointInfo "{6578AA4804DC2110}" {
+    PivotID "V_A10"
+    Offset 0.6313 0.8807 -3.667
+    Angles 12.7694 64.76497 131.44046
+   }
+   m_fStartDelay 4
+   m_fEmmitTime 10
+  }
+  RHS_ParticleEmiterSpawnerComponent "{65791AC356E2D234}" {
+   m_fEmmitDelay 65
+   m_sParticleName "{3F6E7793A26C6091}A10_warthog/Particles/A10_Tracer.ptc"
+   m_EmmitPoint PointInfo "{65791AC2940CC853}" {
+    PivotID "v_gun"
+    Offset 0 -0.1582 0.6036
+    Angles -87 -180 180
+   }
+   m_fStartDelay 2.5
+   m_fEmmitTime 1.1
+  }
+  SlotManagerComponent "{62D73C56138873FF}" {
+   Slots {
+    EntitySlotInfo eng_l {
+     PivotID "V_A10"
+     Offset 1.4924 1.877 -5.2432
+     Angles 0 90 0
+     Prefab "{0F7BFF1FC3995491}Prefabs/Particles/FuelTank_burning.et"
+    }
+    EntitySlotInfo eng_r {
+     PivotID "V_A10"
+     Offset -1.5273 1.8969 -5.2037
+     Angles 0 90 0
+     Prefab "{0F7BFF1FC3995491}Prefabs/Particles/FuelTank_burning.et"
+    }
+    EntitySlotInfo Flares {
+     PivotID "V_F18"
+     Offset -0.0513 0.9025 -4.5081
+     Angles 0 116.78609 0
+     Enabled 0
+     Prefab "{098AE394F272E76B}Prefabs/Particles/CounterMeasure_Emitter.et"
+    }
+   }
+  }
+ }
+ coords 1220.989 51.612 1395.636
+}

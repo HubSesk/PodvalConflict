@@ -1,0 +1,460 @@
+GenericEntity : "{EAD777F4CDA11F16}Prefabs/Vehicles/Airplanes/F22/F22_Flyby.et" {
+ ID "62D73C5615AA5EF0"
+ components {
+  MeshObject "{62D73C5615AA5F1E}" {
+   Object "{C1BFA9AF4310784F}Assets/Vehicles/Airplanes/A10-warthog/A10.xob"
+   PixelSizeFilter 0
+  }
+  RHS_CAS_EditableEntityComponent "{62D73C5615AA5F18}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{62D73C5615AA5F15}" {
+    Name "A10-gunrun"
+    Description "BRRRRT"
+    m_Image ""
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     7 11 1001
+    }
+   }
+   m_aRHS_CASElementConfig {
+    RHS_CASElementConfig "{62D73C5615AA5F26}" {
+     m_sSlotName "w1"
+     m_iDeletionTime 3900
+    }
+    RHS_CASElementConfig "{62D73C5615AA5F24}" {
+     m_iDeletionTime 16200
+    }
+    RHS_CASElementConfig "{6578AA446814D34E}" {
+     m_sSlotName "w1"
+     m_iDeletionTime 3950
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA446163B84F}" {
+     m_sSlotName "w2"
+     m_iDeletionTime 4000
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA439B8279CC}" {
+     m_sSlotName "w3"
+     m_iDeletionTime 4050
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA43965AD83D}" {
+     m_sSlotName "w4"
+     m_iDeletionTime 4100
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4390CDE66C}" {
+     m_sSlotName "w5"
+     m_iDeletionTime 4150
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA43A668388C}" {
+     m_sSlotName "w6"
+     m_iDeletionTime 4200
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA43314BE984}" {
+     m_sSlotName "w7"
+     m_iDeletionTime 4250
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA432DCBD08A}" {
+     m_sSlotName "w8"
+     m_iDeletionTime 4300
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA432A87386B}" {
+     m_sSlotName "w9"
+     m_iDeletionTime 4350
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA432681E80C}" {
+     m_sSlotName "w10"
+     m_iDeletionTime 4400
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA43236E86A5}" {
+     m_sSlotName "w11"
+     m_iDeletionTime 4450
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA435F94A945}" {
+     m_sSlotName "w12"
+     m_iDeletionTime 4500
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA435C9C55ED}" {
+     m_sSlotName "w13"
+     m_iDeletionTime 4550
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4359CF735D}" {
+     m_sSlotName "w14"
+     m_iDeletionTime 4600
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4355678043}" {
+     m_sSlotName "w15"
+     m_iDeletionTime 4650
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA43514D931E}" {
+     m_sSlotName "w16"
+     m_iDeletionTime 4700
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA434E27D63A}" {
+     m_sSlotName "w17"
+     m_iDeletionTime 4750
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA434A1F8D5A}" {
+     m_sSlotName "w18"
+     m_iDeletionTime 4800
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4346408F92}" {
+     m_sSlotName "w19"
+     m_iDeletionTime 4850
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA43430F8775}" {
+     m_sSlotName "w20"
+     m_iDeletionTime 4900
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{65789636163CE681}" {
+     m_sSlotName "Platform"
+     m_iDeletionTime 26000
+     m_bIsWarhead 0
+    }
+    RHS_CASElementConfig "{6578AA4DE652F30F}" {
+     m_sSlotName "w21"
+     m_iDeletionTime 4950
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D1F748A35}" {
+     m_sSlotName "w22"
+     m_iDeletionTime 5000
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D1BCA8F38}" {
+     m_sSlotName "w23"
+     m_iDeletionTime 5050
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D18A7CCC1}" {
+     m_sSlotName "w24"
+     m_iDeletionTime 5100
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D17942FC0}" {
+     m_sSlotName "w25"
+     m_iDeletionTime 5150
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D168546D5}" {
+     m_sSlotName "w26"
+     m_iDeletionTime 5200
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D15AFCD65}" {
+     m_sSlotName "w27"
+     m_iDeletionTime 5250
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D1492D69C}" {
+     m_sSlotName "w28"
+     m_iDeletionTime 5300
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D13B6B212}" {
+     m_sSlotName "w29"
+     m_iDeletionTime 5350
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D12837795}" {
+     m_sSlotName "w30"
+     m_iDeletionTime 5400
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D117B8301}" {
+     m_sSlotName "w31"
+     m_iDeletionTime 5450
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D10841D72}" {
+     m_sSlotName "w32"
+     m_iDeletionTime 5500
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D0BD6DEB5}" {
+     m_sSlotName "w33"
+     m_iDeletionTime 5550
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D0AE5CD0C}" {
+     m_sSlotName "w34"
+     m_iDeletionTime 5600
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D2E26DA5D}" {
+     m_sSlotName "w35"
+     m_iDeletionTime 5650
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6578AA4D2AE00EFB}" {
+     m_sSlotName "w36"
+     m_iDeletionTime 5700
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6579628FE19DA739}" {
+     m_sSlotName "w37"
+     m_iDeletionTime 5750
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6579628F1B4F9A9C}" {
+     m_sSlotName "w38"
+     m_iDeletionTime 5800
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6579628F147D5F87}" {
+     m_sSlotName "w39"
+     m_iDeletionTime 5850
+     m_bIsWarhead 1
+    }
+    RHS_CASElementConfig "{6579628F0E785FF0}" {
+     m_sSlotName "w40"
+     m_iDeletionTime 5900
+     m_bIsWarhead 1
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{62D73C5615AA5F22}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{62D73C5615AA5F23}" {
+     m_Mesh "{29AF7E2A7BCDA37D}Assets/Vehicles/Airplanes/fa18a/preview.xob"
+    }
+   }
+  }
+  SlotManagerComponent "{62D73C5615AA5F3F}" {
+   Slots {
+    EntitySlotInfo Warhead {
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo Payload {
+     PivotID "v_gun"
+     Offset 0 0 0
+     Angles 0 0 0
+     Prefab ""
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo w1 {
+     Offset -5.2181 1 6.6402
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w2 {
+     Offset 2.5068 1 12.2447
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w3 {
+     Offset 2.5512 1 5.513
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w4 {
+     Offset 1.5087 1 -3.5019
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w5 {
+     Offset -3.555 1 6.4683
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w6 {
+     Offset 1.6445 1 0
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w7 {
+     Offset -6.7335 1 -5.0706
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w8 {
+     Offset 3.9886 1 11.3461
+     Angles 35.3637 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w9 {
+     Offset -1.7409 1 11.4266
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w10 {
+     Offset 0.5642 1 -12.6036
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w11 {
+     Offset -5.1946 1 6.3459
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w12 {
+     Offset 5.2577 1 12.4013
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w13 {
+     Offset -0.2923 1 18.3507
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w14 {
+     Offset 4.7477 1 22.0726
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w15 {
+     Offset -0.5981 1 26.6794
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w16 {
+     Offset 5.0076 1 27.9386
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w17 {
+     Offset 8.2519 1 27.8594
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w18 {
+     Offset 0.2544 1 41.6809
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w19 {
+     Offset 4.7969 1 37.6293
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w20 {
+     Offset -0.7017 1 23.3294
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo Platform {
+     PivotID "V_A10"
+     Offset 0 -0.2127 0.1012
+     Prefab "{02AEFC05D852F3B2}Prefabs/Vehicles/Airplanes/A10/A10_mesh.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo w21 {
+     Offset -1.9419 1 16.9964
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w22 {
+     Offset 2.4703 1 30.2587
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w23 {
+     Offset -8.1025 1 26.0789
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w24 {
+     Offset 5.5665 1 29.4399
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w25 {
+     Offset 8.9412 1 29.5529
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w26 {
+     Offset -5.9178 1 7.6333
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w27 {
+     Offset -5.555 1 24.8222
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w28 {
+     Offset 3.8667 1 2.9211
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w29 {
+     Offset -0.3083 1 17.78
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w30 {
+     Offset 5.7519 1 26.8953
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w31 {
+     Offset -0.5796 1 31.1964
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w32 {
+     Offset 0.2695 1 -10.8417
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w33 {
+     Offset -10.3783 1 -11.9995
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w34 {
+     Offset 3.029 1 -10.6638
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w35 {
+     Offset 8.9644 1 26.1882
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w36 {
+     Offset 3.4877 1 37.2211
+     Angles 20 0 0
+     Prefab "{BE9A2A29BE9B8600}Prefabs/Vehicles/Airplanes/A10/A10_CAS_Spawner.et"
+    }
+    EntitySlotInfo w37 {
+     Offset -0.0239 1 47.3767
+    }
+    EntitySlotInfo w38 {
+     Offset 2.4805 1 54.9359
+    }
+    EntitySlotInfo w39 {
+     Offset 2.0259 1 61.8611
+    }
+    EntitySlotInfo w40 {
+     Offset 5.1579 1 64.4483
+    }
+   }
+  }
+  AnimationPlayerComponent "{62D73C5615AA5F35}" {
+   Animation "{264D67303F982207}Assets/Vehicles/Airplanes/A10-warthog/A10_anim.anm"
+   Speed 1
+  }
+ }
+ coords 1242.458 52.626 1402.085
+ angleY 4.443
+}

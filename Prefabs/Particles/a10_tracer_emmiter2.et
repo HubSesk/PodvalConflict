@@ -1,0 +1,17 @@
+ParticleEffectEntity {
+ ID "65796282505E24CB"
+ components {
+  Hierarchy "{657962825EB39632}" {
+  }
+  CollisionTriggerComponent "{657A6B50A4A8EF19}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{657A6B50A2539F84}" {
+     EffectPrefab "{0ABFBFA6BFEC9CB2}A10_warthog/Prefabs/Warheads/A10_warhead/A10_CAS_warhead.et"
+     ParticleEffect "{486F565CCF5C8139}Particles/Enviroment/Hit_30mm_APDS.ptc"
+    }
+   }
+  }
+ }
+ coords 1539.67 51 2308.5
+ EffectPath "{3F6E7793A26C6091}A10_warthog/Particles/A10_Tracer.ptc"
+}
