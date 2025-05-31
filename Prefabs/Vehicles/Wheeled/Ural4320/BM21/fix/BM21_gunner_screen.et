@@ -1,0 +1,11 @@
+VehiclePartPanel : "{E13C70EF8357DF74}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_SmallScreen.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RHS_VehicleTargetScreenComponent "{604D4DDC3BF8B592}" {
+   m_sScreenLayout "{2B6A9EE27FBD4FF0}UI/layouts/Vehicles/RU_SHARED/Target_Screen.layout"
+   m_bPowerOnEngineStart 0
+  }
+ }
+ coords 7300.04 108.492 10634.996
+ angleY 0
+}

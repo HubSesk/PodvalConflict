@@ -138,7 +138,7 @@ Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
     RegisteringComponentSlotInfo Weapon {
      PivotID "v_root"
      Offset 0 1.7205 -1.482
-     Prefab "{4C6D8574DF1B9652}Prefabs/Vehicles/Wheeled/Ural4320/BM21/BM21_turret_podval.et"
+     Prefab "{866F5D3BC00FAA56}Prefabs/Vehicles/Wheeled/Ural4320/BM21/fix/BM21_turret_podval.et"
      DisablePhysicsInteraction 1
      RegisterActions 1
      RegisterDamage 1
@@ -151,7 +151,7 @@ Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
      PivotID "v_body"
      Offset 0.1289 0.9205 0.9131
      Angles 0 -90 12.354
-     Prefab "{3741385B71BE10DE}Prefabs/Vehicles/Wheeled/Ural4320/BM21/BM21_gunner_screen.et"
+     Prefab "{FD43E0146EAA2CDA}Prefabs/Vehicles/Wheeled/Ural4320/BM21/fix/BM21_gunner_screen.et"
      DisablePhysicsInteraction 1
      RegisterActions 1
      RegisterDamage 1

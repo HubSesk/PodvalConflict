@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3741385B71BE10DE}Prefabs/Vehicles/Wheeled/Ural4320/BM21/BM21_gunner_screen.et"
+ Name "{866F5D3BC00FAA56}Prefabs/Vehicles/Wheeled/Ural4320/BM21/fix/BM21_turret_podval.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

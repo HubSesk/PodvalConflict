@@ -1,0 +1,27 @@
+Turret : "{3594845D9C7C47DB}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/BM_21_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  RHS_VehicleTurretScreensControllerComponent "{657B0EC11CC92CD9}" {
+   m_aCameras {
+    RHS_CustomCameraPointInfoTurret "{657B0EC112BE3748}" {
+     PivotID "v_gun_01"
+     Offset -0.8544 0.0537 0.1131
+     m_fCameraFoV 45
+     m_fRotationAngle 0
+     m_sCameraName "Turret"
+    }
+   }
+   m_aMainCameras {
+    RHS_CustomCameraPointInfo "{657B0EC1161CA38B}" {
+     PivotID "v_gun_01"
+     Offset -0.8544 0.0537 0.1131
+     Angles -81.3046 0 0
+     m_fCameraFoV 45
+     m_fRotationAngle 0
+     m_sCameraName "Turret"
+    }
+   }
+  }
+ }
+ coords 7299.635 108.061 10632.967
+}
