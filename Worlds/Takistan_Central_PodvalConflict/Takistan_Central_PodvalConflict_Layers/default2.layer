@@ -18,11 +18,27 @@ SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
 RadioManagerEntity {
  coords 7242.859 262.437 8222.258
 }
+TimeAndWeatherManagerEntity {
+ coords 8416.909 279.784 8346.696
+ WeatherStateMachine "{5BD64381A3933F9C}Terrains/Common/WeatherPresets/StateMachine/WeatherStates_podval_takistan.conf"
+ WeatherParameters "{0ADCC05C873A9F28}Terrains/Common/WeatherPresets/WeatherParameters.conf"
+ "Initial Day Time" 4.479
+ Year 2013
+ "Month of the Year" 6
+ "Day of the Month" 12
+ "Internal variant transition" 0
+ "Internal subvariant 0" 0
+ "Internal subvariant 1" 0
+}
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 20.291 0 5.837
 }
 SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}Prefabs/MP/Campaign/CampaignFactionManager_Podval.et" {
  coords 0 0.731 0
+ Factions {
+  SCR_Faction "{60DCF47AEF40BD72}" {
+  }
+ }
 }
 SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
  components {
@@ -30,6 +46,23 @@ SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/M
    m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" {
     m_aCallIns {
      SCR_CallInSupportContainer "{613B10C7889A9423}" {
+      m_sCallInPrefab "{432151BFB1C35377}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS_podval.et"
+      m_eRequiredRank LIEUTENANT
+     }
+     SCR_CallInSupportContainer "{624ED0900F1BAFE1}" {
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B33AD698FE}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B3344600A4}" {
+        m_sGadgetType "RADIO"
+        m_sGadgetName "Radio"
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{657A93F4180E7D8F}" {
      }
      SCR_CallInSupportContainer "{657A8A1870A9A160}" {
       m_eSupportType FIRE_GUNRUN
@@ -44,6 +77,9 @@ SCR_GameModeCampaign GameMode_Campaign_Podval1 : "{F75150FDD80823DB}Prefabs/MP/M
  }
  coords 6739.056 154.276 9130.142
  m_iControlPointsThreshold 3
+ m_iHQStartingSupplies 750
+ m_iSupplyDepotIconThreshold 2500
+ m_iSuicideRespawnDelay 15
 }
 ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
  coords -0.018 0 0.077

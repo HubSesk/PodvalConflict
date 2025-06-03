@@ -1,0 +1,23 @@
+GenericEntity : "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et" {
+ ID "5EF4E66040B1F16E"
+ components {
+  RHS_CAS_EditableEntityComponent "{5EF4FCF23F9195B3}" {
+   m_aRHS_CASElementConfig {
+    RHS_CASElementConfig "{6586BE2D8E06839F}" {
+     m_sSlotName "smoke"
+     m_iDeletionTime 13000
+     m_bIsWarhead 1
+    }
+   }
+  }
+  SlotManagerComponent "{5EF4E6606BC5BC71}" {
+   Slots {
+    EntitySlotInfo smoke {
+     Offset 0 1 0
+     Prefab "{002FEEDB0213777D}Prefabs/EffectsModuleEntities/EffectModule_Particle_Smoke_Red.et"
+    }
+   }
+  }
+ }
+ coords 8349.816 289.241 8340.459
+}

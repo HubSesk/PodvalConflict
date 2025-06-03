@@ -234,7 +234,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 10531.813 285.222 6500.379
+  coords 10486.021 281.752 6472.41
   angleX -1.434
   angleY 168.387
   angleZ 2.903

@@ -10,9 +10,10 @@ SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Cam
       m_iMaxSpawnDelay 10
      }
      SCR_CallInSupportContainer "{613B10C7889A9423}" {
-      m_iRequestCooldown 180
-      m_iRequestCost 500
-      m_eRequiredRank SERGEANT
+      m_sCallInPrefab "{432151BFB1C35377}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS_podval.et"
+      m_iRequestCooldown 240
+      m_iRequestCost 750
+      m_eRequiredRank LIEUTENANT
       m_iMaxCallInDistance 2000
       m_iMinSpawnDelay 4
       m_iMaxSpawnDelay 10
@@ -26,6 +27,52 @@ SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Cam
        }
       }
      }
+     SCR_CallInSupportContainer "{613B10C789A6B276}" {
+      m_iMaxCallInDistance 1500
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B34A37A0CF}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B34A8F4224}" {
+        m_sGadgetType "RADIO"
+        m_sGadgetName "Radio"
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{624ED09013D608AA}" {
+      m_iRequestCooldown 650
+      m_iRequestCost 1200
+      m_eRequiredRank LIEUTENANT
+      m_bMustBeSquadLeader 0
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B343A5C35C}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{624ED0900E163700}" {
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B33AD698FE}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B3344600A4}" {
+        m_sGadgetType "RADIO"
+        m_sGadgetName "Radio"
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{625128CEE7B354FA}" {
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B351DB734E}" {
+       }
+      }
+     }
      SCR_CallInSupportContainer "{657A93F4180E7D8F}" {
       m_sCallInPrefab "{66DC92251946170D}Prefabs/Vehicles/Airplanes/A10/A10_flyby.et"
       m_eSupportType FIRE_GUNRUN
@@ -34,8 +81,8 @@ SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Cam
        Description "BRRRRRT"
       }
       m_iRequestUsageLimit -1
-      m_iRequestCooldown 120
-      m_iRequestCost 300
+      m_iRequestCooldown 145
+      m_iRequestCost 400
       m_eRequiredRank SERGEANT
       m_aAvialableForFactions {
        "US"

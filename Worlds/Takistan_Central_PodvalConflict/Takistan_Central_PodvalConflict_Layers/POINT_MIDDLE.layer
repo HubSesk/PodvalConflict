@@ -1,9 +1,36 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- SagramBase {
+ GarmarudBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Sagram"
-    m_sBaseNameUpper "SAGRAM"
+    m_sBaseName "Garmarud"
+    m_sBaseNameUpper "GARMARUD"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 10
+    m_bFollowTerrain 1
+   }
+  }
+  coords 9292.098 238.969 6682.266
+  angleX -5.319
+  angleY -33.196
+  angleZ -2.947
+ }
+ BastamBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Bastam"
+    m_sBaseNameUpper "BASTAM"
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 90
@@ -21,10 +48,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bFollowTerrain 1
    }
   }
-  coords 9461.872 191.021 10089.336
-  angleX 4.136
-  angleY -139.159
-  angleZ 4.314
+  coords 5762.066 108.219 8995.758
+  angleY 148.164
  }
  FalarBase {
   components {
@@ -44,25 +69,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
   }
-  coords 6011.842 148.619 7416.342
-  angleX 0.456
-  angleY 13.257
-  angleZ -1.936
+  coords 6836.914 295.422 6582.831
+  angleX -2.707
+  angleY -104.459
+  angleZ 6.533
  }
-}
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_aIncludedEditableEntityLabels {
-    50
-   }
-   m_aExcludedEditableEntityLabels {
-    21
-   }
-  }
- }
- coords 10927.962 346.154 6228.494
- angleX -11.186
- angleY -53.956
- angleZ 14.038
 }

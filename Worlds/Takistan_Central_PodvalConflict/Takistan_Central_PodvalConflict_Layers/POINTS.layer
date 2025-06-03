@@ -1,12 +1,12 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- Rasman_SuperBase2 {
+ MineSuperBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
     m_bIsSupplyHub 1
-    m_sBaseName "Rasman"
-    m_sBaseNameUpper "RASMAN"
+    m_sBaseName "Mine"
+    m_sBaseNameUpper "MINE"
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 90
@@ -15,7 +15,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 600
+      "Transmitting Range" 3500
      }
     }
    }
@@ -24,40 +24,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bFollowTerrain 1
    }
   }
-  coords 6068.603 93.846 10566.813
-  angleX -0.356
-  angleY -71.29
-  angleZ -0.721
- }
- GarmarudSuperBase {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bDisableWhenUnusedAsHQ 0
-    m_bIsSupplyHub 1
-    m_sBaseName "Garmarud"
-    m_sBaseNameUpper "GARMARUD"
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 90
-    m_fMinimumSeizingTime 15
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 600
-     }
-    }
-   }
-   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
-    m_fHeight 10
-    m_bFollowTerrain 1
-   }
-  }
-  coords 9292.098 238.969 6682.266
-  angleX -5.319
-  angleY -33.196
-  angleZ -2.947
+  coords 5091.896 323.524 6964.684
+  angleX 5.97
+  angleY 172.617
+  angleZ -0.202
  }
  ImaratSuperBase {
   components {
@@ -88,5 +58,31 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleX 1.359
   angleY 109.867
   angleZ -0.415
+ }
+ AnarSuperBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Anar"
+    m_sBaseNameUpper "ANAR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3500
+     }
+    }
+   }
+  }
+  coords 6372.149 351.155 5062.577
+  angleX -1.853
+  angleY -49.925
+  angleZ -0.445
  }
 }

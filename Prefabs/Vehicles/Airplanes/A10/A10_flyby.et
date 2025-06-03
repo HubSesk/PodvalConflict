@@ -228,6 +228,11 @@ GenericEntity : "{EAD777F4CDA11F16}Prefabs/Vehicles/Airplanes/F22/F22_Flyby.et" 
      m_iDeletionTime 5900
      m_bIsWarhead 1
     }
+    RHS_CASElementConfig "{6586CE35E3358CCB}" {
+     m_sSlotName "Smoke"
+     m_iDeletionTime 100
+     m_bIsWarhead 1
+    }
    }
   }
   SCR_PreviewEntityComponent "{62D73C5615AA5F22}" {
@@ -448,10 +453,15 @@ GenericEntity : "{EAD777F4CDA11F16}Prefabs/Vehicles/Airplanes/F22/F22_Flyby.et" 
     EntitySlotInfo w40 {
      Offset 5.1579 1 64.4483
     }
+    EntitySlotInfo Smoke {
+     Angles 20 0 0
+     Prefab "{002FEEDB0213777D}Prefabs/EffectsModuleEntities/EffectModule_Particle_Smoke_Red.et"
+    }
    }
   }
   AnimationPlayerComponent "{62D73C5615AA5F35}" {
    Animation "{264D67303F982207}Assets/Vehicles/Airplanes/A10-warthog/A10_anim.anm"
+   StartTime 0.1
    Speed 1
   }
  }
