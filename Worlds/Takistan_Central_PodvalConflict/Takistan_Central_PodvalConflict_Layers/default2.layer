@@ -22,7 +22,7 @@ TimeAndWeatherManagerEntity {
  coords 8416.909 279.784 8346.696
  WeatherStateMachine "{5BD64381A3933F9C}Terrains/Common/WeatherPresets/StateMachine/WeatherStates_podval_takistan.conf"
  WeatherParameters "{0ADCC05C873A9F28}Terrains/Common/WeatherPresets/WeatherParameters.conf"
- "Initial Day Time" 4.479
+ "Initial Day Time" 8.981
  Year 2013
  "Month of the Year" 6
  "Day of the Month" 12
