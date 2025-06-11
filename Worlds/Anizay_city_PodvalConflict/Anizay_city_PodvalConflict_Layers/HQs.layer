@@ -64,10 +64,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsSource 1
    }
   }
-  coords 1388.356 125.942 5362.172
-  angleX 0.064
-  angleY 97.633
-  angleZ 1.273
+  coords 1436.249 127.648 5319.868
+  angleX 0.752
+  angleY -43.31
+  angleZ -1.029
   {
    GenericEntity {
     ID "5CCED514A5908822"

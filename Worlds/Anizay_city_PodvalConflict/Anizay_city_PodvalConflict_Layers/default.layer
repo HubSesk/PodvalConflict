@@ -18,18 +18,6 @@ SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
 RadioManagerEntity {
  coords 5906.775 70.173 8494.51
 }
-TimeAndWeatherManagerEntity {
- coords 7080.825 87.52 8618.948
- WeatherStateMachine "{5BD64381A3933F9C}Terrains/Common/WeatherPresets/StateMachine/WeatherStates_podval_takistan.conf"
- WeatherParameters "{0ADCC05C873A9F28}Terrains/Common/WeatherPresets/WeatherParameters.conf"
- "Initial Day Time" 8.981
- Year 2013
- "Month of the Year" 6
- "Day of the Month" 12
- "Internal variant transition" 0
- "Internal subvariant 0" 0
- "Internal subvariant 1" 0
-}
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords -1315.793 -192.264 278.089
 }
