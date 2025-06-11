@@ -1,0 +1,112 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MusakhanBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Musakhan"
+    m_sBaseNameUpper "MUSAKHAN"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3500
+     }
+    }
+   }
+  }
+  coords 5031.189 137.825 6928.217
+  angleX 7.023
+  angleY 23.118
+  angleZ 3.951
+ }
+ AnizayBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Anizay"
+    m_sBaseNameUpper "ANIZAY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 598.8
+     }
+    }
+   }
+  }
+  coords 4097.585 144.956 7998.436
+  angleX -1.265
+  angleY -43.457
+  angleZ -0.034
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.299 12
+   }
+  }
+ }
+ SalamBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Salam"
+    m_sBaseNameUpper "SALAM"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 598.8
+     }
+    }
+   }
+  }
+  coords 3659.389 132.324 6192.995
+  angleX 3.035
+  angleY -14.085
+  angleZ -2.603
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.299 12
+   }
+  }
+ }
+ SekabBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Sekab"
+    m_sBaseNameUpper "SEKAB"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 90
+    m_fMinimumSeizingTime 15
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3500
+     }
+    }
+   }
+  }
+  coords 2220.553 133.264 6257.195
+  angleX -5.512
+  angleY 154.037
+  angleZ -7.193
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.299 12
+   }
+  }
+ }
+}

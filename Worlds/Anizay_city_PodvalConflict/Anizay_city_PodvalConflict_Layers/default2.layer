@@ -1,0 +1,110 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5AF8B9A182609915}" : "{3757F06924A51A50}Configs/Navmesh/Navmesh_CTI_Campaign_Arland_Soldier.conf" {
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{598EDE772036D79B}" : "{C20D2FB077A7523E}Configs/Navmesh/Navmesh_CTI_Campaign_Arland_Vehicle.conf" {
+    }
+   }
+  }
+ }
+ coords 3436.095 -165.941 10931.033
+}
+RadioManagerEntity {
+ coords 5906.775 70.173 8494.51
+}
+TimeAndWeatherManagerEntity {
+ coords 7080.825 87.52 8618.948
+ WeatherStateMachine "{5BD64381A3933F9C}Terrains/Common/WeatherPresets/StateMachine/WeatherStates_podval_takistan.conf"
+ WeatherParameters "{0ADCC05C873A9F28}Terrains/Common/WeatherPresets/WeatherParameters.conf"
+ "Initial Day Time" 8.981
+ Year 2013
+ "Month of the Year" 6
+ "Day of the Month" 12
+ "Internal variant transition" 0
+ "Internal subvariant 0" 0
+ "Internal subvariant 1" 0
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords -1315.793 -192.264 278.089
+}
+SCR_CampaignFactionManager CampaignFactionManager_Podval2 : "{9512CAB8F200A15B}Prefabs/MP/Campaign/CampaignFactionManager_Podval.et" {
+ coords -1336.084 -191.533 272.252
+ Factions {
+  SCR_Faction "{60DCF47AEF40BD72}" {
+  }
+ }
+}
+SCR_GameModeCampaign GameMode_Campaign_Podval2 : "{F75150FDD80823DB}Prefabs/MP/Modes/Conflict/GameMode_Campaign_Podval.et" {
+ components {
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" {
+    m_aCallIns {
+     SCR_CallInSupportContainer "{613B10C7889A9423}" {
+      m_sCallInPrefab "{432151BFB1C35377}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS_podval.et"
+      m_eRequiredRank LIEUTENANT
+     }
+     SCR_CallInSupportContainer "{624ED0900F1BAFE1}" {
+      m_iMinNumberOfSquadMembers 1
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B33AD698FE}" {
+        m_sGadgetType "MAP"
+        m_sGadgetName "Map"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B3344600A4}" {
+        m_sGadgetType "RADIO"
+        m_sGadgetName "Radio"
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{657A93F4180E7D8F}" {
+     }
+     SCR_CallInSupportContainer "{657A8A1870A9A160}" {
+      m_eSupportType FIRE_GUNRUN
+      m_CallInInfo UIInfo "{610F58CA533C0B90}" {
+       Name "A10 GUNRUN"
+       Description "BRRRRRRT"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 5402.972 -37.988 9402.394
+ m_iControlPointsThreshold 3
+ m_iHQStartingSupplies 750
+ m_bRandomizeSupplies 0
+ m_iSupplyDepotIconThreshold 3500
+ m_iSuicideRespawnDelay 15
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity2 {
+ coords -1336.102 -192.264 272.329
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
+ }
+}
+SCR_MapLocator {
+ coords 10434.78 0 1142.689
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{C1534F222D0F74D2}Configs/Map/MapLocatorHints/LocationHintsArland.conf" {
+  m_aQuadHints {
+   "AnizaySouthWest" "AnizaySouth" "AnizaySouthEast" "AnizayWest" "AnizayCentral" "AnizayEast" "AnizayNorthWest" "AnizayNorth" "AnizayNorthEast"
+  }
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords -1336.084 -192.264 272.252
+}
+BasePreloadManager PreloadManager_Campaign2 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords -1291.848 -192.264 320.033
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords -1336.084 -192.264 272.252
+}
+SCR_LoadoutManager : "{466C6293A108DDEC}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval_Takistan.et" {
+ coords 4987.707 140.745 6727.724
+}
