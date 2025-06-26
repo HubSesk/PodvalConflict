@@ -20,8 +20,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
   }
-  coords 3984.82 137.625 7068.39
-  angleY -153.055
+  coords 3976.649 137.406 7196.613
+  angleY 177.573
  }
  FobObehSuperBase {
   components {
@@ -35,6 +35,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 90
     m_fMinimumSeizingTime 15
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 450
+    m_iSuppliesMax 700
    }
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {

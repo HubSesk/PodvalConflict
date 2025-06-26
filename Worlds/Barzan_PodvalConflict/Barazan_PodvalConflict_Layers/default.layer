@@ -1045,10 +1045,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsSource 1
    }
   }
-  coords 3038.259 14.767 2132.716
-  angleX 1.18
-  angleY -57.316
-  angleZ -3.492
+  coords 3151.337 9.5 2023.023
+  angleX 4.503
+  angleY -57.148
+  angleZ 2.902
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -1123,14 +1123,14 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -81.17
   angleZ -2.514
  }
- FarmBase {
+ chivresBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
     m_bIsSupplyHub 1
-    m_sBaseName "#AR-Campaign_Arland_MapLocation_Farm"
-    m_sBaseNameUpper "#AR-Campaign_Arland_MapLocation_Farm"
+    m_sBaseName "#AR-Campaign_BarzanMapRemake_MapLocation_Chivres"
+    m_sBaseNameUpper "#AR-Campaign_BarzanMapRemake_MapLocation_Chivres"
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 90
@@ -1144,10 +1144,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
   }
-  coords 1632.578 10.422 2597.109
-  angleX 1.752
-  angleY 132.374
-  angleZ -3.244
+  coords 1868.853 2 2976.29
+  angleY -150.639
  }
 }
 GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
@@ -1441,6 +1439,48 @@ BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/G
 }
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 0 0 0
+}
+$grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
+ {
+  coords 2028.028 9.133 2614.164
+  {
+   GenericEntity {
+    ID "5D1ED92956CA16A0"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA179F"
+    Flags 2098179
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1650"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1605"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1668"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1618"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1675"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1643"
+    Flags 2097155
+   }
+  }
+ }
+ {
+  coords 1685.583 9.127 2689.355
+ }
 }
 $grp GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
  {
@@ -1788,6 +1828,9 @@ $grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSma
    }
   }
  }
+}
+GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
+ coords 1666.161 9.188 2628.646
 }
 GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
  coords 1266.872 6.106 1889.632

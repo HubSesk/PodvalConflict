@@ -18,16 +18,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 1450
+      "Transmitting Range" 2305.3
      }
     }
     m_bIsSource 1
    }
   }
-  coords 6007 116.876 7207.398
-  angleX -0.946
-  angleY 148.104
-  angleZ -1.52
+  coords 7167.951 109.429 7018.939
+  angleX 2.008
+  angleY -170.965
+  angleZ -6.895
   {
    GenericEntity {
     ID "606078EE23DE48AC"

@@ -60,6 +60,94 @@ $grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   coords 3804.348 138.844 7265.5
   angleY -44.67
  }
+ {
+  coords 2792.516 147.05 8580.761
+  angleX -4.463
+  angleY 0.14
+  angleZ -1.795
+ }
+ {
+  coords 3206.557 141.106 8677.111
+  angleX -14.843
+  angleY 0.712
+  angleZ -2.776
+ }
+ {
+  coords 3047.947 144.246 8450.806
+  angleY 69.775
+  {
+   GenericEntity {
+    ID "5D1ED92956CA16A0"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA179F"
+    Flags 2098179
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1650"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1605"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1668"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1618"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1675"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1643"
+    Flags 2097155
+   }
+  }
+ }
+ {
+  coords 3989.807 149.084 6882.002
+  angleY 109.846
+  {
+   GenericEntity {
+    ID "5D1ED92956CA16A0"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA179F"
+    Flags 2098179
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1650"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1605"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1668"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1618"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1675"
+    Flags 2097155
+   }
+   GenericEntity {
+    ID "5D1ED92956CA1643"
+    Flags 2097155
+   }
+  }
+ }
 }
 GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
  coords 2763.504 144.469 8689.104
@@ -146,6 +234,12 @@ $grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angleX 4.239
   angleY -100.214
   angleZ -1.67
+ }
+ {
+  coords 3118.428 146.583 8832.288
+  angleX -1.779
+  angleY -0.139
+  angleZ 4.469
  }
 }
 $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
