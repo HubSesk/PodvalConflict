@@ -23,6 +23,12 @@ Vehicle : "{46E2C84AFFC3708B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF
       Prefab "{680159A13194C1A5}Prefabs/Weapons/Magazines/Box_40x46.et"
      }
     }
+    MultiSlotConfiguration "{65BAA77648EDAC8E}" {
+     SlotTemplate InventoryStorageSlot axe {
+      Prefab "{D0F2C8E0C3C3A3C6}prefabs/AXE_base.et"
+     }
+     NumSlots 1
+    }
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {

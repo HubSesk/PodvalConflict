@@ -16,6 +16,16 @@ Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65BAA7778CB104F7}" {
+     SlotTemplate InventoryStorageSlot axe {
+      Prefab "{D0F2C8E0C3C3A3C6}prefabs/AXE_base.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "USSR"
   }

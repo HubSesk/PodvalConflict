@@ -40,6 +40,16 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65BAA77793D036B4}" {
+     SlotTemplate InventoryStorageSlot axe {
+      Prefab "{D0F2C8E0C3C3A3C6}prefabs/AXE_base.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     EntitySlotInfo Lable_L {

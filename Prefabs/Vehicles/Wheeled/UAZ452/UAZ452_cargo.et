@@ -11,5 +11,15 @@ Vehicle : "{82125D77729753BA}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_base.e
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65BAA77668E5253D}" {
+     SlotTemplate InventoryStorageSlot axe {
+      Prefab "{D0F2C8E0C3C3A3C6}prefabs/AXE_base.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
  }
 }

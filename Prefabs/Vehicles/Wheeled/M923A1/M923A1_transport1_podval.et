@@ -1,0 +1,16 @@
+Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65C31192C61D974A}" {
+     SlotTemplate InventoryStorageSlot "{65C31192CBF61CE0}" {
+      Prefab "{D0F2C8E0C3C3A3C6}prefabs/AXE_base.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 1145.257 39 2357.358
+}

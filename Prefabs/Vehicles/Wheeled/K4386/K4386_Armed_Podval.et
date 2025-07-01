@@ -9,6 +9,16 @@ Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{62593DAA0629B085}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65BAA777BC512CB1}" {
+     SlotTemplate InventoryStorageSlot axe {
+      Prefab "{D0F2C8E0C3C3A3C6}prefabs/AXE_base.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "USSR"
   }
