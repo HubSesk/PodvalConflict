@@ -108,8 +108,14 @@ SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Cam
     }
    }
   }
+  SCR_AdditionalGameModeSettingsComponent "{6170E11C3C452ACC}" {
+   m_bProjectileBallisticInfoVisibility 0
+  }
   SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
    m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
+  }
+  SCR_PerceivedFactionManagerComponent "{61AA7E6E0C6A76F9}" {
+   m_ePunishmentKillingWhileDisguised 3
   }
   SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
    m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
