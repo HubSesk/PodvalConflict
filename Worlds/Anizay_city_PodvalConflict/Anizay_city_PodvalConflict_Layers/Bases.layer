@@ -17,10 +17,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
   }
-  coords 5021.409 138.553 6939.134
-  angleX 0.353
-  angleY 23.214
-  angleZ -0.823
+  coords 4998.564 138.875 7006.349
+  angleY -148.381
  }
  AnizayBase {
   components {

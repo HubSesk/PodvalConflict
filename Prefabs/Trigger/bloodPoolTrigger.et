@@ -1,0 +1,8 @@
+SCR_BloodPoolTrigger {
+ ID "64F0F627DEE20EA1"
+ SphereRadius 0.3
+ TriggerActivationType "All changes"
+ ClassesFilter {
+  "ChimeraCharacter"
+ }
+}

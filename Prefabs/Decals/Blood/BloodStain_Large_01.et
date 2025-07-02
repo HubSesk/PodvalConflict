@@ -1,0 +1,6 @@
+DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+ ID "50E4C31FCE7FE3EB"
+ scale 1.67
+ FarPlane 3
+ Stretch 1.482
+}

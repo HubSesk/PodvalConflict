@@ -1,0 +1,5 @@
+MatPBRDecal : "{16ADCDC8F091A08F}Assets/Decals/Blood/Blood_Wallsplatters_Decal2.emat" {
+ AlphaMul 0.965
+ BCRMap "{33955261074D9956}Assets/Decals/Blood/Blood/Blood_15_BCR.edds"
+ OpacityMap "{B34ED6B665A9DE4B}Assets/Decals/Blood/Blood/blood_15_Mask.edds"
+}

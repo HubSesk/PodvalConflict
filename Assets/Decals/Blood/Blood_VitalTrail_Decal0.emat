@@ -1,0 +1,7 @@
+MatPBRDecal : "{FDD5F1D4DBEF583E}Assets/Decals/Blood/Blood_VitalTrail_Decal0.emat" {
+ AlphaTest 0.525
+ AlphaMul 1.205
+ BCRMap "{73657344B1511B11}Assets/Decals/Blood/Blood/Blood_16_BCR.edds"
+ OpacityMap "{996AF1159347B864}Assets/Decals/Blood/Blood/blood_16_Mask.edds"
+ NormalPower 1.729
+}

@@ -1,0 +1,5 @@
+MatPBRDecal : "{82FBE0E7A204079C}Assets/Decals/BloodDynamicToStatic/Decal_Blood6.emat" {
+ BCRMap "{B275102A6B749DD8}Assets/Decals/Blood/Blood/Blood_13_BCR.edds"
+ OpacityMap "{E70699F188751215}Assets/Decals/Blood/Blood/blood_13_Mask.edds"
+ NMOMap "{8AADABB8B203CF46}Assets/Decals/Blood/Blood/Blood_13_NMO.edds"
+}

@@ -1,0 +1,8 @@
+MatPBRDecal : "{BFE6E8DF02004299}Assets/Decals/Blood/Blood_Pool_Decal0.emat" {
+ AlphaTest 0.505
+ AlphaMul 1.172
+ BCRMap "{B275102A6B749DD8}Assets/Decals/Blood/Blood/Blood_13_BCR.edds"
+ OpacityMap "{E70699F188751215}Assets/Decals/Blood/Blood/blood_13_Mask.edds"
+ NormalPower 2.482
+ NMOMap "{0B4DE9F3DE3ACBC8}Assets/Decals/Blood/Blood/Blood_15_NMO.edds"
+}

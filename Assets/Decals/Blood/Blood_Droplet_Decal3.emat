@@ -1,0 +1,9 @@
+MatPBRDecal : "{C41FD463B6732744}Assets/Decals/Blood/Blood_Droplet_Decal3.emat" {
+ Color 1 1 1 1
+ AlphaTest 0.678
+ AlphaMul 0.726
+ BCRMap "{A045BD0CFEFB150F}Assets/Decals/Blood/Blood/Blood_6_BCR.edds"
+ OpacityMap "{3477044CC4C82DDC}Assets/Decals/Blood/Blood/blood_6_Mask.edds"
+ NormalPower 2.31
+ NMOMap "{989D069E278C4791}Assets/Decals/Blood/Blood/Blood_6_NMO.edds"
+}
