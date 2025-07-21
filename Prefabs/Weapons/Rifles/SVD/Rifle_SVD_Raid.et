@@ -1,0 +1,64 @@
+GenericEntity : "{3EB02CDAD5F23C82}Prefabs/Weapons/Rifles/SVD/Rifle_SVD.et" {
+ ID "525494E72B1E90FD"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65EAD7B073E6C5A0}" {
+     AttachmentSlot InventoryStorageSlot Rail2 {
+      Offset 0 0.09845 0.0829
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{65EAD7B073E6C5AE}" {
+     }
+    }
+    AttachmentSlotComponent "{65EAD7B073E6C5A4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optic"
+      Offset 0 0.0984 0.024
+      ChildPivotID ""
+      InspectionWidgetOffset -0.025 0.1196 0
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{65EAD7B073E6C5A1}" {
+     }
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{65EAD7B073E6C5AB}" {
+     AttachmentSlot InventoryStorageSlot Rail3 {
+      Offset 0 0.0983 0.0228
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{65EAD7B073E6C5AA}" {
+     }
+    }
+    AttachmentSlotComponent "{65EAD7B073E6C5AD}" {
+     AttachmentSlot InventoryStorageSlot Rail3 {
+      Offset 0 0.0983 0.1432
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{65EAD7B073E6C5AC}" {
+     }
+    }
+    AttachmentSlotComponent "{65EAD7B073E6C5B5}" {
+     AttachmentSlot InventoryStorageSlot RIS_Slot {
+      PivotID "eye"
+      Offset -0.0004 -0.0087 0.1555
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 0.1208 0
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{65EAD7B073E6C5A5}" {
+     }
+     ShowInInspection 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6292CE5A35393A83}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{18B5482585A88240}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPV/Supressor_TGPV2.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

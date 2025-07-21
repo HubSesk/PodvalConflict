@@ -1,0 +1,39 @@
+GameEntity : "{AB71C533945104AE}Prefabs/Weapons/Attachments/Optics/Optic_PSO1/Optic_PSO1_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   SightsRanges {
+    SightRangeInfo "{5D0CCDD0615C5973}" {
+     Range 0.3642 100
+    }
+    SightRangeInfo "{5D0CCDD0615C594C}" {
+     Range 0.548 150
+    }
+    SightRangeInfo "{5D0CCDD0615C594D}" {
+     Range 0.7328 200
+    }
+    SightRangeInfo "{5D0CCDD0615C594E}" {
+     Range 0.9358 250
+    }
+    SightRangeInfo "{5D0CCDD0615C594F}" {
+     Range 1.1232 300
+    }
+    SightRangeInfo "{5D0CCDD0615C5948}" {
+     Range 1.3287 350
+    }
+    SightRangeInfo "{5D0CCDD0615C594A}" {
+     Range 1.5357 400
+    }
+    SightRangeInfo "{5D0CCDD0615C5945}" {
+     Range 1.7438 450
+    }
+    SightRangeInfo "{5D0CCDD0615C5946}" {
+     Range 1.9712 500
+    }
+    SightRangeInfo "{5D0CCDD0615C5947}" {
+     Range 2.2 550
+    }
+   }
+  }
+ }
+}
