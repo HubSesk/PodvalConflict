@@ -16,8 +16,8 @@ StringTable {
    Target_pt_br "Primeiro bloco de foguetes"
    Target_zh_cn "第一个火箭模块"
    Target_uk_ua "Перший ракетний блок"
-   Modified 1709996527
-   Author "hasta"
+   Modified 1709997095
+   Author "Drongo"
    LastChanged "hasta"
   }
   CustomStringTableItem "{65EC7735AE895C3B}" {
@@ -35,8 +35,8 @@ StringTable {
    Target_pt_br "Segundo bloco de foguetes"
    Target_zh_cn "第二个火箭模块"
    Target_uk_ua "Другий ракетний блок"
-   Modified 1709996537
-   Author "hasta"
+   Modified 1709997089
+   Author "Drongo"
    LastChanged "hasta"
   }
   CustomStringTableItem "{65EC7735B6079BB6}" {
@@ -54,8 +54,8 @@ StringTable {
    Target_pt_br "Terceiro bloco de foguetes"
    Target_zh_cn "第三个火箭模块"
    Target_uk_ua "Третій ракетний блок"
-   Modified 1709996553
-   Author "hasta"
+   Modified 1709997089
+   Author "Drongo"
    LastChanged "hasta"
   }
  }
