@@ -66,6 +66,63 @@ GameProject {
        }
       }
      }
+     StringTableDefinition "{65EC77349281B713}" {
+      StringTableSource "{526585E6ED01A751}Language/pdv_Localization.st"
+      Languages {
+       LanguageDefinition "{65EC7734901CAE00}" {
+        Code "cs_cz"
+        StringTableRuntime "{6DD4599338DC47C2}Language/pdv_Localization.cs_cz.conf"
+       }
+       LanguageDefinition "{65EC7734901CAEE9}" {
+        Code "de_de"
+        StringTableRuntime "{B8AA43A02B7F56E2}Language/pdv_Localization.de_de.conf"
+       }
+       LanguageDefinition "{65EC7734901CAED9}" {
+        Code "en_us"
+        StringTableRuntime "{E65AC9EB418C53E3}Language/pdv_Localization.en_us.conf"
+       }
+       LanguageDefinition "{65EC7734901CAECF}" {
+        Code "es_es"
+        StringTableRuntime "{23168462AF8E38FC}Language/pdv_Localization.es_es.conf"
+       }
+       LanguageDefinition "{65EC7734901CAEB5}" {
+        Code "fr_fr"
+        StringTableRuntime "{98BE7155490DDBFE}Language/pdv_Localization.fr_fr.conf"
+       }
+       LanguageDefinition "{65EC7734901CAEB9}" {
+        Code "it_it"
+        StringTableRuntime "{18A2FE61E42F5807}Language/pdv_Localization.it_it.conf"
+       }
+       LanguageDefinition "{65EC7734901CAEAE}" {
+        Code "ja_jp"
+        StringTableRuntime "{08B943F3DA5E68AC}Language/pdv_Localization.ja_jp.conf"
+       }
+       LanguageDefinition "{65EC7734901CAE93}" {
+        Code "ko_kr"
+        StringTableRuntime "{A8076B5F49736B93}Language/pdv_Localization.ko_kr.conf"
+       }
+       LanguageDefinition "{65EC7734901CAE99}" {
+        Code "pl_pl"
+        StringTableRuntime "{F476CDA5F79CF7EF}Language/pdv_Localization.pl_pl.conf"
+       }
+       LanguageDefinition "{65EC7734901CAE8F}" {
+        Code "pt_br"
+        StringTableRuntime "{21015769CC623D55}Language/pdv_Localization.pt_br.conf"
+       }
+       LanguageDefinition "{65EC7734901CA174}" {
+        Code "ru_ru"
+        StringTableRuntime "{744043C1511B5823}Language/pdv_Localization.ru_ru.conf"
+       }
+       LanguageDefinition "{65EC7734901CA10F}" {
+        Code "uk_ua"
+        StringTableRuntime "{FE1816373D35E676}Language/pdv_Localization.uk_ua.conf"
+       }
+       LanguageDefinition "{65EC7734901CA1F3}" {
+        Code "zh_cn"
+        StringTableRuntime "{24A8780A0495366B}Language/pdv_Localization.zh_cn.conf"
+       }
+      }
+     }
     }
    }
   }
@@ -79,6 +136,8 @@ GameProject {
    PlatformHardware PS5
   }
   GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
   }
  }
 }

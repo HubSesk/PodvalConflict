@@ -1,0 +1,45 @@
+Turret : "{2790BE61055D3318}Prefabs/Vehicles/Core/Aircraft_hardpoint_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SCR_FireModeManagerComponent "{62AC85A44D436D5E}" {
+   m_aWeaponGroups {
+    SCR_WeaponGroup "{61E0BAFE670629F3}" {
+     m_eFireMode 6
+     m_aRippleFireQuantities {
+      16 8 4 2 1
+     }
+    }
+    SCR_WeaponGroup "{61E0BAFD8D4387C9}" {
+     m_sWeaponGroupName "#PDV_FirstRocketBlock_Mi8"
+     m_aWeaponsGroupIds {
+      0 5
+     }
+     m_eFireMode 6
+     m_aRippleFireQuantities {
+      16 8 4 2 1
+     }
+    }
+    SCR_WeaponGroup "{61E0BAFD8EB97E1D}" {
+     m_sWeaponGroupName "#PDV_SecondRocketBlock_Mi8"
+     m_aWeaponsGroupIds {
+      1 4
+     }
+     m_eFireMode 6
+     m_aRippleFireQuantities {
+      16 8 4 2 1
+     }
+    }
+    SCR_WeaponGroup "{65EC773471B6BE28}" {
+     m_sWeaponGroupName "#PDV_ThirdRocketBlock_Mi8"
+     m_aWeaponsGroupIds {
+      2 3
+     }
+     m_eFireMode 6
+     m_aRippleFireQuantities {
+      16 8 4 2 1
+     }
+    }
+   }
+  }
+ }
+}

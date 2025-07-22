@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{526585E6ED01A751}Language/pdv_Localization.st"
+ Configurations {
+  StringTableResourceClass PC {
+  }
+  StringTableResourceClass XBOX_ONE : PC {
+  }
+  StringTableResourceClass XBOX_SERIES : PC {
+  }
+  StringTableResourceClass PS4 : PC {
+  }
+  StringTableResourceClass PS5 : PC {
+  }
+  StringTableResourceClass HEADLESS : PC {
+  }
+  StringTableResourceClass Xbox : PC {
+  }
+ }
+}
