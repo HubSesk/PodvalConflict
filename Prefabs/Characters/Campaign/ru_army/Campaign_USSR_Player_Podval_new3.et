@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Ca
      Prefab "{F199AA32D56B1C6D}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_glasses.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{45990536E93CA54A}Prefabs/Characters/Uniforms/Jacket_VKPO.et"
+     Prefab "{A4166B19C65D5FF7}Prefabs/Characters/Uniforms/T_Shirts/ACU_t-shirt_olive.et"
     }
     LoadoutSlotInfo Pants {
     }
@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Ca
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6062F658F714ECED}" {
-     TargetStorage "Jacket/Jacket_VKPO.et"
+     TargetStorage "Jacket/ACU_t-shirt_olive.et"
     }
    }
   }

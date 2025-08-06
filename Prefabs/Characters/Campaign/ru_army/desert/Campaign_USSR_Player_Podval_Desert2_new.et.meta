@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{64A2ABCD67E71B8E}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player_Anizay_Podval.et"
+ Name "{0914C08E274E7C93}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert2_new.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

@@ -1,10 +1,12 @@
-SCR_ChimeraCharacter : "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new.et" {
+SCR_ChimeraCharacter : "{E32C59460794D9EB}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new4.et" {
  ID "200D264F0EEA1A28"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
+     Prefab "{5A18982D70772684}Prefabs/Characters/Uniforms/VKPO_jacket/TF_Jacket_VKPO_rolledup.et"
+    }
+    LoadoutSlotInfo Boots {
     }
     LoadoutSlotInfo HandWear {
      Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
@@ -14,9 +16,10 @@ SCR_ChimeraCharacter : "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Ca
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6062F658F714ECED}" {
-     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+     TargetStorage "Jacket/TF_Jacket_VKPO_rolledup.et"
     }
    }
   }
  }
+ coords 9291.957 218.06 9424.669
 }

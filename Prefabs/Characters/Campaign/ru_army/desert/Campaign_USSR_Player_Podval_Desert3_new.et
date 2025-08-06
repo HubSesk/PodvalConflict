@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{9B6295F60FC669C4}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{799EC7EFF768050C}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Covered_Closed_6B50_Opened_Syrian.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+   }
+  }
+ }
+}

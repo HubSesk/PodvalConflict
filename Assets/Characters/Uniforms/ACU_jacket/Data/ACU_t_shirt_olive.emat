@@ -1,0 +1,18 @@
+MatPBRMulti {
+ SpecularMul 0.9
+ GlobalLayerAngleStart 15.94
+ GlobalLayerAngleEnd 55.54
+ GlobalLayerPosition 0.111
+ GlobalLayerContrast 0.417
+ GlobalLayerGlobalAO 0
+ RoughnessScale 5
+ VFXMap "{9A9ABFA95AB03E47}Assets/Characters/Uniforms/ACU_jacket/Data/ACU_jacket_mask.edds"
+ MudOpacity 0.85
+ MudRoughness 0.871
+ MudMetalness 1.271
+ MudDetNormal 0.571
+ DirtColor 0.117 0.057 0.015 1
+ DirtRoughness 0.914
+ BCR_1 "{0B9D622435F1808E}Assets/Characters/Uniforms/ACU_jacket/Data/USAF_ACU_01_OCP_BCR.edds"
+ NMO_1 "{FB3DB5CF1AB9BBC9}Assets/Characters/Uniforms/ACU_jacket/Data/USAF_ACU_01_NMO.edds"
+}

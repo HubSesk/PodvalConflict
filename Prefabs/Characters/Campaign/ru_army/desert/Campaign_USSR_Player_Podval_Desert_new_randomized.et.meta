@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A6E6C7AF25DDF502}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new_randomized.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

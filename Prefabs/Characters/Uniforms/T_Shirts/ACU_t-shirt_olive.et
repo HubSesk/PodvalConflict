@@ -1,0 +1,14 @@
+GameEntity : "{129D93F9A97CDBEB}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_grey.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{B0393F4347EE0EA8}Assets/Characters/Uniforms/ACU_t-shirt/Data/ACU_t-shirt_olive.emat"
+   }
+   ItemMaterialsOverride {
+    "{B0393F4347EE0EA8}Assets/Characters/Uniforms/ACU_t-shirt/Data/ACU_t-shirt_olive.emat"
+   }
+  }
+ }
+ coords 6849.558 347.639 8146.156
+}

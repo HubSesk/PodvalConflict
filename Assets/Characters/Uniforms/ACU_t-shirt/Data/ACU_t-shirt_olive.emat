@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.054 0.107 0.047 1
+ RoughnessScale 1.091
+ BCRMap "{5821EF17C593AF05}Assets/Characters/Uniforms/ACU_pants/Data/USAF_ACU_UCP_02_BCR.edds"
+ NMOMap "{27CABE26783C50A4}Assets/Characters/Uniforms/ACU_pants/Data/USAF_ACU_02_NMO.edds"
+}

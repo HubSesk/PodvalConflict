@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{48860142E46956D0}Prefabs/Characters/Uniforms/T_Shirts/T_Shirt_v2/T_shirt_v2_OD.et"
+ Name "{D8B17DE9DFE7F5FE}Prefabs/Vehicles/Tracked/T14/Tank_T14_OnlyFrags_podval.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

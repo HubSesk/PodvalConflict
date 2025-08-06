@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{9B6295F60FC669C4}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{010AB9711423AB65}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Covered_Opened_Syrian.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et"
+    }
+    LoadoutSlotInfo Boots {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6062F658F714ECED}" {
+     TargetStorage "Jacket/Undershirt_VKPO.et"
+    }
+   }
+  }
+ }
+}

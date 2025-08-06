@@ -1,0 +1,135 @@
+SCR_ChimeraCharacter : "{0914C08E274E7C93}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert2_new.et" {
+ coords 6855.337 346.766 8141.108
+}
+SCR_ChimeraCharacter : "{1AD1E438AC95CFF2}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC4.et" {
+ coords 6832.873 348.419 8146.053
+}
+SCR_ChimeraCharacter : "{27E5C100D9F946C5}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC3.et" {
+ coords 6833.755 348.435 8145.648
+}
+SCR_ChimeraCharacter : "{2E4AA4B331E02D30}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert4_new.et" {
+ coords 6858.143 346.414 8141
+ angleX -0.751
+ angleY 0.58
+ angleZ 0.206
+}
+SCR_ChimeraCharacter : "{38F9146B99916440}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new5.et" {
+ coords 6847.381 347.552 8143.319
+}
+SCR_ChimeraCharacter : "{3B8430877E1DC7B7}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new2.et" {
+ coords 6850.645 347.191 8143.065
+}
+SCR_ChimeraCharacter : "{42329A924424969B}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP.et" {
+ coords 6843.634 347.909 8144.357
+}
+SCR_ChimeraCharacter : "{5B0D6ED99C93080D}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP3.et" {
+ coords 6840.48 348.174 8143.958
+}
+SCR_ChimeraCharacter : "{66394BE1E9FF813A}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP4.et" {
+ coords 6838.738 348.251 8143.716
+}
+SCR_ChimeraCharacter : "{6759FED7122F921B}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert3_new.et" {
+ coords 6856.852 346.488 8141.476
+}
+Vehicle M1240A1_MATV_Turret_Camo1 : "{7F0CE77CBE1A1F65}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Camo.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 450
+     }
+    }
+   }
+  }
+ }
+ coords 6843.179 348.2 8157.482
+ angleX -1.418
+ angleY 83.064
+ angleZ 2.461
+}
+SCR_ChimeraCharacter : "{9B6295F60FC669C4}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new.et" {
+ coords 6854.576 346.772 8141.993
+}
+SCR_ChimeraCharacter : "{A6E6C7AF25DDF502}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new_randomized.et" {
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{660C744608E13A77}" {
+    m_bRandomizeDefaultVariant 1
+   }
+  }
+ }
+ coords 6857.172 346.882 8146.462
+}
+SCR_ChimeraCharacter : "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new.et" {
+ coords 6851.708 347.08 8142.89
+}
+SCR_ChimeraCharacter : "{BE91222090769F66}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP2.et" {
+ coords 6841.792 348.116 8144.116
+}
+SCR_ChimeraCharacter : "{C2798DF9D51CD1AE}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC2.et" {
+ coords 6835.254 348.44 8145.203
+}
+SCR_ChimeraCharacter : "{CF92A72294E5BFD6}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC.et" {
+ coords 6836.49 348.374 8144.535
+}
+RHS_Tank Tank_T14_OnlyFrags_podval1 : "{D8B17DE9DFE7F5FE}Prefabs/Vehicles/Tracked/T14/Tank_T14_OnlyFrags_podval.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6052A79ADDA6C7A8}" {
+     }
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2500
+     }
+    }
+   }
+  }
+ }
+ coords 6844.094 348.067 8152.539
+ angleX -2.956
+ angleY 81.192
+ angleZ 1.319
+}
+Vehicle M1240A1_MATV_Turret_Green1 : "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 450
+     }
+    }
+   }
+  }
+ }
+ coords 6842.405 348.055 8166.068
+ angleX -1.566
+ angleY 83.117
+ angleZ -12.76
+}
+SCR_ChimeraCharacter : "{DE187C7E72F850DC}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new3.et" {
+ coords 6849.499 347.333 8143.36
+}
+Vehicle M1240A1_MATV_Turret_Tan1 : "{DE32642254476DD5}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Tan.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 450
+     }
+    }
+   }
+  }
+ }
+ coords 6842.776 348.286 8161.923
+ angleX -1.675
+ angleY 87.224
+ angleZ 0.65
+}
+SCR_ChimeraCharacter : "{E32C59460794D9EB}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new4.et" {
+ coords 6848.419 347.458 8143.408
+}

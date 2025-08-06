@@ -1,0 +1,32 @@
+RHS_Tank : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+ ID "61B56109CDF9B97F"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2500
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5CDE8068D4984EEF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E304C34917726C9}" {
+     SlotTemplate InventoryStorageSlot Mag {
+      Prefab "{C502CADC032E147E}Prefabs/Weapons/Magazines/2A82/Box_125mm_2A82_HEFragFS_19rnd.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{71D9F6FB89A0C1D4}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret_OnleFrags.et"
+    }
+   }
+  }
+ }
+}

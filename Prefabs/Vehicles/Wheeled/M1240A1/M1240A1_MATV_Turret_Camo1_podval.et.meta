@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{9802E1302FD7BA7A}Prefabs/Characters/Uniforms/T_Shirts/T_Shirt_v2/T_shirt_v2_Blk.et"
+ Name "{F543AFC05F22EB25}Prefabs/Vehicles/Wheeled/M1240A1/M1240A1_MATV_Turret_Camo1_podval.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
