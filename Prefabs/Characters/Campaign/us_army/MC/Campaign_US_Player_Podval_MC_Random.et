@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{CF92A72294E5BFD6}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6561138D65EAF362}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6561138D63A05762}" {
+      m_sVariantPrefab "{C2798DF9D51CD1AE}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC2.et"
+     }
+     SCR_EditableEntityVariant "{6561138D637A567C}" {
+      m_sVariantPrefab "{27E5C100D9F946C5}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC3.et"
+     }
+     SCR_EditableEntityVariant "{6619312BAC9090E0}" {
+      m_sVariantPrefab "{1AD1E438AC95CFF2}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC4.et"
+     }
+    }
+   }
+  }
+ }
+ coords 6836.49 348.374 8147.4
+}

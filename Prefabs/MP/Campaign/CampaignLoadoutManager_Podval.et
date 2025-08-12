@@ -2,10 +2,10 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
  ID "5690D9DBA5D97663"
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
-   m_sLoadoutResource "{CF92A72294E5BFD6}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_ACU1_MC.et"
+   m_sLoadoutResource "{887BB911EA63C7DC}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC_Random.et"
   }
   SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
-   m_sLoadoutResource "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new.et"
+   m_sLoadoutResource "{3305F0638A9C9012}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_Random.et"
   }
  }
 }

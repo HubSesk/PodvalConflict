@@ -1,0 +1,38 @@
+BasePreloadManager : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ ID "5D8E84011CE2EFEC"
+ coords 6843.301 347.7 8129.722
+ PrefabsToPreload {
+  PreloadEntry "{615E7910295F8C4A}" {
+   Prefab "{A72A63A417DF01E5}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP_Random.et"
+  }
+  PreloadEntry "{615E7910231F929D}" {
+   Prefab "{4A54E4873BFAF8CC}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_Random.et"
+  }
+  PreloadEntry "{615E7911C9DF6095}" {
+   Prefab "{42329A924424969B}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP.et"
+  }
+  PreloadEntry "{615E7911CFEEE297}" {
+   Prefab "{0914C08E274E7C93}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert2_new.et"
+  }
+  PreloadEntry "{661949794837B619}" {
+   Prefab "{BE91222090769F66}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP2.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{661949794585545D}" {
+   Prefab "{5B0D6ED99C93080D}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP3.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{6619497942EAD673}" {
+   Prefab "{66394BE1E9FF813A}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_UCP4.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{661949763AB83622}" {
+   Prefab "{6759FED7122F921B}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert3_new.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{66194976377A4145}" {
+   Prefab "{2E4AA4B331E02D30}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert4_new.et"
+   FullyPreload 1
+  }
+ }
+}

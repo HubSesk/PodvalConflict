@@ -18,25 +18,29 @@ SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
 RadioManagerEntity {
  coords 7242.859 262.437 8222.258
 }
-TimeAndWeatherManagerEntity {
- coords 8416.909 279.784 8346.696
- WeatherStateMachine "{5BD64381A3933F9C}Terrains/Common/WeatherPresets/StateMachine/WeatherStates_podval_takistan.conf"
- WeatherParameters "{0ADCC05C873A9F28}Terrains/Common/WeatherPresets/WeatherParameters.conf"
- "Initial Day Time" 8.981
- Year 2013
- "Month of the Year" 6
- "Day of the Month" 12
- "Internal variant transition" 0
- "Internal subvariant 0" 0
- "Internal subvariant 1" 0
-}
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 20.291 0 5.837
 }
 SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}Prefabs/MP/Campaign/CampaignFactionManager_Podval.et" {
  coords 0 0.731 0
  Factions {
-  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{24A9128614D36AE9}Configs/Factions/USSR_Campaign_Podval.conf" {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{6056A0A567970496}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5DF695795800BF62}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogSpawnerData "{5DF6957955A19E10}" {
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{29C93FCB1BB57635}Configs/Factions/US_Campaign_Podval.conf" {
   }
@@ -98,17 +102,12 @@ SCR_MapLocator {
 }
 SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
 }
-BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 44.236 0 47.781
-}
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 0 0 0
 }
 SCR_LoadoutManager : "{466C6293A108DDEC}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval_Takistan.et" {
- coords 6323.791 333.009 6455.472
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
-   m_sLoadoutResource "{A6E6C7AF25DDF502}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new_randomized.et"
-  }
- }
+ coords 6836.171 348.9 8131.872
+}
+BasePreloadManager PreloadManager_Campaign_Takistan_Podval1 : "{93E53590BE5FAE80}Prefabs/World/Game/PreloadManager_Campaign_Takistan_Podval1.et" {
+ coords 6840.225 348.313 8134.858
 }

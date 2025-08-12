@@ -1373,9 +1373,6 @@ $grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMed
   angleZ -2.016
  }
 }
-BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 44.236 0 47.781
-}
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 0 0 0
 }
@@ -4591,6 +4588,9 @@ GenericEntity : "{CAE8D08EA4E71FF5}Prefabs/Compositions/Locations/Arland/SupplyP
    }
   }
  }
+}
+BasePreloadManager PreloadManager_Campaign_Podval1 : "{CCBCBA9056B70300}Prefabs/World/Game/PreloadManager_Campaign_Podval1.et" {
+ coords 49.395 0 51.429
 }
 GenericEntity : "{CEA239D9E1899899}Prefabs/Props/Garbage/Tires/TirePile_01_small.et" {
  coords 2505.223 147.416 2268.069

@@ -3,17 +3,6 @@ SCR_ChimeraCharacter : "{E14DBF03E271673D}Prefabs/Characters/Campaign/Final/Camp
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{6561138D65EAF362}" {
-    m_aVariants {
-     SCR_EditableEntityVariant "{6561138D63FB11B4}" {
-      m_sVariantPrefab "{BE91222090769F66}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_ACU2.et"
-     }
-     SCR_EditableEntityVariant "{6561138D63A05762}" {
-      m_sVariantPrefab "{5B0D6ED99C93080D}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_ACU3.et"
-     }
-     SCR_EditableEntityVariant "{6561138D637A567C}" {
-      m_sVariantPrefab "{66394BE1E9FF813A}Prefabs/Characters/Campaign/us_army/Campaign_US_Player_Podval_ACU4.et"
-     }
-    }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -34,7 +23,7 @@ SCR_ChimeraCharacter : "{E14DBF03E271673D}Prefabs/Characters/Campaign/Final/Camp
      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots1_base.et"
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{10964609B3E09844}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe_Podval.et"

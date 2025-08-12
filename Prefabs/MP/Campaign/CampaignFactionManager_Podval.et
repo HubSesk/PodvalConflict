@@ -2,6 +2,51 @@ SCR_CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFact
  ID "50A6CDA4F7C1474A"
  Factions {
   SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{24A9128614D36AE9}Configs/Factions/USSR_Campaign_Podval.conf" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{6126B736FAA4BEEB}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{661949774C85EC99}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975AB89546F}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6619497749AE2316}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975A5FDD3D3}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{661949774778CBA9}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975B67A8D86}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{66194977443F4D1C}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975DF4AD26A}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{661949774196419D}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975DA5ABA33}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{29C93FCB1BB57635}Configs/Factions/US_Campaign_Podval.conf" {
   }

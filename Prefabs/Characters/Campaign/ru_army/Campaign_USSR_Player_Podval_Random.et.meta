@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A6E6C7AF25DDF502}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new_randomized.et"
+ Name "{3305F0638A9C9012}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_Random.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

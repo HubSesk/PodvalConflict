@@ -1,0 +1,46 @@
+BasePreloadManager : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ ID "5D8E84011CE2EFEC"
+ coords 44.236 0 47.781
+ PrefabsToPreload {
+  PreloadEntry "{615E7910295F8C4A}" {
+   Prefab "{887BB911EA63C7DC}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC_Random.et"
+  }
+  PreloadEntry "{615E7910231F929D}" {
+   Prefab "{3305F0638A9C9012}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_Random.et"
+  }
+  PreloadEntry "{615E7911C9DF6095}" {
+   Prefab "{CF92A72294E5BFD6}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC.et"
+  }
+  PreloadEntry "{615E7911CFEEE297}" {
+   Prefab "{B77CFDC28088D711}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new.et"
+  }
+  PreloadEntry "{661949777026C600}" {
+   Prefab "{3B8430877E1DC7B7}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new2.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{66194974EE148209}" {
+   Prefab "{DE187C7E72F850DC}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new3.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{66194974EA12AA98}" {
+   Prefab "{E32C59460794D9EB}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new4.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{66194974E70DB891}" {
+   Prefab "{38F9146B99916440}Prefabs/Characters/Campaign/ru_army/Campaign_USSR_Player_Podval_new5.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{6619497823189ABE}" {
+   Prefab "{C2798DF9D51CD1AE}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC2.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{6619497820860990}" {
+   Prefab "{27E5C100D9F946C5}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC3.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{661949785DA2B834}" {
+   Prefab "{1AD1E438AC95CFF2}Prefabs/Characters/Campaign/us_army/MC/Campaign_US_Player_Podval_MC4.et"
+   FullyPreload 1
+  }
+ }
+}

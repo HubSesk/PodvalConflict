@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{713E16B9F2837B37}Prefabs/Characters/Campaign/Final/Camp
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{660B3893AD47CE84}" {
-    m_bRandomizeDefaultVariant 0
+    m_bRandomizeDefaultVariant 1
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -15,13 +15,13 @@ SCR_ChimeraCharacter : "{713E16B9F2837B37}Prefabs/Characters/Campaign/Final/Camp
      Prefab "{4CE32EDC792572E4}Prefabs/Characters/Uniforms/6Sh122_Jacket/Jacket_6Sh122_Syrian_Digital.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{D8AB748C3E863310}Prefabs/Characters/Vests/Vest_6B45/TF_Vest_6B45_Syrian.et"
+     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{CBEC4553081D6472}Prefabs/Characters/Uniforms/6Sh122_Pants/Pants_6Sh122_Syrian_Digital.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{B3A5684BA5F8E100}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_Rifleman.et"
+     Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
     }
    }
   }
@@ -34,19 +34,16 @@ SCR_ChimeraCharacter : "{713E16B9F2837B37}Prefabs/Characters/Campaign/Final/Camp
      TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
     }
     ItemsInitConfigurationItem "{61D50D6F08B557DB}" {
-     TargetStorage "Vest/Pouches_6b45_Rifleman.et/RGD_Pouch1/Pouch_Ratnik_Small2.et"
     }
     ItemsInitConfigurationItem "{607AF7A531D3F5C8}" {
-     TargetStorage "Vest/Pouches_6b45_Rifleman.et/Medical_Pouch/Pouch_Ratnik_Medical.et"
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
     }
     ItemsInitConfigurationItem "{607AF7A77A1AB957}" {
-     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK1_Pouch/Pouch_Ratnik_AK_1.et"
     }
     ItemsInitConfigurationItem "{607AF7A779D339F9}" {
-     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK2_Pouch/Pouch_Ratnik_AK_2.et"
     }
     ItemsInitConfigurationItem "{607AF7A77933484D}" {
-     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK3_Pouch/Pouch_Ratnik_AK_3.et"
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
     }
    }
   }
