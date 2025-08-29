@@ -1,0 +1,262 @@
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ Relay2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Nort Tower"
+    m_sBaseNameUpper "NORT TOWER"
+   }
+  }
+  coords 2300.842 179.676 2591.366
+  angleY 107.764
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{487FD3194F5D0C61}Prefabs/Props/Industrial/ConcretePanel_01_C.et" {
+    {
+     coords 0.082 -0.829 0.98
+     angleX 3.125
+     angleY -176.81
+     angleZ 4.53
+    }
+    {
+     coords 0.128 -0.938 2.901
+     angleX 3.125
+     angleY -176.81
+     angleZ 4.53
+    }
+   }
+   GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_01.et" {
+    coords 2.321 -0.942 4.502
+    angleX 2.829
+    angleY -107.628
+    angleZ 4.539
+   }
+   GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+    coords -7.949 -1.704 -4.349
+    angleX -7.37
+    angleY -90.117
+    angleZ -2.927
+   }
+   StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
+    Flags 524291
+    coords -0.041 -1.43 -2.666
+    angleY -88.749
+    {
+     GenericEntity : "{EC86208E5412E6D2}Prefabs/Vegetation/Tree/Debris/BranchTrash_dec_01.et" {
+      coords 6.482 -0.764 -6.928
+      angleX 5.354
+      angleY -19.555
+      angleZ 4.977
+     }
+     GenericEntity : "{EF08CE3813C6BB6E}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_USSR_01.et" {
+      coords 1.723 0.004 0.356
+      angleY -66.491
+     }
+    }
+   }
+   StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
+    coords 5.753 -2.154 4.34
+    angleY -107.764
+   }
+   GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_USSR_02.et" {
+    coords 0.981 -0.696 -0.717
+    angleX -3.323
+    angleY -87.924
+    angleZ 0.008
+   }
+   GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+    components {
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      ResponseIndex "HugeDestructible"
+     }
+     SCR_SlotCompositionComponent "{5706EA5B17DE083C}" : "{F27DCA13BB9C3F3B}Prefabs/Editor/Components/SlotCompositionComponent.ct" {
+      m_bOrientChildrenToTerrain 0
+     }
+     Hierarchy "{5654C1EDB4558137}" {
+      Enabled 1
+     }
+    }
+    coords 5.878 -0.87 2.928
+    angleX 4.277
+    angleY -131.482
+    angleZ 3.381
+    {
+     GenericEntity : "{6DD0648BB7A52420}Prefabs/Props/Civilian/Wheelbarrow_01.et" {
+      components {
+       Hierarchy "{5654C1EDBBD4DA5B}" {
+        Enabled 1
+       }
+      }
+      coords 0.856 1.217 0.807
+      angleX -60
+      angleY 38.271
+      angleZ -180
+     }
+     $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+      {
+       components {
+        Hierarchy "{5706F8D095E96B80}" {
+        }
+       }
+       coords 0.425 0.865 -0.183
+       angleX -8.868
+       angleY 141.03
+       angleZ -20.017
+      }
+      {
+       components {
+        Hierarchy "{5706F8D095E60970}" {
+        }
+       }
+       coords 0.276 1.115 -0.146
+       angleX 22.368
+       angleY -30.496
+       angleZ -0.901
+      }
+     }
+    }
+   }
+   GenericEntity : "{E432A2B14E69DA5E}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_01.et" {
+    coords 4.742 -0.448 -3.046
+    angleX 3.601
+    angleY -148.208
+    angleZ 0.287
+   }
+  }
+ }
+ Relay3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "South Tower"
+    m_sBaseNameUpper "SOUTH TOWER"
+   }
+  }
+  coords 5780.157 137.809 4327.099
+  angleY 107.764
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    coords 0 0.291 0
+    angleX -0.087
+    angleZ 0.271
+   }
+   $grp GenericEntity : "{487FD3194F5D0C61}Prefabs/Props/Industrial/ConcretePanel_01_C.et" {
+    {
+     coords 0.082 -0.615 0.981
+     angleX -11.513
+     angleY -176.791
+     angleZ -0.507
+    }
+    {
+     coords 0.127 -0.323 2.899
+     angleX -7.898
+     angleY -177.294
+     angleZ 0.967
+    }
+   }
+   GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_01.et" {
+    coords 2.321 -0.051 4.501
+    angleX -3.537
+    angleY -106.539
+    angleZ -7.132
+   }
+   GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+    coords -7.95 -2.814 -4.35
+    angleX -16.401
+    angleY -87.56
+    angleZ -14.903
+   }
+   StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
+    Flags 524291
+    coords -0.042 -1.135 -2.667
+    angleX 0.269
+    angleY -88.749
+    angleZ 0.093
+    {
+     GenericEntity : "{EC86208E5412E6D2}Prefabs/Vegetation/Tree/Debris/BranchTrash_dec_01.et" {
+      coords 6.482 -0.764 -6.928
+      angleX 5.354
+      angleY -19.555
+      angleZ 4.977
+     }
+     GenericEntity : "{EF08CE3813C6BB6E}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_USSR_01.et" {
+      coords 1.723 0.004 0.356
+      angleY -66.491
+     }
+    }
+   }
+   StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
+    coords 5.752 -0.45 4.336
+    angleX 10.006
+    angleY -106.828
+    angleZ -9.546
+   }
+   GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_USSR_02.et" {
+    coords 0.98 -0.959 -0.718
+    angleX 0.393
+    angleY -87.401
+    angleZ -11.518
+   }
+   GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+    components {
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      ResponseIndex "HugeDestructible"
+     }
+     SCR_SlotCompositionComponent "{5706EA5B17DE083C}" : "{F27DCA13BB9C3F3B}Prefabs/Editor/Components/SlotCompositionComponent.ct" {
+      m_bOrientChildrenToTerrain 0
+     }
+     Hierarchy "{5654C1EDB4558137}" {
+      Enabled 1
+     }
+    }
+    coords 5.934 -0.615 3.236
+    angleX 4.364
+    angleY -130.386
+    angleZ -14.973
+    {
+     GenericEntity : "{6DD0648BB7A52420}Prefabs/Props/Civilian/Wheelbarrow_01.et" {
+      components {
+       Hierarchy "{5654C1EDBBD4DA5B}" {
+        Enabled 1
+       }
+      }
+      coords 0.856 1.217 0.807
+      angleX -60
+      angleY 38.271
+      angleZ -180
+     }
+     $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+      {
+       components {
+        Hierarchy "{5706F8D095E96B80}" {
+        }
+       }
+       coords 0.425 0.865 -0.183
+       angleX -8.868
+       angleY 141.03
+       angleZ -20.017
+      }
+      {
+       components {
+        Hierarchy "{5706F8D095E60970}" {
+        }
+       }
+       coords 0.276 1.115 -0.146
+       angleX 22.368
+       angleY -30.496
+       angleZ -0.901
+      }
+     }
+    }
+   }
+   GenericEntity : "{E432A2B14E69DA5E}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_01.et" {
+    coords 4.743 -1.538 -3.048
+    angleX -9.495
+    angleY -146.399
+    angleZ -8.177
+   }
+  }
+ }
+}

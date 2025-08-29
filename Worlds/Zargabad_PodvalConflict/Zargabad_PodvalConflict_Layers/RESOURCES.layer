@@ -1,0 +1,862 @@
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ {
+  coords 5009.729 33.185 1881.903
+  angleX -3.609
+  angleY 20.007
+  angleZ -3.933
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 5023.463 33.174 1877.251
+  angleX -1.752
+  angleY 17.764
+  angleZ -3.837
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 5030.522 33.337 1894.392
+  angleX 2.959
+  angleY 108.354
+  angleZ -3.5
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 5041.046 33.108 1882.255
+  angleY -73.714
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4840.906 29.751 6134.698
+  angleY 2.529
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4812.854 29.83 6135.14
+  angleX -3.609
+  angleY 3.736
+  angleZ -3.933
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4827.342 29.746 6134.521
+  angleX -1.752
+  angleY 1.494
+  angleZ -3.837
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4829.315 29.794 6152.954
+  angleX 2.959
+  angleY 92.083
+  angleZ -3.5
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 3739.006 13.797 4404.123
+  angleY -114.998
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 3729.651 13.524 4419.635
+  angleX -3.609
+  angleY 62.689
+  angleZ -3.933
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 3734.229 13.657 4411.313
+  angleX -1.752
+  angleY 60.447
+  angleZ -3.837
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4536.013 13.874 3320.908
+  angleY 29.572
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4534.146 14.522 3349.714
+  angleX 2.261
+  angleY 79.205
+  angleZ 2.3
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4534.5 14.312 3338.625
+  angleY 90.179
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4548.708 13.55 3325.652
+  angleX -0.106
+  angleY -148.188
+  angleZ -3.223
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4081.094 16.343 4142.329
+  angleY -90.791
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4081.033 16.374 4131.306
+  angleY -88.78
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4678.747 18.871 4111.729
+  angleX 0.403
+  angleY -63.211
+  angleZ -0.799
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+ {
+  coords 4683.559 18.763 4121.646
+  angleX 0.437
+  angleY -65.208
+  angleZ 1.188
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 0 0.038
+    {
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.183 -0.21 0.215
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 1.63 -0.203 3.549
+    angleX -0.89
+    angleY 39.783
+    angleZ -0.007
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.315 -0.007 -0.068
+    angleX -0.72
+    angleY 3.377
+    angleZ 0.523
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.51 0.055 2.823
+    angleX 0.64
+    angleY -95.053
+    angleZ -1.885
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords -9.527 0.004 1.615
+    angleX -0.738
+    angleY -25.229
+    angleZ 1.245
+   }
+  }
+ }
+}
