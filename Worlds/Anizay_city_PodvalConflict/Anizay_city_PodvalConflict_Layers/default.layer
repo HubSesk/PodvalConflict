@@ -87,12 +87,12 @@ SCR_MapLocator {
 SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
  coords -1336.084 -192.264 272.252
 }
-BasePreloadManager PreloadManager_Campaign2 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords -1291.848 -192.264 320.033
-}
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords -1336.084 -192.264 272.252
 }
 SCR_LoadoutManager : "{466C6293A108DDEC}Prefabs/MP/Campaign/CampaignLoadoutManager_Podval_Takistan.et" {
  coords 4987.707 140.745 6727.724
+}
+BasePreloadManager PreloadManager_Campaign_Takistan_Podval1 : "{93E53590BE5FAE80}Prefabs/World/Game/PreloadManager_Campaign_Takistan_Podval1.et" {
+ coords 5233.423 117.687 6959.319
 }

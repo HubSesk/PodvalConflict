@@ -1434,9 +1434,6 @@ $grp GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_bla
   angleZ 9.458
  }
 }
-BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 44.236 0 47.781
-}
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 0 0 0
 }
@@ -5016,6 +5013,9 @@ $grp GenericEntity : "{C74EA351062C4CBB}Prefabs/Compositions/Slotted/SlotFlatSma
 Vehicle UAZ452_transport_CIV_randomized1 : "{C7CE8044B5E301F5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_randomized.et" {
  coords 1244.611 7.193 2095.878
  angleY 74.628
+}
+BasePreloadManager PreloadManager_Campaign_Podval1 : "{CCBCBA9056B70300}Prefabs/World/Game/PreloadManager_Campaign_Podval1.et" {
+ coords 1922.394 8.625 2593.202
 }
 $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
  {

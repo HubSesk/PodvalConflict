@@ -38,7 +38,75 @@ SCR_CampaignFactionManager CampaignFactionManager_Podval1 : "{9512CAB8F200A15B}P
         }
        }
       }
+      SCR_EntityCatalogMultiListEntry "{6126B736FAA4BEEB}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{6126B736FFC0EC1C}" {
+         m_sEntityPrefab "{9B6295F60FC669C4}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert_new.et"
+        }
+        SCR_EntityCatalogEntry "{6126B736FE8FDB25}" {
+         m_sEntityPrefab "{0914C08E274E7C93}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert2_new.et"
+        }
+        SCR_EntityCatalogEntry "{661949726DFB6419}" {
+         m_sEntityPrefab "{6759FED7122F921B}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert3_new.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{661949712F9A33C9}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6619497269A40619}" {
+         m_sEntityPrefab "{2E4AA4B331E02D30}Prefabs/Characters/Campaign/ru_army/desert/Campaign_USSR_Player_Podval_Desert4_new.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{661949712D4827A3}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{661949774C85EC99}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975453EC8FD}" {
+           m_fSpawnSupplyCost 20
+          }
+          SCR_EntityCatalogLoadoutData "{66194975AB89546F}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6619497749AE2316}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975A5FDD3D3}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{661949774778CBA9}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975B67A8D86}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{66194977443F4D1C}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975DF4AD26A}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{661949774196419D}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{66194975DA5ABA33}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+       }
+      }
      }
+    }
+    SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" : "{5281856513540BCD}Configs/EntityCatalog/USSR/Vehicles_EntityCatalog_USSR_Podval_2.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" : "{02F203A1413683BC}Configs/EntityCatalog/RHS_MSV/MSV_InventoryItems_Podval.conf" {
     }
    }
   }

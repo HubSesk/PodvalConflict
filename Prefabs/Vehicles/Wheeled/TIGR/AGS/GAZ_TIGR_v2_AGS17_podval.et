@@ -1,4 +1,4 @@
-Vehicle : "{95A220DF8D6E2543}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_KORD_Green.et" {
+Vehicle : "{1C41EF46A9A977D0}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17.et" {
  ID "BBCBA43A9778AE21"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
@@ -6,12 +6,13 @@ Vehicle : "{95A220DF8D6E2543}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2
     m_aAuthoredLabels + {
      53
     }
-    m_aAutoLabels {
-     10 122
-    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 1000
+      m_Value 750
+     }
+     SCR_EntityBudgetValue "{61B3396B66A62BA8}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
      }
     }
    }

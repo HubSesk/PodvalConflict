@@ -2893,9 +2893,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angleZ -4.152
  }
 }
-BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 1085.036 2.717 6065.238
-}
 $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
  {
   coords 4995.613 2.187 3866.776
@@ -6572,4 +6569,7 @@ $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyC
    }
   }
  }
+}
+BasePreloadManager PreloadManager_Campaign_Podval1 : "{CCBCBA9056B70300}Prefabs/World/Game/PreloadManager_Campaign_Podval1.et" {
+ coords 6734.321 148.102 6461.945
 }

@@ -5,7 +5,11 @@ Vehicle : "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 450
+      m_Value 650
+     }
+     SCR_EntityBudgetValue "{661ABA13FEDABDA2}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
      }
     }
    }

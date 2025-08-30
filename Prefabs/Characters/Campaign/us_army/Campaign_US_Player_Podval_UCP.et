@@ -41,6 +41,9 @@ SCR_ChimeraCharacter : "{E14DBF03E271673D}Prefabs/Characters/Campaign/Final/Camp
     ItemsInitConfigurationItem "{651D048C906638EA}" {
      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
     }
+    ItemsInitConfigurationItem "{652B48EE86F65FD5}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe_Podval.et/util/Pouch_PCGEN3_util.et"
+    }
     ItemsInitConfigurationItem "{607EC165EA2B4CBE}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe_Podval.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
     }

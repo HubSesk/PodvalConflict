@@ -644,9 +644,6 @@ $grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" 
   angleY -104.171
  }
 }
-BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 1085.036 2.717 6065.238
-}
 $grp GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
  {
   coords 5571 88.403 5858.812
@@ -2429,6 +2426,9 @@ $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyC
    }
   }
  }
+}
+BasePreloadManager PreloadManager_Campaign_Podval1 : "{CCBCBA9056B70300}Prefabs/World/Game/PreloadManager_Campaign_Podval1.et" {
+ coords 6391.956 159.076 6426.512
 }
 GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_03_FIA_01.et" {
  coords 5570.69 91.956 5976.786

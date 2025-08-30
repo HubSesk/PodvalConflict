@@ -4,9 +4,18 @@ RHS_Tank : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "USSR"
+    m_aAutoLabels {
+     123 53 10
+    }
     m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6052A79ADDA6C7A8}" {
+     }
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 2500
+     }
+     SCR_EntityBudgetValue "{661ABA12F52EAE22}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
      }
     }
    }

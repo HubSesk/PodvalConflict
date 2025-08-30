@@ -4934,9 +4934,6 @@ GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCac
   }
  }
 }
-BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 27.209 0 10.918
-}
 $grp GenericEntity : "{343F8773B9C33154}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I03_FIA_01.et" {
  {
   coords 7414.177 143.011 4721.915
@@ -12535,6 +12532,9 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
   angleY 0.416
   angleZ 0.825
  }
+}
+BasePreloadManager PreloadManager_Campaign_Podval1 : "{CCBCBA9056B70300}Prefabs/World/Game/PreloadManager_Campaign_Podval1.et" {
+ coords 6514.169 146.6 6265.239
 }
 GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhillipe_FIA_01.et" {
  coords 4502.756 14.702 10771.987
