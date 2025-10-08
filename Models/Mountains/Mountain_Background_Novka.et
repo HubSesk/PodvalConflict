@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "6590E49A4D6FE838"
+ components {
+  MeshObject "{65510779451498DF}" {
+   Enabled 0
+  }
+ }
+}
