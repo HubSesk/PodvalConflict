@@ -20,7 +20,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
   }
-  coords 3976.649 137.406 7196.613
+  coords 3974.411 137.406 7222.442
   angleY 177.573
  }
  FobObehSuperBase {
