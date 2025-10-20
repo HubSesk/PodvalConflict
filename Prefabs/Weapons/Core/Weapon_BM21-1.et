@@ -1,0 +1,132 @@
+GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_RocketEjectorMuzzleComponent "{6482ECE1506D81A8}" {
+     ProjectilePositions {
+      InventoryStorageSlot Missile0 {
+      }
+      InventoryStorageSlot Missile1 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile2 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile3 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile4 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile5 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile6 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile7 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile8 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile9 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile10 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile11 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile12 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile13 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile14 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile15 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile16 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile17 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile18 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile19 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile20 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile21 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile22 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile23 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile24 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile25 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile26 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile27 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile28 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile29 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile30 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile31 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile32 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile33 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile34 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile35 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile36 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile37 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile38 {
+       Prefab ""
+      }
+      InventoryStorageSlot Missile39 {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+ }
+}
